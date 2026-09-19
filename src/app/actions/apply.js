@@ -1,4 +1,4 @@
-"use server";
+// "use server";
 
 import { getJobById } from "@/data/jobs";
 import { CV_EXTENSIONS, MAX_CV_SIZE } from "@/lib/application";
@@ -63,6 +63,27 @@ export async function submitApplication(prevState, formData) {
   // TODO: deliver the application, e.g. email it to talent@chinhnambkd.vn
   // with the CV attached, or save it to storage / an ATS. Until then the
   // submission is validated but not stored anywhere.
+
+  /*
+   * OPTIONAL: Forward to a third-party form handler (e.g. Formspree / Basin / Getform)
+   * If you configure an endpoint, uncomment this block:
+   *
+   * try {
+   *   const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+   *     method: "POST",
+   *     body: formData,
+   *     headers: { Accept: "application/json" },
+   *   });
+   *   if (!res.ok) throw new Error("Failed to send");
+   * } catch (err) {
+   *   return {
+   *     status: "error",
+   *     message: "Có lỗi xảy ra khi gửi hồ sơ. Vui lòng thử lại sau.",
+   *     errors: {},
+   *     submittedAt: Date.now(),
+   *   };
+   * }
+   */
 
   return {
     status: "success",
