@@ -1,0 +1,98 @@
+/* Sits to the right of the centered Menu pill (130px wide, see MenuBtn.css) */
+.apply-fab {
+  position: fixed;
+  bottom: 2rem;
+  left: calc(50% + 65px + 0.5rem);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  height: 53px;
+  padding: 2.5px 1.5rem 2.5px 2.5px;
+  background: rgba(242, 237, 230, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 8rem;
+  cursor: pointer;
+  /* Hidden below the viewport until GSAP slides it up (same as GoToTop) */
+  transform: translateY(calc(100% + 2rem));
+  transition: opacity 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+body.menu-open .apply-fab {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.apply-fab-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: var(--base-450);
+  color: var(--base-100);
+  font-size: 1.25rem;
+  overflow: hidden;
+}
+
+.apply-fab-arrow {
+  display: flex;
+}
+
+/* While the page scrolls to the form, the arrow keeps sliding down out of
+   the circle and re-entering from the top. */
+.apply-fab.scrolling .apply-fab-arrow {
+  animation: apply-fab-scroll 0.6s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+@keyframes apply-fab-scroll {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  45% {
+    transform: translateY(130%);
+    opacity: 0;
+  }
+  46% {
+    transform: translateY(-130%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .apply-fab.scrolling .apply-fab-arrow {
+    animation: none;
+  }
+}
+
+.apply-fab-label {
+  color: var(--base-500);
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 0.9;
+  white-space: nowrap;
+}
+
+/* Icon-only on small screens so it fits beside the Menu pill */
+@media (max-width: 1000px) {
+  .apply-fab {
+    padding: 2.5px;
+  }
+
+  .apply-fab-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+
+ }

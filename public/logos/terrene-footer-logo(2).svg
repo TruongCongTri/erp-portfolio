@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="100%">
+  <defs>
+    <!-- The gradient from your previous SVG -->
+    <linearGradient id="paint0_linear_2004_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop stop-color="#F2EDE6"/>
+      <stop offset="1" stop-color="#1F1D1D"/>
+    </linearGradient>
+
+    <style>
+      .brand-main { fill: url(#paint0_linear_2004_2); }
+      .brand-green { fill: #02b921; }
+      .main-text {
+        font-family: 'Arial', 'Helvetica Neue', sans-serif;
+        font-weight: 900;
+        font-size: 78px;
+        letter-spacing: 1px;
+      }
+      .sub-text {
+        font-family: 'Arial', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- LOGO ICON (Geometric Construction) -->
+  <g class="brand-main">
+    <!-- Left vertical bar -->
+    <rect x="40" y="40" width="24" height="110" />
+    <!-- Bottom connection (Left to Middle) -->
+    <rect x="40" y="126" width="70" height="24" />
+    <!-- Middle vertical bar -->
+    <rect x="86" y="40" width="24" height="110" />
+    <!-- Top connection (Middle to Right) -->
+    <rect x="86" y="40" width="70" height="24" />
+    <!-- Right vertical bar -->
+    <rect x="132" y="40" width="24" height="110" />
+  </g>
+
+  <!-- LOGO TEXT -->
+  <!-- Main Title -->
+  <text x="180" y="112" class="brand-main main-text">CHÍNH NAM</text>
+  
+  <!-- Subtitle -->
+  <text x="182" y="155" class="brand-green sub-text">Xây Dựng Ngôi Nhà Hạnh Phúc</text>
+</svg>
