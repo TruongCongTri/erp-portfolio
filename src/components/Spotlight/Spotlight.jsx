@@ -1,32 +1,31 @@
 import "./Spotlight.css";
 
 import SpotlightMotion from "./SpotlightMotion";
+import { getDictionary } from "@/i18n";
 
-const spotlightItems = [
-  { name: "Courtyard Stillness", img: "/spotlight/spotlight-img-1.jpg" },
-  { name: "Blue Horizon", img: "/spotlight/spotlight-img-2.jpg" },
-  { name: "Stone Quiet", img: "/spotlight/spotlight-img-3.jpg" },
-  { name: "Amber Niche", img: "/spotlight/spotlight-img-4.jpg" },
-  { name: "Earthen Shelf", img: "/spotlight/spotlight-img-5.jpg" },
-  { name: "Reflective White", img: "/spotlight/spotlight-img-6.jpg" },
-  { name: "Desert Edge", img: "/spotlight/spotlight-img-7.jpg" },
-  { name: "Soft Passage", img: "/spotlight/spotlight-img-8.jpg" },
-  { name: "Water Column", img: "/spotlight/spotlight-img-9.jpg" },
-  { name: "Golden Retreat", img: "/spotlight/spotlight-img-10.jpg" },
-];
+const spotlightImages = Array.from(
+  { length: 10 },
+  (_, index) => `/spotlight/spotlight-img-${index + 1}.jpg`,
+);
 
 // Server component; the pinned scroll scene is driven by SpotlightMotion.
 // NOTE: when changing the number of items, retune the config in SpotlightMotion.
-const Spotlight = () => {
+const Spotlight = ({ lang = "vi" }) => {
+  const t = getDictionary(lang).spotlight;
+  const spotlightItems = t.items.map((name, index) => ({
+    name,
+    img: spotlightImages[index],
+  }));
+
   return (
     <section className="spotlight">
       <div className="spotlight-inner">
         <div className="spotlight-intro-text-wrapper">
           <div className="spotlight-intro-text">
-            <p>Beneath</p>
+            <p>{t.introLeft}</p>
           </div>
           <div className="spotlight-intro-text">
-            <p>Beyond</p>
+            <p>{t.introRight}</p>
           </div>
         </div>
         <div className="spotlight-bg-img">
@@ -54,7 +53,7 @@ const Spotlight = () => {
         ))}
       </div>
       <div className="spotlight-header">
-        <p>Discover</p>
+        <p>{t.header}</p>
       </div>
       <div className="spotlight-outline"></div>
       <SpotlightMotion />

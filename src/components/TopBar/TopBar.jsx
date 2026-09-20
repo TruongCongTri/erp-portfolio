@@ -1,19 +1,21 @@
 import "./TopBar.css";
 
-import TransitionLink from "../TransitionLink/TransitionLink";
-import AnimatedButton from "../AnimatedButton/AnimatedButton";
+import LocalizedLink from "../TransitionLink/LocalizedLink";
+import ReserveButton from "./ReserveButton";
+import LanguageSwitcher from "../Language/LanguageSwitcher";
 
 // Server component; hide-on-scroll is handled by MotionRuntime.
 const TopBar = () => {
   return (
     <header className="top-bar" data-hide-on-scroll>
       <div className="top-bar-logo">
-        <TransitionLink href="/" aria-label="Chính Nam - Trang chủ">
+        <LocalizedLink href="/" aria-label="Chính Nam">
           <img src="/logos/chinhnam-logo-symbol.png" alt="Chính Nam" />
-        </TransitionLink>
+        </LocalizedLink>
       </div>
       <div className="top-bar-cta">
-        <AnimatedButton label="Reserve" route="/connect" animate={false} />
+        <LanguageSwitcher />
+        <ReserveButton />
       </div>
     </header>
   );

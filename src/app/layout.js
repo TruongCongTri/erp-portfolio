@@ -2,7 +2,11 @@ import "./globals.css";
 import ClientLayout from "@/client-layout";
 import TopBar from "@/components/TopBar/TopBar";
 import MotionRuntime from "@/components/MotionRuntime/MotionRuntime";
-import GoToTop from "@/components/GoToTop/GoToTop";
+import RouteProgress from "@/components/RouteProgress/RouteProgress";
+import ScrollSync from "@/components/ScrollSync/ScrollSync";
+import FloatingAction from "@/components/FloatingAction/FloatingAction";
+import GoogleTranslate from "@/components/Language/GoogleTranslate";
+import { LANG_BOOT_SCRIPT } from "@/lib/i18n";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = {
@@ -43,7 +47,7 @@ const organizationJsonLd = {
   logo: `${siteConfig.url}${siteConfig.logo}`,
   image: `${siteConfig.url}${siteConfig.ogImage}`,
   email: siteConfig.email,
-  telephone: siteConfig.phone,
+  telephone: siteConfig.contact.phones,
   taxID: siteConfig.taxId,
   foundingDate: siteConfig.foundingDate,
   areaServed: "VN",
@@ -59,7 +63,7 @@ const organizationJsonLd = {
       name: "VPĐD TP. Đồng Nai",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "C18,19,20 đường N4, Khu phố Tân Lại, phường Trấn Biên",
+        streetAddress: "C18,19,20, Khu phố Tân Lại, đường N4, phường Trấn Biên",
         addressLocality: "Đồng Nai",
         addressCountry: "VN",
       },
@@ -79,7 +83,12 @@ const organizationJsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="vi">
+    // lang-en / skip-intro classes are added by the boot script before
+    // hydration, hence suppressHydrationWarning.
+    <html lang="vi" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: LANG_BOOT_SCRIPT }} />
+      </head>
       <body>
         <script
           type="application/ld+json"
@@ -88,10 +97,13 @@ export default function RootLayout({ children }) {
           }}
         />
         <ClientLayout>
+          <RouteProgress />
           <TopBar />
           {children}
-          <GoToTop />
+          <FloatingAction />
           <MotionRuntime />
+          <ScrollSync />
+          <GoogleTranslate />
         </ClientLayout>
       </body>
     </html>

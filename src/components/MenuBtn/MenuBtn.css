@@ -3,7 +3,7 @@
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 130px;
+  width: 150px; /* fits "Trình đơn" beside the circle */
   height: 53px;
   background: rgba(242, 237, 230, 0.75);
   backdrop-filter: blur(10px);
@@ -21,7 +21,8 @@
   transform: translateY(-50%);
   color: var(--base-450);
   transition: left 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-  z-index: 1;
+  z-index: 11;
+  pointer-events: none;
 }
 
 .menu-copy p {
@@ -30,6 +31,7 @@
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 0.9;
+  transition: color 0.5s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
 .menu-toggle-icon {
@@ -38,9 +40,9 @@
   left: 2.5px;
   width: 48px;
   height: 48px;
-  border-radius: 100%;
+  border-radius: 4rem;
   background-color: var(--base-450);
-  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: width 0.5s cubic-bezier(0.65, 0, 0.076, 1);
   z-index: 10;
   overflow: hidden;
 }
@@ -48,7 +50,7 @@
 .hamburger {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 24px;
   transform: translate(-50%, -50%);
   width: 30px;
   height: 30px;
@@ -86,4 +88,13 @@
 
 .menu-toggle.opened .menu-bar[data-position="bottom"] {
   transform: translateY(0) rotate(-45deg) scaleX(1.05);
+}
+
+/* Hover: circle fills the pill, like .btn in AnimatedButton.css */
+.menu-toggle:hover .menu-toggle-icon {
+  width: calc(100% - 5px);
+}
+
+.menu-toggle:hover .menu-copy p {
+  color: var(--base-100);
 }

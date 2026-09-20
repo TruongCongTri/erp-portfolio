@@ -2,25 +2,36 @@ import "./Footer.css";
 
 import Copy from "../Copy/Copy";
 import TransitionLink from "../TransitionLink/TransitionLink";
+import MapEmbed from "../MapEmbed/MapEmbed";
+import { siteConfig } from "@/lib/site";
+import { getDictionary, localizePath } from "@/i18n";
 
 import { RiLinkedinBoxLine } from "react-icons/ri";
 import { RiInstagramLine } from "react-icons/ri";
 import { RiDribbbleLine } from "react-icons/ri";
 import { RiYoutubeLine } from "react-icons/ri";
 
-const footerLinks = [
-  { href: "/", label: "Index" },
-  { href: "/studio", label: "Giới Thiệu" },
-  { href: "/spaces", label: "Dự Án" },
-  { href: "/spaces/1", label: "Dự Án Tiêu Biểu" },
-  { href: "/reviews", label: "Đánh Giá" },
-  { href: "/blueprints", label: "Thư Viện" },
-  { href: "/connect", label: "Liên Hệ" },
-  { href: "/hiring", label: "Tuyển Dụng" },
-];
-
 // Server component; text and icon entrances are handled by MotionRuntime.
-const Footer = () => {
+const Footer = ({ lang = "vi" }) => {
+  const t = getDictionary(lang);
+  const { phones, email, taxId, offices } = siteConfig.contact;
+  // The service pages, listed beside the main ones.
+  const serviceLinks = [
+    { path: "/xay-nha-tron-goi", label: t.nav.turnkey },
+    { path: "/tu-van-thiet-ke", label: t.nav.design },
+    { path: "/thi-cong-xay-dung", label: t.nav.construction },
+    { path: "/ho-tro-phap-ly", label: t.nav.legal },
+  ];
+  const footerLinks = [
+    { path: "/", label: t.nav.home },
+    { path: "/gioi-thieu", label: t.nav.about },
+    { path: "/du-an", label: t.nav.projects },
+    { path: "/danh-gia", label: t.nav.reviews },
+    { path: "/thu-vien", label: t.nav.gallery },
+    { path: "/lien-he", label: t.nav.contact },
+    { path: "/tuyen-dung", label: t.nav.careers },
+  ];
+
   return (
     <footer className="footer">
       <div className="footer-meta">
@@ -33,22 +44,86 @@ const Footer = () => {
                 </Copy>
               </div>
               <Copy delay={0.2}>
-                <h2>Spaces made simple, thoughtful, lasting.</h2>
+                <h2>{t.footer.tagline}</h2>
               </Copy>
             </div>
           </div>
           <div className="footer-meta-col">
-            <nav className="footer-nav-links" aria-label="Footer">
-              <Copy delay={0.1}>
-                {footerLinks.map((link) => (
-                  <TransitionLink key={link.label} href={link.href}>
-                    <h3>{link.label}</h3>
-                  </TransitionLink>
-                ))}
-              </Copy>
+            <nav className="footer-nav" aria-label={t.footer.navLabel}>
+              <div className="footer-nav-links footer-nav-services">
+                <Copy delay={0.1}>
+                  <p className="mono footer-nav-label">{t.nav.services}</p>
+                  {serviceLinks.map((link) => (
+                    <TransitionLink
+                      key={link.path}
+                      href={localizePath(lang, link.path)}
+                    >
+                      <h3>{link.label}</h3>
+                    </TransitionLink>
+                  ))}
+                </Copy>
+              </div>
+              <div className="footer-nav-links">
+                <Copy delay={0.1}>
+                  {footerLinks.map((link) => (
+                    <TransitionLink
+                      key={link.path}
+                      href={localizePath(lang, link.path)}
+                    >
+                      <h3>{link.label}</h3>
+                    </TransitionLink>
+                  ))}
+                </Copy>
+              </div>
             </nav>
           </div>
         </div>
+        <div className="container footer-contact">
+          <div className="footer-contact-col">
+            <div className="footer-contact-block">
+              <Copy delay={0.1}>
+                <p className="footer-contact-label">{t.contact.phone}</p>
+                {phones.map((phone) => (
+                  <p key={phone}>
+                    <a href={`tel:${phone.replace(/[^0-9+]/g, "")}`}>{phone}</a>
+                  </p>
+                ))}
+              </Copy>
+            </div>
+            <div className="footer-contact-block">
+              <Copy delay={0.15}>
+                <p className="footer-contact-label">{t.contact.email}</p>
+                <p>
+                  <a href={`mailto:${email}`}>{email}</a>
+                </p>
+              </Copy>
+            </div>
+            <div className="footer-contact-block">
+              <Copy delay={0.2}>
+                <p className="footer-contact-label">{t.contact.tax}</p>
+                <p>{taxId}</p>
+              </Copy>
+            </div>
+          </div>
+
+          <div className="footer-contact-col footer-offices">
+            {offices.map((office, index) => (
+              <div className="footer-contact-block" key={office.key}>
+                <Copy delay={0.1 + index * 0.05}>
+                  <p className="footer-contact-label">{t.contact[office.key]}</p>
+                  {office.lines.map((line) => (
+                    <p key={line}>{line}</p>
+                  ))}
+                </Copy>
+              </div>
+            ))}
+          </div>
+
+          <div className="footer-contact-col">
+            <MapEmbed title={t.contact.mapTitle} className="map-embed-sm" />
+          </div>
+        </div>
+
         <div className="container footer-socials">
           <div className="footer-meta-col">
             <div
@@ -72,10 +147,7 @@ const Footer = () => {
           </div>
           <div className="footer-meta-col">
             <Copy delay={0.1}>
-              <p>
-                We believe design is not decoration but the quiet structure that
-                shapes experience.
-              </p>
+              <p>{t.footer.quote}</p>
             </Copy>
           </div>
         </div>
@@ -91,10 +163,12 @@ const Footer = () => {
           </div>
           <div className="footer-copyright">
             <p>
-              Developed by — <span>Cong Tri</span>
+              {t.footer.developedBy} — <span>Cong Tri</span>
             </p>
-            <p>This website is using cookies.</p>
-            <p>All rights reserved &copy; 2026</p>
+            <p>{t.footer.cookies}</p>
+            <p>
+              {t.footer.rights} &copy; 2026
+            </p>
           </div>
         </div>
       </div>

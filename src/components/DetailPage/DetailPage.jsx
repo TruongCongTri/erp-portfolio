@@ -4,6 +4,7 @@ import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import CTAWindow from "../CTAWindow/CTAWindow";
 import Copy from "../Copy/Copy";
+import { fixedText, translatable } from "../Language/DataText";
 
 // Rows of { label, values[] } columns, e.g. "Số lượng: 05".
 const MetaRows = ({ rows = [], delay, step }) =>
@@ -13,7 +14,7 @@ const MetaRows = ({ rows = [], delay, step }) =>
         {row.map((item) => (
           <div className="detail-hero-sub-col" key={item.label}>
             <Copy delay={delay + rowIndex * step}>
-              <p>{item.label}</p>
+              <p {...(item.fixedLabel ? fixedText : {})}>{item.label}</p>
               {item.values.map((value) => (
                 <p key={value}>{value}</p>
               ))}
@@ -62,8 +63,11 @@ const SectionBlock = ({ block }) => (
  * @param detail   { image, imageAlt, title, location, country?, intro?: { label?, text },
  *                   meta?: MetaRows, sections?: [{ blocks: Block[] }], cta? }
  * @param children extra content after the CTA window (e.g. an application form)
+ *
+ * All `detail` content is Vietnamese data, so it's marked translatable for
+ * English pages; dictionary labels inside it are flagged `fixedLabel` / fixed.
  */
-const DetailPage = ({ detail, children }) => {
+const DetailPage = ({ lang = "vi", detail, children }) => {
   const {
     image,
     imageAlt,
@@ -80,7 +84,7 @@ const DetailPage = ({ detail, children }) => {
     <>
       <Nav />
       <div className="page detail">
-        <section className="detail-hero">
+        <section className="detail-hero" {...translatable}>
           <div className="detail-hero-img">
             <img src={image} alt={imageAlt ?? title} fetchPriority="high" />
           </div>
@@ -110,7 +114,9 @@ const DetailPage = ({ detail, children }) => {
                 {intro && (
                   <div className="detail-content-wrapper">
                     <Copy delay={1.15} animateOnScroll={false}>
-                      {intro.label && <p>{intro.label}</p>}
+                      {intro.label && (
+                        <p {...(intro.fixedLabel ? fixedText : {})}>{intro.label}</p>
+                      )}
                       <h3>{intro.text}</h3>
                     </Copy>
                   </div>
@@ -124,16 +130,21 @@ const DetailPage = ({ detail, children }) => {
           <section
             key={index}
             className={`detail-section detail-section-${index === 0 ? 1 : 2}`}
+            {...translatable}
           >
             {section.blocks.map((block) => (
               <SectionBlock key={block.label} block={block} />
             ))}
           </section>
         ))}
-        {cta && <CTAWindow {...cta} />}
+        {cta && (
+          <div {...translatable}>
+            <CTAWindow {...cta} />
+          </div>
+        )}
         {children}
       </div>
-      <Footer />
+      <Footer lang={lang} />
     </>
   );
 };

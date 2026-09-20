@@ -1,15 +1,13 @@
-// Projects: drives /spaces (list) and /spaces/[id] (detail). `detail` is
-// optional; without it the detail page shows the hero built from list fields.
+import { getDictionary, localizePath } from "@/i18n";
+import { formatDate } from "@/lib/format";
 
-export const spacesListing = {
-  title: "Timeless Spaces",
-  filters: ["All", "Residential", "Commercial", "Hospitality"],
-};
+// Projects: drives /du-an (list) and /du-an/[id] (detail). `detail` is
+// optional; without it the detail page shows the hero built from list fields.
 
 export const spaces = [
   {
     id: 1,
-    categories: ["Residential Architecture", "Retreat Wellness"],
+    categories: ["Kiến trúc nhà ở", "Nghỉ dưỡng & chăm sóc sức khỏe"],
     image: "/spaces/space-1.jpg",
     date: "2021",
     name: "VIL54: LAMHA’S Villa",
@@ -27,25 +25,25 @@ export const spaces = [
       },
       meta: [
         [
-          { label: "Date Completed", values: ["2021"] },
+          { label: "Năm hoàn thành", values: ["2021"] },
           {
-            label: "Project Type",
-            values: ["Residential Architecture", "Retreat Wellness"],
+            label: "Loại hình",
+            values: ["Kiến trúc nhà ở", "Nghỉ dưỡng & chăm sóc sức khỏe"],
           },
         ],
         [
           {
-            label: "Collaborators",
+            label: "Đơn vị phối hợp",
             values: ["Atelier Forma", "LX Stoneworks", "Studio Maré"],
           },
-          { label: "Photography", values: ["Atelier Forma", "Inês Almeida"] },
+          { label: "Nhiếp ảnh", values: ["Atelier Forma", "Inês Almeida"] },
         ],
       ],
       sections: [
         {
           blocks: [
             {
-              label: "Architectural Story",
+              label: "Câu chuyện kiến trúc",
               paragraphs: [
                 "Giữa vùng đất Lâm Đồng trong lành, LAMHA’s Villa được ví như một bản hòa ca của kiến trúc và thiên nhiên. Bao quanh bởi cây xanh, nắng vàng và khí trời dịu mát, công trình mang lại cảm giác tĩnh tại, thư thái, nơi con người tìm thấy sự cân bằng sau những ngày bận rộn.",
                 "Từ tổng thể đến từng chi tiết, biệt thự đều toát lên tinh thần sang trọng và chuẩn mực. Chính Nam đã khéo léo kiến tạo nên một không gian vừa mang dấu ấn thẩm mỹ châu Âu, vừa giữ được vẻ gần gũi, hòa hợp với cảnh quan vùng cao nguyên.",
@@ -65,29 +63,29 @@ export const spaces = [
               meta: [
                 [
                   {
-                    label: "Atmosphere",
-                    values: ["Calm", "Softened acoustics", "Filtered light"],
+                    label: "Không khí",
+                    values: ["Tĩnh lặng", "Âm thanh dịu nhẹ", "Ánh sáng được lọc"],
                   },
                   {
-                    label: "Flow",
-                    values: ["Passages", "Guided movement", "Rhythmic"],
+                    label: "Dòng chảy",
+                    values: ["Lối đi", "Chuyển động có định hướng", "Nhịp điệu"],
                   },
                 ],
                 [
                   {
-                    label: "Materials",
+                    label: "Vật liệu",
                     values: [
-                      "Lime plaster walls",
-                      "Local stone flooring",
-                      "Timber inlays",
+                      "Tường vữa vôi",
+                      "Sàn đá địa phương",
+                      "Chi tiết khảm gỗ",
                     ],
                   },
                   {
-                    label: "Natural Elements",
+                    label: "Yếu tố tự nhiên",
                     values: [
-                      "Court planting",
-                      "Daylight wells",
-                      "Cross ventilation",
+                      "Cây xanh sân trong",
+                      "Giếng trời",
+                      "Thông gió chéo",
                     ],
                   },
                 ],
@@ -97,7 +95,7 @@ export const spaces = [
                 alt: "Nội thất và ánh sáng tại LAMHA’s Villa",
               },
               closing:
-                "Every choice within the residence was guided by sensory experience. The aim was not only to frame views but to shape how sound, touch, and temperature are felt as one moves through the home.",
+                "Mọi lựa chọn trong ngôi nhà đều xuất phát từ trải nghiệm giác quan. Mục tiêu không chỉ là đóng khung những khung cảnh đẹp, mà còn định hình cách âm thanh, xúc giác và nhiệt độ được cảm nhận khi di chuyển trong ngôi nhà.",
             },
           ],
         },
@@ -106,82 +104,84 @@ export const spaces = [
   },
   {
     id: 2,
-    categories: ["Home", "Cultural"],
+    categories: ["Nhà ở", "Văn hóa"],
     image: "/spaces/space-2.jpg",
-    date: "May 15, 2021",
-    name: "Sanctum Hall",
-    location: "Morocco, Marrakesh",
+    date: "2021-05-15",
+    name: "Hội trường Sanctum",
+    location: "Marrakesh, Ma-rốc",
     clientImage: "/spaces/client-2.jpeg",
     clientName: "Alex Chen",
   },
   {
     id: 3,
-    categories: ["Home", "Gallery"],
+    categories: ["Nhà ở", "Phòng trưng bày"],
     image: "/spaces/space-3.jpg",
-    date: "April 22, 2021",
-    name: "Arcade Residence",
-    location: "Portugal, Lisbon",
+    date: "2021-04-22",
+    name: "Dinh thự Arcade",
+    location: "Lisbon, Bồ Đào Nha",
     clientImage: "/spaces/client-3.jpeg",
     clientName: "Sophia Rodriguez",
   },
   {
     id: 4,
-    categories: ["Gallery", "Cultural"],
+    categories: ["Phòng trưng bày", "Văn hóa"],
     image: "/spaces/space-4.jpg",
-    date: "March 8, 2021",
-    name: "Atrium Gallery",
-    location: "Austria, Vienna",
+    date: "2021-03-08",
+    name: "Phòng trưng bày Atrium",
+    location: "Vienna, Áo",
     clientImage: "/spaces/client-4.jpeg",
     clientName: "David Kim",
   },
   {
     id: 5,
-    categories: ["Home", "Retreat"],
+    categories: ["Nhà ở", "Nghỉ dưỡng"],
     image: "/spaces/space-5.jpg",
-    date: "February 14, 2021",
-    name: "Mountain Retreat",
-    location: "Switzerland, Zurich",
+    date: "2021-02-14",
+    name: "Khu nghỉ dưỡng trên núi",
+    location: "Zurich, Thụy Sĩ",
     clientImage: "/spaces/client-5.jpeg",
     clientName: "Emma Wilson",
   },
   {
     id: 6,
-    categories: ["Cultural", "Home"],
+    categories: ["Văn hóa", "Nhà ở"],
     image: "/spaces/space-6.jpg",
-    date: "January 30, 2021",
-    name: "Horizon Pavilion",
-    location: "Japan, Kyoto",
+    date: "2021-01-30",
+    name: "Đình Chân Trời",
+    location: "Kyoto, Nhật Bản",
     clientImage: "/spaces/client-6.jpeg",
     clientName: "Aiko Tanaka",
   },
   {
     id: 7,
-    categories: ["Wellness", "Retreat", "Gallery"],
+    categories: ["Chăm sóc sức khỏe", "Nghỉ dưỡng", "Phòng trưng bày"],
     image: "/spaces/space-7.jpg",
-    date: "December 12, 2020",
-    name: "Lumen Spa",
-    location: "UAE, Dubai",
+    date: "2020-12-12",
+    name: "Khu spa Lumen",
+    location: "Dubai, UAE",
     clientImage: "/spaces/client-7.jpeg",
     clientName: "Omar Rahman",
   },
 ];
 
-export const spaceHref = (space) => `/spaces/${space.id}`;
+export const spaceHref = (space, lang = "vi") =>
+  localizePath(lang, `/du-an/${space.id}`);
 
 export const getSpaceById = (id) =>
   spaces.find((space) => String(space.id) === String(id)) ?? null;
 
-export const toSpaceListItem = (space) => ({
+export const toSpaceListItem = (space, lang = "vi") => ({
   id: space.id,
-  href: spaceHref(space),
+  href: spaceHref(space, lang),
   image: space.image,
-  date: space.date,
+  date: formatDate(space.date),
   name: space.name,
   subtitle: space.location,
   meta: { image: space.clientImage, value: space.clientName },
 });
 
-export const toSpaceDetail = (space) => {
+export const toSpaceDetail = (space, lang = "vi") => {
+  const t = getDictionary(lang).detail;
   const detail = space.detail ?? {};
   return {
     image: detail.heroImage ?? space.image,
@@ -190,12 +190,13 @@ export const toSpaceDetail = (space) => {
     location: detail.location ?? space.location,
     country: detail.country,
     intro: detail.intro,
+    // Fallback rows pair dictionary labels (fixed) with data values.
     meta: detail.meta ?? [
       [
-        { label: "Date Completed", values: [space.date] },
-        { label: "Project Type", values: space.categories },
+        { label: t.completed, fixedLabel: true, values: [formatDate(space.date)] },
+        { label: t.projectType, fixedLabel: true, values: space.categories },
       ],
-      [{ label: "Client", values: [space.clientName] }],
+      [{ label: t.client, fixedLabel: true, values: [space.clientName] }],
     ],
     sections: detail.sections ?? [],
     cta: detail.cta,

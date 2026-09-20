@@ -1,0 +1,323 @@
+.orbit {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  color: var(--base-100);
+  padding: 8rem 0;
+}
+
+.orbit .container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.orbit .orbit-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 60rem;
+}
+
+.orbit .orbit-header p.mono {
+  color: var(--base-350);
+}
+
+.orbit .orbit-header h3 {
+  color: var(--base-200);
+}
+
+/* The wheel is pinned on the left (OrbitMotion) while the cards scroll past
+   on the right, the same way HowWeWork pins its header. */
+.orbit .orbit-body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  gap: 4rem;
+}
+
+.orbit .orbit-wheel-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 46%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  will-change: transform;
+}
+
+/* Size everything off --orbit so one value scales the whole wheel; the three
+   scale factors come from the item count (see Orbit.jsx). */
+.orbit .orbit-wheel {
+  --orbit: 34rem;
+  --node: calc(var(--orbit) * var(--node-scale));
+  --radius: calc(var(--orbit) * var(--radius-scale));
+  --hub: calc(var(--orbit) * var(--hub-scale));
+
+  position: relative;
+  flex-shrink: 0;
+  width: var(--orbit);
+  height: var(--orbit);
+}
+
+.orbit .orbit-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.orbit .orbit-ring-track {
+  fill: none;
+  stroke: rgba(123, 169, 244, 0.35);
+  stroke-width: 0.25;
+}
+
+.orbit .orbit-ring-progress {
+  fill: none;
+  stroke: var(--base-250);
+  stroke-width: 0.45;
+  stroke-linecap: round;
+}
+
+.orbit .orbit-spoke {
+  stroke: rgba(123, 169, 244, 0.2);
+  stroke-width: 0.2;
+}
+
+.orbit .orbit-hub {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--hub);
+  height: var(--hub);
+  margin: calc(var(--hub) / -2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--base-450);
+  border: 1px solid rgba(123, 169, 244, 0.35);
+}
+
+.orbit .orbit-hub img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.orbit .orbit-hub p {
+  font-size: 0.7rem;
+  color: var(--base-200);
+  line-height: 1.3;
+}
+
+/* Each item is rotated out to its own angle, then counter-rotated so the
+   label stays upright. */
+.orbit .orbit-node {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--node);
+  height: var(--node);
+  margin: calc(var(--node) / -2);
+  transform: rotate(var(--a)) translateY(calc(var(--radius) * -1))
+    rotate(calc(var(--a) * -1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.75rem;
+  text-align: center;
+  color: var(--base-200);
+  background-color: var(--base-500);
+  border: 1px solid rgba(123, 169, 244, 0.35);
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: inherit;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.orbit .orbit-node-index {
+  font-size: 0.75rem;
+  color: var(--base-350);
+  transition: color 0.3s ease;
+}
+
+.orbit .orbit-node-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.orbit .orbit-node:hover {
+  border-color: var(--base-250);
+  background-color: var(--base-450);
+}
+
+.orbit .orbit-node.active {
+  color: var(--base-500);
+  background-color: var(--base-100);
+  border-color: var(--base-100);
+}
+
+.orbit .orbit-node.active .orbit-node-index {
+  color: var(--base-400);
+}
+
+.orbit .orbit-hint {
+  color: var(--base-350);
+  text-align: center;
+  max-width: 24rem;
+}
+
+.orbit .orbit-detail {
+  flex: 1;
+  min-width: 0;
+  margin-left: 46%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 12vh 0;
+}
+
+.orbit .orbit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 55vh;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+  /* The card the wheel is pointing at leads; the rest step back. */
+  opacity: 0.35;
+  transition: opacity 0.4s ease;
+}
+
+.orbit .orbit-card.active {
+  opacity: 1;
+}
+
+.orbit .orbit-footnote {
+  color: var(--base-350);
+}
+
+.orbit .orbit-card-index h2 {
+  color: var(--base-250);
+  margin-bottom: 0.5rem;
+}
+
+.orbit .orbit-card h3 {
+  color: var(--base-100);
+}
+
+.orbit .orbit-card p.md {
+  color: var(--base-200);
+}
+
+@media (max-width: 1400px) {
+  .orbit .orbit-wheel {
+    --orbit: 28rem;
+  }
+
+  .orbit .orbit-body {
+    gap: 3rem;
+  }
+
+  .orbit .orbit-card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .orbit {
+    padding: 4rem 0;
+  }
+
+  .orbit .container {
+    gap: 3rem;
+  }
+
+  /* No pinning below this width: the wheel simply sits above the cards. */
+  .orbit .orbit-body {
+    flex-direction: column;
+    min-height: auto;
+    gap: 2.5rem;
+  }
+
+  .orbit .orbit-wheel-col {
+    position: relative;
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .orbit .orbit-wheel {
+    --orbit: min(24rem, 88vw);
+    margin: 0 auto;
+  }
+
+  .orbit .orbit-node {
+    gap: 0.2rem;
+  }
+
+  .orbit .orbit-node-index {
+    font-size: 0.65rem;
+  }
+
+  .orbit .orbit-node-name {
+    font-size: 0.65rem;
+  }
+
+  .orbit .orbit-hub img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .orbit .orbit-hub p {
+    font-size: 0.6rem;
+  }
+
+  .orbit .orbit-detail {
+    width: 100%;
+    margin-left: 0;
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  .orbit .orbit-card {
+    min-height: auto;
+    padding: 1.5rem;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .orbit .orbit-node-name {
+    display: none;
+  }
+
+  .orbit .orbit-node-index {
+    font-size: 0.9rem;
+    color: var(--base-200);
+  }
+
+  .orbit .orbit-wheel {
+    --node-scale: 0.2;
+  }
+}

@@ -1,0 +1,25 @@
+/* Only the stage cards' contents; the pinned scene itself is PinnedSteps.css */
+
+/* A full sentence, so it is set in regular type rather than mono caps. */
+.design-process-time {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--base-250);
+}
+
+.design-process-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  list-style: none;
+  border-top: 1px solid rgba(123, 169, 244, 0.25);
+}
+
+.design-process-items li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

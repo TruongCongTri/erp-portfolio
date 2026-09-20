@@ -5,7 +5,7 @@ import { reviews as clientReviewsContent } from "@/data/reviews";
 import { useState, useEffect, useRef } from "react";
 
 import { gsap } from "gsap";
-import { SplitText } from "gsap/SplitText";
+import { splitLines } from "@/lib/motion";
 
 const ClientReviews = () => {
   const [activeClient, setActiveClient] = useState(0);
@@ -91,7 +91,7 @@ const ClientReviews = () => {
 
     const initTimer = setTimeout(() => {
       if (reviewTextRef.current) {
-        splitTextRef.current = SplitText.create(reviewTextRef.current, {
+        splitTextRef.current = splitLines(reviewTextRef.current, {
           type: "lines",
           mask: "lines",
         });
@@ -125,7 +125,7 @@ const ClientReviews = () => {
         splitTextRef.current.revert();
       }
 
-      splitTextRef.current = SplitText.create(reviewTextRef.current, {
+      splitTextRef.current = splitLines(reviewTextRef.current, {
         type: "lines",
         mask: "lines",
       });
@@ -147,7 +147,7 @@ const ClientReviews = () => {
     const timer = setTimeout(() => {
       if (reviewTextRef.current) {
         if (!splitTextRef.current) {
-          splitTextRef.current = SplitText.create(reviewTextRef.current, {
+          splitTextRef.current = splitLines(reviewTextRef.current, {
             type: "lines",
             mask: "lines",
           });
@@ -274,7 +274,7 @@ const ClientReviews = () => {
   };
 
   return (
-    <div className="client-reviews">
+    <div className="client-reviews" translate="yes">
       <div className="container">
         <div className="client-reviews-wrapper">
           <div className="client-review-content">

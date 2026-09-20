@@ -2,11 +2,12 @@
 export const getNext = (list, item) =>
   list[(list.indexOf(item) + 1) % list.length];
 
-// Default CTA window for a detail page: a teaser of the next item.
+// Default CTA window for a detail page: a teaser of the next item. The
+// callout is dictionary text inside a translatable (data) region.
 export const nextCta = (next, callout, description) => ({
   img: next.image,
   header: next.name ?? next.title,
-  callout,
+  callout: <span translate="no">{callout}</span>,
   description,
 });
 

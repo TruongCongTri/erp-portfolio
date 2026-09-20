@@ -1,0 +1,62 @@
+/* Only the schedule cards' contents; the pinned scene is PinnedSteps.css */
+
+.construction-total {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+  color: var(--base-100);
+  margin-bottom: 0.5rem;
+}
+
+.construction-rows {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(123, 169, 244, 0.25);
+}
+
+.construction-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.15);
+}
+
+.construction-row dt {
+  display: flex;
+  gap: 1rem;
+  color: var(--base-100);
+}
+
+.construction-row-index {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  color: var(--base-350);
+}
+
+.construction-row dd {
+  flex-shrink: 0;
+  text-align: right;
+  color: var(--base-250);
+}
+
+@media (max-width: 1400px) {
+  .construction-total {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .construction-row {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .construction-row dd {
+    text-align: left;
+    padding-left: 1.75rem;
+  }
+}

@@ -17,7 +17,9 @@ import { useLenis } from "lenis/react";
 
 import MenuBtn from "../MenuBtn/MenuBtn";
 import { useViewTransition } from "@/hooks/useViewTransition";
-import Link from "next/link";
+import { splitLines } from "@/lib/motion";
+import { useI18n } from "@/i18n/client";
+import { siteConfig } from "@/lib/site";
 
 gsap.registerPlugin(SplitText);
 
@@ -32,6 +34,7 @@ const Nav = () => {
   const lenis = useLenis();
 
   const { navigateWithTransition } = useViewTransition();
+  const { t, href } = useI18n();
 
   useEffect(() => {
     if (lenis) {
@@ -68,7 +71,7 @@ const Nav = () => {
       const pElements = menu.querySelectorAll("p");
 
       h2Elements.forEach((h2, index) => {
-        const split = SplitText.create(h2, {
+        const split = splitLines(h2, {
           type: "lines",
           mask: "lines",
           linesClass: "split-line",
@@ -84,7 +87,7 @@ const Nav = () => {
       });
 
       pElements.forEach((p, index) => {
-        const split = SplitText.create(p, {
+        const split = splitLines(p, {
           type: "lines",
           mask: "lines",
           linesClass: "split-line",
@@ -196,7 +199,7 @@ const Nav = () => {
     (e, href) => {
       e.preventDefault();
 
-      const currentPath = window.location.pathname;
+      const currentPath = window.location.pathname.replace(/\.html$/, "");
       if (currentPath === href) {
         if (isOpen) {
           setIsOpen(false);
@@ -224,97 +227,110 @@ const Nav = () => {
       );
   };
 
+  const links = [
+    { path: "/", label: t.nav.home },
+    { path: "/gioi-thieu", label: t.nav.about },
+    { path: "/du-an", label: t.nav.projects },
+    { path: "/danh-gia", label: t.nav.reviews },
+    { path: "/thu-vien", label: t.nav.gallery },
+  ];
+
+  // The service pages, as a group under the main links.
+  const serviceLinks = [
+    { path: "/xay-nha-tron-goi", label: t.nav.turnkey },
+    { path: "/tu-van-thiet-ke", label: t.nav.design },
+    { path: "/thi-cong-xay-dung", label: t.nav.construction },
+    { path: "/ho-tro-phap-ly", label: t.nav.legal },
+  ];
+
+  // Bottom right, under the contact details they belong with.
+  const asideLinks = [
+    { path: "/lien-he", label: t.nav.contact },
+    { path: "/tuyen-dung", label: t.nav.careers },
+  ];
+
   return (
     <div>
-      <MenuBtn isOpen={isOpen} toggleMenu={toggleMenu} />
+      <MenuBtn isOpen={isOpen} toggleMenu={toggleMenu} label={t.common.menu} />
       <div className="menu" ref={menuRef}>
         <div className="menu-wrapper">
           <div className="col col-1">
             <div className="links">
-              <div className="link">
-                <a href="/" onClick={(e) => handleLinkClick(e, "/")}>
-                  <h2>Index</h2>
-                </a>
-              </div>
-              <div className="link">
-                <Link
-                  href="/studio"
-                  onClick={(e) => handleLinkClick(e, "/studio")}
-                >
-                  <h2>Giới Thiệu</h2>
-                </Link>
-              </div>
-              <div className="link">
-                <a
-                  href="/spaces"
-                  onClick={(e) => handleLinkClick(e, "/spaces")}
-                >
-                  <h2>Dự Án</h2>
-                </a>
-              </div>
-              <div className="link">
-                <a
-                  href="/spaces/1"
-                  onClick={(e) => handleLinkClick(e, "/spaces/1")}
-                >
-                  <h2>Dự Án Tiêu Biểu</h2>
-                </a>
-              </div>
-              <div className="link">
-                <a
-                  href="/reviews"
-                  onClick={(e) => handleLinkClick(e, "/reviews")}
-                >
-                  <h2>Đánh Giá</h2>
-                </a>
-              </div>
-              <div className="link">
-                <a
-                  href="/blueprints"
-                  onClick={(e) => handleLinkClick(e, "/blueprints")}
-                >
-                  <h2>Thư Viện</h2>
-                </a>
-              </div>
-              <div className="link">
-                <a
-                  href="/connect"
-                  onClick={(e) => handleLinkClick(e, "/connect")}
-                >
-                  <h2>Liên Hệ</h2>
-                </a>
-              </div>
-              <div className="link">
-                <a
-                  href="/hiring"
-                  onClick={(e) => handleLinkClick(e, "/hiring")}
-                >
-                  <h2>Tuyển Dụng</h2>
-                </a>
+              {links.map((link) => (
+                <div className="link" key={link.path}>
+                  <a
+                    href={href(link.path)}
+                    onMouseEnter={() => router.prefetch(href(link.path))}
+                    onFocus={() => router.prefetch(href(link.path))}
+                    onClick={(e) => handleLinkClick(e, href(link.path))}
+                  >
+                    <h2>{link.label}</h2>
+                  </a>
+                </div>
+              ))}
+            </div>
+            <div className="menu-services">
+              <p className="mono menu-services-label">{t.nav.services}</p>
+              <div className="links menu-services-links">
+                {serviceLinks.map((link) => (
+                  <div className="link menu-service-link" key={link.path}>
+                    <a
+                      href={href(link.path)}
+                      onMouseEnter={() => router.prefetch(href(link.path))}
+                      onFocus={() => router.prefetch(href(link.path))}
+                      onClick={(e) => handleLinkClick(e, href(link.path))}
+                    >
+                      <h2>{link.label}</h2>
+                    </a>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
           <div className="col col-2">
+            {/* Top right: contact / address / social info */}
             <div className="socials">
               <div className="sub-col">
                 <div className="menu-meta menu-commissions">
-                  <p>Liên hệ</p>
-                  <p>info@chinhnambkd.vn</p>
-                  <p>+84 944 454 199</p>
+                  <p>{t.nav.contactLabel}</p>
+                  {siteConfig.contact.phones.map((phone) => (
+                    <p key={phone}>{phone}</p>
+                  ))}
+                  <p>{siteConfig.contact.email}</p>
                 </div>
                 <div className="menu-meta">
-                  <p>Trụ sở chính</p>
-                  <p>55/56T Nguyễn Văn Tiên, </p>
-                  <p>khu phố 11Aphường Tân Triều, TP. Đồng Nai.</p>
+                  <p>{t.contact.tax}</p>
+                  <p>{siteConfig.contact.taxId}</p>
                 </div>
               </div>
               <div className="sub-col">
+                {siteConfig.contact.offices.map((office) => (
+                  <div className="menu-meta" key={office.key}>
+                    <p>{t.contact[office.key]}</p>
+                    <p>{office.lines.join(" ")}</p>
+                  </div>
+                ))}
                 <div className="menu-meta">
-                  <p>Social</p>
+                  <p>{t.nav.social}</p>
                   <p>Instagram</p>
                   <p>LinkedIn</p>
                 </div>
               </div>
+            </div>
+            {/* Bottom right: contact, then careers */}
+            <div className="menu-aside-links">
+              {asideLinks.map((link) => (
+                <div className="link menu-aside-link" key={link.path}>
+                  <a
+                    href={href(link.path)}
+                    onMouseEnter={() => router.prefetch(href(link.path))}
+                    onFocus={() => router.prefetch(href(link.path))}
+                    onClick={(e) => handleLinkClick(e, href(link.path))}
+                  >
+                    <h2>{link.label}</h2>
+                  </a>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import Copy from "../Copy/Copy";
 import TransitionLink from "../TransitionLink/TransitionLink";
+import { fixedText, translatable } from "../Language/DataText";
 
 /**
  * Shared list layout for projects, jobs and reviews.
@@ -14,8 +15,11 @@ import TransitionLink from "../TransitionLink/TransitionLink";
  * @param items    [{ id, href, image, date, name, subtitle,
  *                   meta: { image?, label?, value } }]
  * @param children extra content after the list (e.g. an application form)
+ *
+ * Header text comes from the dictionary; the items are Vietnamese data and
+ * are marked translatable for English pages (meta labels stay fixed).
  */
-const ListingPage = ({ kicker, title, filters = [], items, children }) => {
+const ListingPage = ({ lang = "vi", kicker, title, filters = [], items, children }) => {
   return (
     <>
       <Nav />
@@ -46,7 +50,7 @@ const ListingPage = ({ kicker, title, filters = [], items, children }) => {
           </div>
         </section>
         <section className="listing-list">
-          <div className="container" data-reveal-cards=".listing-item">
+          <div className="container" data-reveal-cards=".listing-item" {...translatable}>
             {items.map((item, index) => (
               <TransitionLink
                 key={item.id}
@@ -84,7 +88,8 @@ const ListingPage = ({ kicker, title, filters = [], items, children }) => {
                           <p>
                             {item.meta.label ? (
                               <>
-                                {item.meta.label} <span>{item.meta.value}</span>
+                                <span {...fixedText}>{item.meta.label}</span>{" "}
+                                <span>{item.meta.value}</span>
                               </>
                             ) : (
                               item.meta.value
@@ -101,7 +106,7 @@ const ListingPage = ({ kicker, title, filters = [], items, children }) => {
         </section>
         {children}
       </div>
-      <Footer />
+      <Footer lang={lang} />
     </>
   );
 };

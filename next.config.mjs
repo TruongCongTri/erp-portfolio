@@ -19,6 +19,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  // The dev badge sits in the bottom-left corner, where SectionNav lives
+  devIndicators: false,
   images: {
     unoptimized: true, // Prevents Next.js image optimization errors during static export
   },

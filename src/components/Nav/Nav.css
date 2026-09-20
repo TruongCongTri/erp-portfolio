@@ -17,7 +17,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
   background-color: var(--base-450);
@@ -32,18 +32,51 @@
 
 .col-1 {
   flex: 3;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 2rem;
 }
 
+/* Right column: info block on top, "Tuyển Dụng" at the bottom */
 .col-2 {
   flex: 2;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-end;
   padding: 2rem;
+}
+
+/* Contact and careers, stacked at the bottom right of the menu. */
+.menu-aside-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-aside-link {
+  text-align: right;
 }
 
 .link {
   position: relative;
   pointer-events: auto;
+}
+
+/* The service pages: a group under the main links, set smaller so the
+   primary pages keep the big type. */
+.menu-services {
+  margin-top: 3rem;
+}
+
+.menu-services-label {
+  color: var(--base-250);
+  margin-bottom: 0.75rem;
+  pointer-events: auto;
+}
+
+.menu-services .menu-service-link a h2 {
+  font-size: 2.25rem;
+  letter-spacing: -0.05rem;
 }
 
 .link a h2 {
@@ -61,7 +94,7 @@
 }
 
 .socials {
-  width: 50%;
+  width: 75%;
   display: flex;
   gap: 2em;
 }
@@ -70,8 +103,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  gap: 2rem;
+  justify-content: flex-start;
+  /* Three offices plus contact details live here: keep the blocks tight */
+  gap: 1.25rem;
 }
 
 .menu-meta {
@@ -83,9 +117,10 @@
   margin-bottom: 0.25rem;
 }
 
+/* Block labels: "Liên hệ", "Trụ sở chính", "Social" */
 .menu-meta p:nth-child(1) {
-  color: var(--base-400);
-  margin-bottom: 1rem;
+  color: var(--highlight-green);
+  margin-bottom: 0.5rem;
 }
 
 /* SplitText mask styles */
@@ -101,23 +136,53 @@
     line-height: 1.2s;
   }
 
+  .menu-wrapper {
+    flex-direction: column;
+    /* The three offices push the menu past the viewport on phones, so the
+       panel itself scrolls instead of clipping the last blocks. */
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Stacked columns grow with their content so the scroll extent covers the
+     last block instead of clipping it against a 100% height. */
+  .col {
+    height: auto;
+  }
+
   .col-2 {
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
+    gap: 2rem;
+    padding-bottom: 8rem;
+  }
+
+  .menu-services {
+    margin-top: 1.5rem;
+  }
+
+  .menu-services .menu-service-link a h2 {
+    font-size: 1.5rem;
+  }
+
+  .menu-aside-links {
+    align-items: flex-start;
+  }
+
+  .menu-aside-link {
+    text-align: left;
   }
 
   .socials {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 10rem;
   }
 
   .socials .sub-col {
     flex: 1;
-  }
-
-  .menu-commissions {
-    display: none;
+    gap: 1.5rem;
   }
 }

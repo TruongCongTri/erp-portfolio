@@ -1,0 +1,208 @@
+/* /bang-gia. Scrolling up from the top goes back to /all-in-one (PageChain),
+   which takes no space of its own, so the hero clears the top bar itself. */
+
+.pricing-hero {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 12rem 0 0;
+}
+
+.pricing-hero .container {
+  display: flex;
+  gap: 4rem;
+}
+
+.pricing-hero .pricing-hero-col:nth-child(1) {
+  flex: 2;
+}
+
+.pricing-hero .pricing-hero-col:nth-child(2) {
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.pricing-hero .studio-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pricing-hero p.mono {
+  color: var(--base-350);
+}
+
+.pricing-hero h2 {
+  color: var(--base-100);
+}
+
+.pricing-hero p.md {
+  color: var(--base-200);
+  max-width: 45rem;
+}
+
+.pricing-section {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+}
+
+/* The scenes inside carry their own spacing (PinnedSteps pads its header,
+   Orbit pads itself), so the section adds none of its own - otherwise the
+   page opens a hole either side of it. */
+.pricing-section-intro .container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/* A scene runs straight into whatever follows it; the space belongs to the
+   next section's header instead, so the rhythm is the same everywhere. */
+.pricing .orbit {
+  padding-bottom: 0;
+}
+
+.pricing-section + .pricing-section .pricing-section-intro {
+  padding-top: 6rem;
+}
+
+/* Notes and the quoted range sit under the scene they belong to. */
+.pricing-note {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 3rem 0 0;
+}
+
+.pricing-note p.md {
+  max-width: 70rem;
+  color: var(--base-300);
+}
+
+.price-range {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 3rem 0 0;
+}
+
+.price-range-card {
+  display: flex;
+  gap: 4rem;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.price-range-figure {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.price-range-label {
+  color: var(--base-250);
+}
+
+.price-range-note {
+  color: var(--base-200);
+  margin-bottom: 1rem;
+}
+
+.price-range-value {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+  line-height: 1.05;
+  color: var(--base-100);
+}
+
+.price-range-dash {
+  color: var(--base-250);
+}
+
+.price-range-unit {
+  color: var(--base-250);
+  margin-top: 0.75rem;
+}
+
+.price-range-copy {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.price-range-copy p.md {
+  color: var(--base-200);
+}
+
+.price-range-copy .btn {
+  margin: 0;
+}
+
+.pricing-section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.35);
+}
+
+.pricing-section-index {
+  color: var(--base-250);
+}
+
+.pricing-section-header h2 {
+  color: var(--base-100);
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+}
+
+@media (max-width: 1000px) {
+  .pricing-hero {
+    padding: 7rem 0 0;
+  }
+
+  .pricing-hero .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .pricing-section-intro .container {
+    gap: 2.5rem;
+  }
+
+  .pricing-section-header h2 {
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .pricing-section + .pricing-section .pricing-section-intro {
+    padding-top: 3rem;
+  }
+
+  .pricing-note,
+  .price-range {
+    padding-top: 1.5rem;
+  }
+
+  .price-range-card {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .price-range-value {
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+  }
+}

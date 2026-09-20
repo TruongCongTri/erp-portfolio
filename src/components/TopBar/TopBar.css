@@ -2,12 +2,20 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  /* left/right (not 100vw) so the scrollbar isn't included and Reserve lines
+     up with FloatingAction's right edge */
+  right: 0;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+}
+
+.top-bar .top-bar-cta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .top-bar .btn {

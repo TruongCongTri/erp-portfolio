@@ -1,7 +1,7 @@
 import React from "react";
 import "./MenuBtn.css";
 
-const MenuBtn = ({ isOpen, toggleMenu }) => {
+const MenuBtn = ({ isOpen, toggleMenu, label }) => {
   return (
     <div
       className={`menu-toggle ${isOpen ? "opened" : "closed"}`}
@@ -14,7 +14,7 @@ const MenuBtn = ({ isOpen, toggleMenu }) => {
         </div>
       </div>
       <div className="menu-copy">
-        <p>Menu</p>
+        <p>{label}</p>
       </div>
     </div>
   );

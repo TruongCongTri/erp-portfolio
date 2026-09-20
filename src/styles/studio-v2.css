@@ -1,0 +1,294 @@
+/* Sections unique to /studio-v2. Everything shared with /studio (the hero,
+   the core-value facts, the history block) still comes from studio.css. */
+
+.studio-v2 .studio-hero .studio-hero-col:nth-child(1) p {
+  width: 100%;
+  color: var(--base-350);
+}
+
+.studio-v2 .studio-hero .studio-hero-col:nth-child(1) h2 {
+  color: var(--base-100);
+  margin-top: 2rem;
+}
+
+.studio-v2 .studio-hero .studio-hero-col:nth-child(2) h3 {
+  color: var(--base-100);
+}
+
+.studio-v2 .studio-hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.studio-v2-section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 60rem;
+}
+
+.studio-v2-section-header p.mono {
+  color: var(--base-350);
+}
+
+.studio-v2-section-header h3 {
+  color: var(--base-200);
+}
+
+/* Mission - vision */
+
+.studio-v2-purpose {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 6rem 0;
+}
+
+.studio-v2-purpose .container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.studio-v2-purpose-grid {
+  display: flex;
+  gap: 2rem;
+}
+
+.studio-v2-purpose-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.studio-v2-purpose-card p.mono {
+  color: var(--base-250);
+}
+
+.studio-v2-purpose-card h2,
+.studio-v2-purpose-card h3 {
+  color: var(--base-100);
+}
+
+.studio-v2-purpose-card p.md {
+  color: var(--base-200);
+}
+
+/* Core values: reuses .more-facts, plus a header above the facts */
+
+.studio-v2-values .studio-v2-section-header {
+  align-items: center;
+  text-align: center;
+}
+
+.studio-v2-values .more-facts-items {
+  padding: 6rem 4rem;
+}
+
+/* Strengths */
+
+.studio-v2-strengths {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 6rem 0;
+}
+
+.studio-v2-strengths .container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.studio-v2-strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.studio-v2-strength {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.studio-v2-strength-index {
+  color: var(--base-250);
+}
+
+.studio-v2-strength h3 {
+  font-size: 2rem;
+  color: var(--base-100);
+  margin-bottom: 0.5rem;
+}
+
+.studio-v2-strength ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+}
+
+.studio-v2-strength li {
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--base-200);
+}
+
+.studio-v2-strength li::before {
+  content: "";
+  position: absolute;
+  top: 0.55rem;
+  left: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background-color: var(--base-250);
+}
+
+/* Leadership */
+
+.studio-v2-leadership {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 6rem 0;
+}
+
+.studio-v2-leadership .container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.studio-v2-leadership-body {
+  display: flex;
+  gap: 4rem;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.studio-v2-leadership-aside {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* The portrait is a cut-out, so it is contained rather than cropped. */
+.studio-v2-leadership-portrait {
+  width: 100%;
+  height: 26rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.studio-v2-leadership-portrait img {
+  object-fit: contain;
+  object-position: bottom center;
+}
+
+.studio-v2-leadership-aside p.mono {
+  color: var(--base-250);
+}
+
+.studio-v2-leadership-aside h2 {
+  color: var(--base-100);
+}
+
+.studio-v2-leadership-message {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: var(--base-200);
+}
+
+.studio-v2-leadership-signature {
+  margin-top: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(123, 169, 244, 0.35);
+}
+
+.studio-v2-leadership-signature h3 {
+  font-size: 1.75rem;
+  color: var(--base-100);
+  text-transform: uppercase;
+}
+
+.studio-v2-leadership-signature p.mono {
+  color: var(--base-350);
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 1400px) {
+  .studio-v2-strengths-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .studio-v2 .studio-hero .studio-hero-col:nth-child(1) h2 {
+    margin-top: 1rem;
+  }
+
+  .studio-v2-purpose,
+  .studio-v2-strengths,
+  .studio-v2-leadership {
+    padding: 3rem 0;
+  }
+
+  .studio-v2-purpose .container,
+  .studio-v2-strengths .container,
+  .studio-v2-leadership .container {
+    gap: 2.5rem;
+  }
+
+  .studio-v2-purpose-grid {
+    flex-direction: column;
+  }
+
+  .studio-v2-purpose-card {
+    padding: 2rem;
+  }
+
+  .studio-v2-values .more-facts-items {
+    padding: 3rem 2rem;
+  }
+
+  .studio-v2-strengths-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .studio-v2-strength {
+    padding: 2rem;
+  }
+
+  .studio-v2-strength h3 {
+    font-size: 1.5rem;
+  }
+
+  .studio-v2-leadership-body {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .studio-v2-leadership-portrait {
+    height: 18rem;
+    margin-bottom: 0;
+  }
+
+  .studio-v2-leadership-signature h3 {
+    font-size: 1.25rem;
+  }
+}

@@ -1,15 +1,19 @@
 "use client";
 import "./Gallery.css";
-import items from "./items";
+import { useI18n } from "@/i18n/client";
 
 import { useEffect, useRef, useState } from "react";
 
 import gsap from "gsap";
+import { isTranslatedPage } from "@/lib/i18n";
+import { splitLines } from "@/lib/motion";
 import { CustomEase } from "gsap/dist/CustomEase";
 
 let SplitType;
 
 export default function Gallery() {
+  const { t } = useI18n();
+  const items = t.blueprints.titles;
   const containerRef = useRef(null);
   const canvasRef = useRef(null);
   const overlayRef = useRef(null);
@@ -136,11 +140,12 @@ export default function Gallery() {
   }, []);
 
   const itemCount = 20;
-  const itemGap = 150;
+  const itemGap = 40;
   const columns = 4;
   const itemWidth = 120;
   const itemHeight = 160;
-  const masonryOffset = 125;
+  // Every other row shifts by half a column so the grid stays staggered.
+  const masonryOffset = (itemWidth + itemGap) / 2;
 
   const stateRef = useRef({
     isDragging: false,
@@ -176,7 +181,9 @@ export default function Gallery() {
     if (titleSplit) titleSplit.revert();
     projectTitleElement.textContent = title;
 
-    stateRef.current.titleSplit = new SplitType(projectTitleElement, {
+    stateRef.current.titleSplit = isTranslatedPage()
+      ? splitLines(projectTitleElement)
+      : new SplitType(projectTitleElement, {
       types: "words",
     });
     gsap.set(stateRef.current.titleSplit.words, { y: "100%" });
@@ -227,7 +234,8 @@ export default function Gallery() {
     if (!canvas) return;
 
     const isMobile = window.innerWidth <= 1000;
-    const buffer = isMobile ? 0.8 : 1.5;
+    // Off-screen margin (in viewports) kept rendered; sized for the 40px gap.
+    const buffer = isMobile ? 0.5 : 0.6;
     const viewWidth = window.innerWidth * (1 + buffer);
     const viewHeight = window.innerHeight * (1 + buffer);
     const movingRight = state.targetX > state.currentX;
@@ -297,7 +305,7 @@ export default function Gallery() {
         const itemNum = (Math.abs(row * columns + col) % itemCount) + 1;
         const img = document.createElement("img");
         img.src = `/archive/archive-${itemNum}.jpg`;
-        img.alt = `Image ${itemNum}`;
+        img.alt = t.blueprints.imageAlt.replace("{n}", itemNum);
         item.appendChild(img);
 
         item.addEventListener("click", (e) => {

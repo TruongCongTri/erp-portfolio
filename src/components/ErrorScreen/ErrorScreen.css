@@ -1,0 +1,71 @@
+.error-screen-hero {
+  position: relative;
+  width: 100vw;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: var(--base-100);
+}
+
+/* The status code sits behind the text, like ©26 on the contact page */
+.error-screen-code {
+  position: absolute;
+  right: 2rem;
+  bottom: -2vw;
+  font-size: 28vw;
+  font-weight: 450;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  color: var(--base-450);
+  opacity: 0.55;
+  pointer-events: none;
+  user-select: none;
+}
+
+.error-screen-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 48rem;
+}
+
+.error-screen-hero .mono {
+  color: var(--base-350);
+}
+
+.error-screen-hero h1 {
+  max-width: 20ch;
+}
+
+.error-screen-hero p.md {
+  max-width: 46ch;
+  color: var(--base-200);
+}
+
+.error-screen-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .error-screen-hero {
+    align-items: flex-end;
+    padding: 8rem 0 6rem 0;
+  }
+
+  .error-screen-code {
+    right: 1rem;
+    bottom: auto;
+    top: 6rem;
+    font-size: 40vw;
+  }
+
+  .error-screen-actions {
+    gap: 0.5rem;
+  }
+}

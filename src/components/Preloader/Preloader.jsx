@@ -1,5 +1,5 @@
 "use client";
-import "@/app/preloader.css";
+import "@/styles/preloader.css";
 import { useEffect, useState } from "react";
 
 import gsap from "gsap";
@@ -133,7 +133,7 @@ export default function Preloader() {
   // The loader is purely decorative: its text is hidden from crawlers and
   // assistive tech so the page's first heading is the real hero heading.
   return (
-    <div className="loader" aria-hidden="true">
+    <div className="loader" aria-hidden="true" data-intro>
       <div className="overlay">
         <div className="block"></div>
         <div className="block"></div>

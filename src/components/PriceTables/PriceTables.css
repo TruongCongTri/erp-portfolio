@@ -1,0 +1,201 @@
+/* Card contents for the two price scenes. The scenes themselves come from
+   PinnedSteps.css (the rates) and Orbit.css (the packages). */
+
+/* Rate cards */
+
+.rate-note {
+  color: var(--base-250);
+}
+
+.rate-prices {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(123, 169, 244, 0.25);
+}
+
+.rate-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.25);
+}
+
+.rate-row dt p {
+  color: var(--base-200);
+}
+
+.rate-row dd {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.rate-value {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+  color: var(--base-100);
+}
+
+.rate-unit {
+  color: var(--base-250);
+}
+
+/* Package cards */
+
+.package-count {
+  color: var(--base-250);
+}
+
+.package-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.package-group-title {
+  color: var(--base-100);
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.25);
+}
+
+.package-group ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  list-style: none;
+}
+
+.package-group li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  color: var(--base-200);
+}
+
+/* Items the package does not carry stay readable but clearly stepped back. */
+.package-group li.no {
+  color: rgba(152, 174, 205, 0.5);
+}
+
+.price-tick {
+  flex-shrink: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.price-tick.yes {
+  color: var(--base-250);
+}
+
+.price-tick.no {
+  color: rgba(120, 147, 186, 0.45);
+}
+
+@media (max-width: 1400px) {
+  .rate-value {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .rate-row {
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .rate-value {
+    font-size: 1.75rem;
+  }
+}
+
+/* Material cards: one package per card, every item with the make it uses */
+
+.material-price {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+  color: var(--base-100);
+  margin-bottom: 0.5rem;
+}
+
+.material-price-unit {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--base-250);
+}
+
+.material-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.material-group-title {
+  color: var(--base-100);
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.25);
+}
+
+.material-group dl {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-row {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.15);
+}
+
+.material-row dt {
+  color: var(--base-100);
+}
+
+.material-row dd {
+  color: var(--base-200);
+}
+
+.material-note {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--base-350);
+  margin-top: 0.35rem;
+}
+
+/* An item the package does not carry stays listed, but steps back. */
+.material-row.none dt,
+.material-row.none dd {
+  color: rgba(152, 174, 205, 0.5);
+}
+
+@media (max-width: 1400px) {
+  .material-price {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .material-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .material-price {
+    font-size: 1.75rem;
+  }
+}

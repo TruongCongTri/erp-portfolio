@@ -1,0 +1,199 @@
+/* The HowWeWork scene, shared: pinned header and pills on the left, cards
+   scrolling past on the right. Card contents are styled by whoever uses it. */
+
+.pinned-steps-container {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  min-height: 100svh;
+  background-color: var(--base-500);
+}
+
+.pinned-steps {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  color: var(--base-100);
+  display: flex;
+  gap: 2rem;
+}
+
+.pinned-steps .pinned-steps-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100vh;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.pinned-steps .pinned-steps-header-content {
+  padding-top: 10rem;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pinned-steps .pinned-steps-label {
+  color: var(--base-350);
+}
+
+.pinned-steps .pinned-steps-header-content h3 {
+  color: var(--base-100);
+  margin-bottom: 2rem;
+}
+
+.pinned-steps .pinned-steps-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pinned-steps .pinned-steps-pill {
+  position: relative;
+  gap: 0.4rem;
+  padding: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(123, 169, 244, 0.45);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.pinned-steps .pinned-steps-pill p {
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+/* The label slides out of the pill; laid out with the number (not positioned
+   by hand) so any label width fits, e.g. "Bước" / "Step". */
+.pinned-steps .pinned-steps-pill-label {
+  max-width: 0;
+  flex-shrink: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.pinned-steps .pinned-steps-pill-index {
+  position: relative;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.pinned-steps .pinned-steps-pill.active {
+  width: 8rem;
+  color: var(--base-500);
+  background-color: var(--base-100);
+  border-color: var(--base-100);
+}
+
+.pinned-steps .pinned-steps-pill.active .pinned-steps-pill-label {
+  max-width: 6rem;
+  opacity: 1;
+}
+
+.pinned-steps .pinned-steps-cards {
+  flex: 2;
+  position: relative;
+  margin-left: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 8rem 0;
+  will-change: transform;
+}
+
+.pinned-steps .pinned-steps-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 55vh;
+  justify-content: center;
+  background-color: var(--base-450);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.pinned-steps .pinned-steps-card-index h2 {
+  color: var(--base-250);
+  font-size: 3rem;
+}
+
+.pinned-steps .pinned-steps-card-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--base-200);
+}
+
+.pinned-steps .pinned-steps-card-copy h3 {
+  font-size: 2rem;
+  color: var(--base-100);
+}
+
+@media (max-width: 1400px) {
+  .pinned-steps .pinned-steps-card {
+    padding: 2rem;
+  }
+
+  .pinned-steps .pinned-steps-card-copy h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pinned-steps {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .pinned-steps .pinned-steps-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .pinned-steps .pinned-steps-pills {
+    display: none;
+  }
+
+  .pinned-steps .pinned-steps-header-content {
+    padding-top: 2rem;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .pinned-steps .pinned-steps-header-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .pinned-steps .pinned-steps-cards {
+    margin-left: 0;
+    padding: 1rem 0;
+  }
+
+  .pinned-steps .pinned-steps-card {
+    min-height: auto;
+    padding: 1.5rem;
+  }
+
+  .pinned-steps .pinned-steps-card-index h2 {
+    font-size: 2rem;
+  }
+
+  .pinned-steps .pinned-steps-card-copy h3 {
+    font-size: 1.5rem;
+  }
+}

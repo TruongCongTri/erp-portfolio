@@ -1,0 +1,109 @@
+/* Mirrors the Reserve button: .top-bar padding (1rem 2rem) + .btn margin
+   (1rem) puts it 2rem from the top/right; this sits 2rem from bottom/right. */
+.floating-action {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 10;
+  /* Hidden below the viewport until GSAP slides it up */
+  transform: translateY(calc(100% + 2rem));
+}
+
+.floating-action .btn {
+  width: 10rem;
+  margin: 0;
+}
+
+/* One down-arrow icon; flipped for "Go to top" */
+.floating-action-arrow {
+  display: flex;
+}
+
+.floating-action.to-top .floating-action-arrow svg {
+  transform: rotate(180deg);
+}
+
+/* While the page scrolls, the arrow keeps sliding out of the circle in the
+   scroll direction and re-entering from the opposite side. */
+.floating-action.scrolling .floating-action-arrow {
+  animation: floating-action-down 0.6s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+.floating-action.to-top.scrolling .floating-action-arrow {
+  animation-name: floating-action-up;
+}
+
+@keyframes floating-action-down {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  45% {
+    transform: translateY(130%);
+    opacity: 0;
+  }
+  46% {
+    transform: translateY(-130%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes floating-action-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  45% {
+    transform: translateY(-130%);
+    opacity: 0;
+  }
+  46% {
+    transform: translateY(130%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-action.scrolling .floating-action-arrow {
+    animation: none;
+  }
+}
+
+body.menu-open .floating-action {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 1000px) {
+  .floating-action {
+    right: 1.5rem;
+  }
+
+  /* Icon-only on small screens. Needs a fixed width: with `auto`, the hover
+     rule (.circle width: 100%) collapses the button to its padding and taps
+     fall through to the page behind it. */
+  .floating-action .btn {
+    width: calc(3rem + 0.3rem);
+  }
+
+  .floating-action .btn .button-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+
+  .floating-action .btn:hover .icon {
+    transform: none;
+  }
+}

@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
 import { useViewTransition } from "@/hooks/useViewTransition";
-import { resolveDelay, waitForFonts } from "@/lib/motion";
+import { resolveDelay, splitLines, waitForFonts } from "@/lib/motion";
 
 import { IoMdArrowForward } from "react-icons/io";
 
@@ -46,7 +46,7 @@ const AnimatedButton = ({
       const initializeAnimation = async () => {
         await waitForFonts();
 
-        const split = SplitText.create(textRef.current, {
+        const split = splitLines(textRef.current, {
           type: "lines",
           mask: "lines",
           linesClass: "line++",
@@ -134,7 +134,9 @@ const AnimatedButton = ({
       <div className="icon" ref={iconRef}>
         {icon ?? <IoMdArrowForward />}
       </div>
-      <span className="button-text" ref={textRef}>
+      {/* keyed so a label change replaces the node (Google Translate
+          would otherwise keep showing the old translated text) */}
+      <span className="button-text" ref={textRef} key={label}>
         {label}
       </span>
     </>

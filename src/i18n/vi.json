@@ -1,0 +1,2430 @@
+{
+  "meta": {
+    "homeTitle": "Chính Nam - Xây dựng ngôi nhà hạnh phúc",
+    "homeDescription": "Chính Nam - Công ty Cổ phần Thiết kế Xây dựng: thiết kế và thi công biệt thự, dinh thự, nhà phố, resort, nhà hàng, khách sạn, văn phòng tại Đồng Nai, TP. Hồ Chí Minh và toàn quốc.",
+    "studioTitle": "Giới thiệu",
+    "studioDescription": "Công ty Cổ phần Thiết kế Xây dựng Chính Nam thành lập ngày 22/11/2012 tại Đồng Nai. Sứ mệnh, tầm nhìn, giá trị cốt lõi Tín - Tinh - Tâm - Trung - Tiến và lịch sử phát triển.",
+    "connectTitle": "Liên hệ",
+    "connectDescription": "Liên hệ Chính Nam: email info@chinhnambkd.vn, hotline 0944 454 199. Trụ sở tại TP. Đồng Nai, văn phòng đại diện tại Đồng Nai và TP. Hồ Chí Minh.",
+    "blueprintsTitle": "Thư viện dự án",
+    "blueprintsDescription": "Thư viện hình ảnh các công trình kiến trúc, nội thất và cảnh quan do Chính Nam thiết kế và thi công.",
+    "spacesTitle": "Dự án",
+    "spacesDescription": "Danh sách dự án thiết kế và thi công của Chính Nam: biệt thự, nhà phố, resort, công trình văn hóa và thương mại.",
+    "hiringTitle": "Tuyển dụng",
+    "hiringDescription": "Cơ hội nghề nghiệp tại Chính Nam: kỹ thuật công trình, kiến trúc - thiết kế, kinh doanh, kế toán - tài chính, hành chính - nhân sự.",
+    "reviewsTitle": "Đánh giá khách hàng",
+    "reviewsDescription": "Cảm nhận của khách hàng về các công trình do Chính Nam thiết kế và thi công.",
+    "spaceDescription": "{name} - {location}. Dự án thiết kế và thi công bởi Chính Nam.",
+    "jobTitle": "Tuyển dụng {name}",
+    "jobDescription": "Chính Nam tuyển {quantity} {name} tại {location}. Ứng tuyển trực tuyến ngay.",
+    "reviewTitle": "{title} - Đánh giá của {name}",
+    "reviewDescription": "Đánh giá của {name} về công trình {title}.",
+    "studioV2Title": "Giới thiệu",
+    "studioV2Description": "Hơn một thập kỷ hình thành và phát triển: sứ mệnh, tầm nhìn, giá trị cốt lõi Tín - Tinh - Tâm - Trung - Tiến, thế mạnh, ban lãnh đạo và hệ sinh thái Chính Nam.",
+    "allInOneTitle": "Xây nhà trọn gói",
+    "allInOneDescription": "Xây nhà trọn gói Chính Nam: khảo sát, thiết kế, thi công, nội thất và hoàn công trong một đầu mối. Quy trình 9 bước và tiến độ thi công rõ ràng.",
+    "pricingTitle": "Bảng giá",
+    "pricingDescription": "Bảng giá xây nhà trọn gói Chính Nam: đơn giá thiết kế kỹ thuật thi công cho nhà phố, biệt thự, dinh thự và thành phần hồ sơ của từng gói.",
+    "designTitle": "Tư vấn thiết kế",
+    "designDescription": "Tư vấn thiết kế Chính Nam: thiết kế kiến trúc và nội thất gói tiêu chuẩn & cao cấp, kèm báo giá thiết kế kỹ thuật thi công và thiết kế nội thất theo loại công trình.",
+    "designPricingTitle": "Báo giá thiết kế",
+    "designPricingDescription": "Báo giá thiết kế Chính Nam: đơn giá thiết kế kỹ thuật thi công và thiết kế nội thất theo loại công trình và phong cách, tính trên mỗi m² sàn.",
+    "legalTitle": "Hỗ trợ pháp lý",
+    "legalDescription": "Hỗ trợ pháp lý xây dựng nhà ở riêng lẻ cùng Chính Nam: hồ sơ đề nghị cấp phép xây dựng, hồ sơ thông báo khởi công và hồ sơ đề nghị nghiệm thu.",
+    "constructionTitle": "Thi công xây dựng",
+    "constructionDescription": "Thi công xây dựng phần thô cùng Chính Nam: hạng mục phần thô, tiến độ thi công cho nhà phố và biệt thự, đội ngũ kỹ sư và công nhân chuyên nghiệp.",
+    "constructionPricingTitle": "Báo giá thi công phần thô",
+    "constructionPricingDescription": "Báo giá thi công phần thô Chính Nam: ba gói vật tư từ 3.800.000 đến 4.750.000 VND/m², kèm chi tiết vật tư xây dựng của từng gói."
+  },
+  "common": {
+    "reserve": "Đặt lịch",
+    "backToTop": "Lên đầu trang",
+    "language": "Ngôn ngữ",
+    "menu": "Phụ lục"
+  },
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "projects": "Dự Án",
+    "reviews": "Đánh Giá",
+    "gallery": "Thư Viện",
+    "contact": "Liên Hệ",
+    "careers": "Tuyển Dụng",
+    "services": "Dịch Vụ",
+    "turnkey": "Xây Nhà Trọn Gói",
+    "design": "Tư Vấn Thiết Kế",
+    "construction": "Thi Công Xây Dựng",
+    "legal": "Hỗ Trợ Pháp Lý",
+    "contactLabel": "Liên hệ",
+    "headquarters": "Trụ sở chính",
+    "hqLine1": "55/56T Nguyễn Văn Tiên, ",
+    "hqLine2": "khu phố 11A, phường Tân Triều, TP. Đồng Nai.",
+    "social": "Mạng xã hội"
+  },
+  "footer": {
+    "tagline": "Không gian giản dị, tinh tế và bền vững.",
+    "quote": "Chúng tôi tin rằng thiết kế không phải là trang trí, mà là cấu trúc thầm lặng định hình trải nghiệm sống.",
+    "developedBy": "Phát triển bởi",
+    "cookies": "Trang web này sử dụng cookie.",
+    "rights": "Bảo lưu mọi quyền",
+    "navLabel": "Liên kết chân trang"
+  },
+  "home": {
+    "heroLine1": "XÂY DỰNG",
+    "heroLine2": "tạo",
+    "heroLine3": "NIỀM TIN",
+    "tagline": "Chính Nam - Xây dựng ngôi nhà hạnh phúc",
+    "discover": "Khám phá thêm",
+    "heroImageAlt": "Công trình kiến trúc do Chính Nam thiết kế và thi công",
+    "stats": [
+      {
+        "count": "225+",
+        "label": "Công trình thiết kế đã hoàn thành"
+      },
+      {
+        "count": "36",
+        "label": "Dự án đang triển khai"
+      },
+      {
+        "count": "12",
+        "label": "Đối tác đa lĩnh vực"
+      },
+      {
+        "count": "98%",
+        "label": "Khách hàng quay lại hợp tác"
+      }
+    ],
+    "mission": "Chính Nam, nơi hội tụ những con người có cùng tư tưởng: sống và làm việc trong hạnh phúc, mang sứ mệnh đem “Ngôi nhà hạnh phúc” đến mỗi gia đình - Nơi góp phần tạo nên cuộc sống an lành, hạnh phúc và thịnh vượng cho gia chủ.",
+    "servicesLabel": "Lĩnh vực hoạt động chính",
+    "servicesIntro": "Chính Nam đồng hành cùng Quý khách hàng mang đến các giải pháp thiết kế, xây dựng công trình dân dụng:",
+    "services": [
+      "Biệt thự",
+      "Dinh thự",
+      "Nhà phố",
+      "Resort",
+      "Nhà hàng",
+      "Khách sạn",
+      "Văn phòng",
+      "Khu dân cư",
+      "+"
+    ],
+    "featuredCallout": "Dự án Chính Nam",
+    "featuredTitle": "Danh sách những dự án gần đây được Chính Nam thiết kế và thi công",
+    "reviewsCallout": "Đánh giá của khách hàng",
+    "galleryImageAlt": "Hình ảnh dự án Chính Nam",
+    "galleryCountLabel": "Hình ảnh dự án",
+    "galleryText": "Cùng chiêm ngưỡng những công trình làm nên dấu ấn của Chính Nam. Từ nội thất ấm cúng đến cảnh quan rộng mở, mỗi hình ảnh là một góc nhìn riêng, biết đâu sẽ khơi nguồn ý tưởng cho ngôi nhà của bạn.",
+    "galleryButton": "Xem thư viện",
+    "cta": {
+      "header": "Chính Nam",
+      "callout": "Không gian hòa nhịp cùng thời gian",
+      "description": "Chúng tôi thiết kế dựa trên nhịp điệu, tỷ lệ và ánh sáng, để mỗi không gian càng thêm ý nghĩa theo năm tháng sử dụng."
+    }
+  },
+  "studio": {
+    "introBefore": "Chính Nam - Xây dựng ngôi nhà hạnh phúc Công ty Cổ phần Thiết kế Xây dựng Chính Nam được thành lập ",
+    "introHighlight": "ngày 22 tháng 11 năm 2012",
+    "introAfter": ", mang sứ mệnh phát triển các dự án xây dựng dân dụng ở TP. Đồng Nai, đồng thời mở rộng thực hiện các dự án trên cả nước. Và đến nay, Chính Nam đã sẵn sàng phục vụ cho Quý khách hàng trên toàn quốc.",
+    "missionLabel": "Sứ mệnh",
+    "mission": "Trở thành một tổ chức thiết kế và xây dựng phát triển trường tồn, ở đó là những con người sống, làm việc trong hạnh phúc và lan tỏa tình yêu thương, hạnh phúc đến từng công trình và khắp muôn nơi.",
+    "visionLabel": "Tầm nhìn",
+    "visionTitle": "Xây dựng ngôi nhà hạnh phúc",
+    "vision": "Xây dựng ngôi nhà hạnh phúc – kiến tạo không gian sống an lành, hạnh phúc, thịnh vượng và hiển vinh cho gia chủ.",
+    "values": [
+      {
+        "title": "Tín",
+        "text": "Uy tín - Giữ chữ tín như giữ con ngươi"
+      },
+      {
+        "title": "Tinh",
+        "text": "Con người tinh thông sản phẩm tinh hoa"
+      },
+      {
+        "title": "Tâm",
+        "text": "Chữ tâm là nền móng cho mọi hành động và quyết định"
+      },
+      {
+        "title": "Trung",
+        "text": "Trung thực, trung thành với tổ chức và khách hàng"
+      },
+      {
+        "title": "Tiến",
+        "text": "Cầu tiến, cải tiến, ứng dụng công nghệ tiên tiến. Tất cả thành viên Chính Nam không ngừng tiến bộ mỗi ngày để trở thành tổ chức tiên tiến."
+      }
+    ],
+    "cta": {
+      "header": "Kho lưu trữ",
+      "callout": "Thiết kế lên tiếng qua hình khối",
+      "description": "Mỗi dự án kể một câu chuyện về ánh sáng, vật liệu và nhịp điệu. Khám phá cách ý tưởng thành hình và trở thành những không gian bền vững."
+    },
+    "overviewLabel": "Sứ mệnh & Tầm nhìn",
+    "valuesLabel": "Giá trị cốt lõi"
+  },
+  "studioV2": {
+    "introLabel": "Giới thiệu",
+    "introTitle": "Hơn một thập kỷ hình thành và phát triển",
+    "introHeading": "Chính Nam - Xây Dựng Ngôi Nhà Hạnh Phúc",
+    "introBefore": "Công ty Cổ phần Thiết kế Xây dựng Chính Nam được thành lập ",
+    "introHighlight": "ngày 22 tháng 11 năm 2012",
+    "introAfter": ", mang sứ mệnh phát triển các dự án xây dựng dân dụng ở TP. Đồng Nai, đồng thời mở rộng thực hiện các dự án trên cả nước. Và đến nay, Chính Nam đã sẵn sàng phục vụ cho Quý khách hàng trên toàn quốc.",
+    "purposeLabel": "Sứ mệnh - Tầm nhìn",
+    "visionLabel": "Tầm nhìn",
+    "vision": "Trở thành một tổ chức thiết kế và xây dựng phát triển trường tồn, ở đó là những con người sống, làm việc trong hạnh phúc và lan tỏa tình yêu thương, hạnh phúc đến từng công trình và khắp muôn nơi.",
+    "missionLabel": "Sứ mệnh",
+    "missionTitle": "Xây dựng ngôi nhà hạnh phúc",
+    "mission": "Xây dựng ngôi nhà hạnh phúc – kiến tạo không gian sống an lành, hạnh phúc, thịnh vượng và hiển vinh cho gia chủ.",
+    "valuesLabel": "Giá trị cốt lõi",
+    "valuesIntro": "Công ty luôn nổ lực phát huy những giá trị cốt lõi bền vững đó là: TÍN - TINH - TÂM - TRUNG - TIẾN",
+    "values": [
+      {
+        "title": "Tín",
+        "text": "Uy tín - Giữ chữ tín như giữ con ngươi"
+      },
+      {
+        "title": "Tinh",
+        "text": "Con người tinh thông sản phẩm tinh hoa"
+      },
+      {
+        "title": "Tâm",
+        "text": "Chữ tâm là nền móng cho mọi hành động và quyết định"
+      },
+      {
+        "title": "Trung",
+        "text": "Trung thực, trung thành với tổ chức và khách hàng"
+      },
+      {
+        "title": "Tiến",
+        "text": "Cầu tiến, cải tiến, ứng dụng công nghệ tiên tiến. Tất cả thành viên Chính Nam không ngừng tiến bộ mỗi ngày để trở thành tổ chức tiên tiến."
+      }
+    ],
+    "strengthsLabel": "Những thế mạnh",
+    "strengthsIntro": "Đội ngũ Kiến trúc sư, Kỹ sư hùng hậu, nhiệt huyết, chuyên môn cao và nhiệt huyết với nghề thiết kế, xây dựng.",
+    "strengths": [
+      {
+        "title": "Con người",
+        "items": [
+          "Các thành viên luôn phối hợp chặt chẽ, thường xuyên cập nhật công nghệ mới và xu hướng thiết kế mới.",
+          "Mỗi thành viên tại Chính Nam được tạo điều kiện tối đa để phát triển.",
+          "Công tác đào tạo diễn ra liên tục và phát triển không ngừng."
+        ]
+      },
+      {
+        "title": "Hệ thống quản trị",
+        "items": [
+          "Tổ chức hệ điều hành trung tâm, có sự giám sát chặt chẽ, kiểm tra, đánh giá định kỳ.",
+          "Hệ thống Quy chế, Quy định, Quy trình khoa học.",
+          "Áp dụng công nghệ số trong công việc và quá trình quản lý, chăm sóc khách hàng."
+        ]
+      },
+      {
+        "title": "Sứ mệnh",
+        "items": [
+          "Xây dựng ngôi nhà hạnh phúc – kiến tạo không gian sống an lành, hạnh phúc, thịnh vượng và hiển vinh cho gia chủ."
+        ]
+      },
+      {
+        "title": "Tầm nhìn",
+        "items": [
+          "Trở thành một tổ chức về thiết kế và xây dựng phát triển trường tồn, ở đó là những con người sống, làm việc trong hạnh phúc và lan tỏa tình yêu thương, hạnh phúc đến từng công trình và khắp muôn nơi."
+        ]
+      },
+      {
+        "title": "Công nghệ & giải pháp",
+        "items": [
+          "Không ngừng nghiên cứu, học hỏi và sáng tạo giải pháp mới trong thiết kế. Áp dụng công nghệ tiên tiến, máy móc thiết bị kỹ thuật hiện đại vào công việc, công tác thi công. Cập nhật, cải tiến, ứng dụng, sử dụng nguồn nguyên vật liệu xây dựng mới của thế giới phục vụ công trình."
+        ]
+      }
+    ],
+    "leadershipLabel": "Ban lãnh đạo",
+    "leadership": {
+      "label": "Thông điệp",
+      "title": "Chủ tịch HĐQT",
+      "paragraphs": [
+        "Sứ mệnh của Chính Nam là đem những ngôi nhà hạnh phúc đến mỗi gia đình, là nơi góp phần tạo ra cuộc sống an lành, hạnh phúc thăng hoa và thịnh vượng cho Khách hàng. Ngôi nhà hạnh phúc được thiết kế và xây dựng bằng đội ngũ Kỹ sư, Kiến trúc sư, Công nhân kỹ thuật có trình độ chuyên môn cao, yêu nghề, nhiệt huyết và luôn lấy “Liêm chính” làm kim chỉ nam cho mọi hoạt động.",
+        "Chính Nam là người bạn đồng hành cùng Khách hàng, đề xuất những giải pháp thiết kế, tài chính tối ưu kiến tạo không gian sống hạnh phúc và thịnh vượng theo phong cách riêng của Khách hàng.",
+        "Kính chúc Quý Khách hàng mạnh khỏe, thành công và thịnh vượng.",
+        "Trân trọng."
+      ],
+      "name": "Trần Quang Huấn",
+      "role": "Chủ tịch HĐQT"
+    },
+    "ecosystemLabel": "Hệ sinh thái",
+    "ecosystemIntro": "Chính Nam xây dựng hệ sinh thái khép kín từ ý tưởng thiết kế; chuẩn hóa chất lượng nguyên vật liệu xây dựng; đầu tư trang thiết bị máy móc thi công hiện đại; quy trình phối hợp nhiều bộ phận để cùng đưa ra giải pháp ưu việt cho Quý Khách hàng.",
+    "ecosystemHint": "Cuộn để đi qua từng đơn vị, hoặc chọn trực tiếp trên sơ đồ",
+    "ecosystemHub": "Hệ sinh thái Chính Nam",
+    "ecosystem": [
+      {
+        "short": "Chính Nam",
+        "name": "Công ty CP Thiết kế Xây dựng Chính Nam",
+        "nameAlt": "Chinh Nam Design Construction Joint Stock Company",
+        "tagline": "Xây Dựng Ngôi Nhà Hạnh Phúc",
+        "description": "Kiến tạo không gian sống hạnh phúc và thịnh vượng."
+      },
+      {
+        "short": "CN Vina",
+        "name": "Công ty Cổ phần Hạ tầng Giao thông Công nghiệp CN Vina",
+        "nameAlt": "CN Vina Industrial Transport Infrastructure Joint Stock Company",
+        "tagline": "Xây Dựng Công Trình Thịnh Vượng",
+        "description": "Đơn vị chuyên thiết kế và thi công các công trình dự án công nghiệp, mang đến những giải pháp xây dựng tối ưu, bền vững và giá trị thịnh vượng lâu dài cho Chủ đầu tư."
+      },
+      {
+        "short": "Nhà Thành Công",
+        "name": "Công ty Cổ phần Đầu tư Phát triển Nhà Thành Công",
+        "nameAlt": "Success Homes Development Investment Joint Stock Company",
+        "tagline": "Nơi sống Hạnh Phúc và Thịnh vượng",
+        "description": "Kiến tạo giải pháp bất động sản thịnh vượng cho gia chủ, phồn vinh cho Đất nước."
+      },
+      {
+        "short": "Viện Phong Thủy",
+        "name": "Công ty TNHH Viện Ứng dụng Năng lượng Phong thủy Chính Nam",
+        "nameAlt": "Chinh Nam Institute of Feng Shui Energy Application Co., Ltd",
+        "tagline": "Năng lượng hài hòa, gia đình thịnh vượng",
+        "description": "Kiến tạo năng lượng phong thủy phù hợp và hài hòa, đem đến không gian sống an lành, hạnh phúc, thịnh vượng cho gia chủ."
+      },
+      {
+        "short": "Học viện Chính Nam",
+        "name": "Công ty Cổ phần Học viện Chính Nam",
+        "nameAlt": "Chinh Nam Academy Joint Stock Company",
+        "tagline": "Kiến tạo Nhà Lãnh đạo Thịnh vượng",
+        "description": "Thao trường rèn luyện bản lĩnh Nhà Lãnh đạo."
+      },
+      {
+        "short": "FAQUA",
+        "name": "Công ty TNHH Phát triển Hạ tầng Giao thông FAQUA",
+        "nameAlt": "FAQUA Transportation Infrastructure Development Company Limited",
+        "tagline": "Kiến tạo đô thị bền vững",
+        "description": "Kiến tạo hạ tầng kỹ thuật và giao thông, đồng hành cùng phát triển quốc gia và tiến trình đô thị hóa."
+      }
+    ],
+    "cta": {
+      "header": "Kho lưu trữ",
+      "callout": "Thiết kế lên tiếng qua hình khối",
+      "description": "Mỗi dự án kể một câu chuyện về ánh sáng, vật liệu và nhịp điệu. Khám phá cách ý tưởng thành hình và trở thành những không gian bền vững."
+    }
+  },
+  "allInOne": {
+    "heroLabel": "Xây nhà trọn gói",
+    "heroTitle": "Một đầu mối, trọn vẹn ngôi nhà",
+    "heroHeading": "Giới thiệu xây nhà trọn gói",
+    "heroBefore": "Xây nhà trọn gói được hiểu là hình thức xây dựng Khách hàng ký kết hợp tác và giao cho một đơn vị xây dựng thực hiện ",
+    "heroHighlight": "từ A đến Z của công trình",
+    "heroAfter": ". Cụ thể, đơn vị xây dựng thực hiện hoàn toàn các khâu từ khảo sát, thiết kế, thi công xây dựng, lắp đặt thiết bị công trình và trực tiếp quản lý thi công tại công trình. Sau khi hoàn thành, Khách hàng chỉ cần tiếp nhận công trình đã được bàn giao và đưa vào sử dụng.",
+    "heroCompany": "Công ty Cổ phần Thiết kế Xây dựng Chính Nam được thành lập từ năm 2012. Hiện tại, Chính Nam được đánh giá là một trong số những đơn vị thiết kế và thi công uy tín hàng đầu tại Đồng Nai. Với trên 13 năm hình thành và phát triển, đội ngũ nhân sự giàu kinh nghiệm, giỏi chuyên môn, nhiệt huyết với nghề, Chính Nam luôn nỗ lực không ngừng để nâng cao chất lượng chuyên môn thiết kế, xây dựng nhằm mang đến những giải pháp ưu việt cho Quý khách hàng và mong muốn mỗi khách hàng khi đến với Công ty luôn nhận được sự an tâm, hài lòng và hạnh phúc trong suốt quá trình từ khi lên ý tưởng thiết kế, thi công xây dựng đến sử dụng ngôi nhà hạnh phúc.",
+    "benefitsLabel": "Lợi ích xây nhà trọn gói",
+    "benefitsTitle": "Tại sao nên chọn giải pháp xây nhà trọn gói?",
+    "benefits": [
+      {
+        "title": "Tối ưu thời gian và công sức",
+        "text": "Với giải pháp trọn gói, chủ đầu tư không cần phải mất nhiều thời gian và công sức để giám sát và theo dõi các khâu thi công tại công trình. Mọi nhu cầu liên quan đến quá trình xây dựng sẽ được Chính Nam quản lý một cách chuyên nghiệp và theo đúng quy trình giúp chủ đầu tư an tâm và tiết kiệm thời gian."
+      },
+      {
+        "title": "Tối ưu chi phí xây dựng",
+        "text": "Giải pháp trọn gói cho phép bạn kiểm soát tổng chi phí xây dựng một cách hiệu quả. Bạn không cần phải lo lắng về việc chi phí không dự đoán được và việc chi phí tăng cao bất ngờ trong quá trình xây dựng."
+      },
+      {
+        "title": "Thiết kế phù hợp với nhu cầu của gia chủ và đảm bảo yếu tố kỹ thuật cũng như tính thẩm mỹ",
+        "text": "Ngôi nhà của bạn sẽ được đảm bảo hài hòa về không gian, đầy đủ công năng tùy theo nhu cầu, sở thích và thể hiện đẳng cấp của khách hàng."
+      },
+      {
+        "title": "Công trình được thực hiện một cách thống nhất từ khâu thiết kế, thi công đến hoàn thiện",
+        "text": "Mỗi hạng mục, mỗi chi tiết đều được quan tâm và giám sát chặt chẽ, thực hiện theo quy trình và đảm bảo chất lượng, độ bền vững của công trình."
+      },
+      {
+        "title": "Đảm bảo tiến độ thi công",
+        "text": "Tiến độ thi công và bàn giao công trình sẽ theo đúng tiến độ thỏa thuận và cam kết theo hợp đồng."
+      }
+    ],
+    "benefitsClosing": "Như vậy, việc lựa chọn giải pháp xây nhà trọn gói chìa khóa trao tay giúp bạn tiết kiệm thời gian, công sức và tài chính, đồng thời đảm bảo chất lượng và tiến độ công trình một cách tối ưu nhất.",
+    "processLabel": "Quy trình thực hiện xây nhà trọn gói Chính Nam",
+    "processIntro": "Chín bước, từ buổi tư vấn đầu tiên đến khi hoàn công: mỗi bước có đầu việc và thời gian thực hiện rõ ràng.",
+    "stepLabel": "Bước",
+    "steps": [
+      {
+        "title": "Tiếp nhận các thông tin (online hoặc offline), tư vấn thiết kế và ký hợp đồng thiết kế",
+        "items": [
+          "Ghi nhận, cập nhật đầy đủ thông tin khách hàng",
+          "Tư vấn trực tiếp (mật độ xây dựng, dự trù chi phí đầu tư, phác tay cơ bản định hướng thiết kế về nhu cầu và mong muốn của khách hàng)",
+          "Ký hợp đồng + khảo sát hiện trạng"
+        ]
+      },
+      {
+        "title": "Thiết kế phương án 2D",
+        "note": "Thời gian thực hiện: từ 5 – 10 ngày",
+        "items": [
+          "Dựa vào nhu cầu và thực trạng khu đất",
+          "Thiết kế phương án mặt bằng bố trí công năng",
+          "Trình phương án 2D + khung thô 3D, thuyết minh phương án tại văn phòng Chính Nam",
+          "Chốt phương án, chuyển sang giai đoạn thiết kế 3D ngoại thất"
+        ]
+      },
+      {
+        "title": "Thiết kế 3D ngoại thất",
+        "note": "Thời gian thực hiện: từ 5 – 15 ngày tùy vào mức độ dự án",
+        "items": [
+          "Dựa vào mặt bằng thiết kế, Chính Nam đưa ra phương án 3D ngoại thất phù hợp với công năng và chi phí đầu tư",
+          "Trình phương án 3D ngoại thất",
+          "Chốt phương án 3D, chuyển sang giai đoạn thiết kế cơ sở"
+        ]
+      },
+      {
+        "title": "Thiết kế cơ sở & chỉnh sửa hồ sơ thiết kế",
+        "note": "Thời gian thực hiện: từ 5 – 20 ngày tùy vào mức độ dự án",
+        "items": [
+          "Sau khi thống nhất phương án 2D - 3D, Chính Nam triển khai thiết kế cơ sở nhằm phục vụ 02 bước: cấp phép xây dựng và báo giá xây dựng gói “nhân công vật tư phần thô”",
+          "Thuyết minh thiết kế, thống nhất các vị trí kỹ thuật (bể tự hoại, công tắc ổ cắm, hệ kết cấu…)",
+          "Sau khi thuyết minh hồ sơ thiết kế cơ sở, Chủ đầu tư xem xét toàn bộ hồ sơ và phản hồi lại Chính Nam để cập nhật"
+        ]
+      },
+      {
+        "title": "Thiết kế nội thất và chỉnh sửa cho phù hợp",
+        "items": [
+          "Trình và thuyết minh phương án 2D: 05 - 10 ngày làm việc",
+          "Thiết kế, trình và thuyết minh phương án 3D: 10 - 30 ngày làm việc (tùy vào mức độ công trình)",
+          "Triển khai chi tiết bản vẽ: 10 - 30 ngày làm việc (tùy vào mức độ công trình)"
+        ]
+      },
+      {
+        "title": "Hoàn thiện và bàn giao hồ sơ thiết kế",
+        "items": [
+          "Bàn giao hồ sơ thiết kế kỹ thuật thi công, hồ sơ dự toán",
+          "Ký biên bản thanh lý hợp đồng tại văn phòng Chính Nam",
+          "Riêng hồ sơ cấp phép sẽ cung cấp Chủ đầu tư khi có phản hồi từ cơ quan chức năng"
+        ]
+      },
+      {
+        "title": "Ký hợp đồng thi công và tiến hành thi công",
+        "items": [
+          "Thi công phần thô",
+          "Thi công phần hoàn thiện",
+          "Thi công nội thất"
+        ]
+      },
+      {
+        "title": "Nghiệm thu và bàn giao công trình",
+        "items": [
+          "Bước kiểm tra, nghiệm thu cần được tiến hành trong suốt thời gian thi công và phải được thực hiện đối với từng công việc chi tiết, từng hạng mục công trình theo quy định về luật xây dựng, áp dụng theo tiêu chuẩn Việt Nam cho từng hạng mục nghiệm thu.",
+          "Bàn giao và hướng dẫn sử dụng, hỗ trợ và tư vấn sau bàn giao: trong suốt quá trình sống trong “Ngôi nhà hạnh phúc”, Chính Nam luôn đồng hành cùng gia chủ.",
+          "Khi có bất kỳ nhu cầu cần hỗ trợ, xin vui lòng liên lạc Phòng chăm sóc khách hàng: 0944 454 199 - (0251) 7 301 139, để Chính Nam tư vấn giải pháp tối ưu nhất, tránh phá hỏng kiến trúc ban đầu và tiết kiệm chi phí."
+        ]
+      },
+      {
+        "title": "Hoàn công",
+        "items": [
+          "Chưa kết thúc ở bàn giao & bảo hành, khâu cuối cùng trong xây nhà trọn gói đó là hoàn công.",
+          "Công ty xây dựng sẽ tư vấn và hỗ trợ gia chủ chuẩn bị thủ tục, các giấy tờ pháp lý theo quy định của pháp luật để hoàn thành trọn vẹn công trình."
+        ]
+      }
+    ],
+    "scheduleLabel": "Tiến độ thi công",
+    "scheduleIntro": "Thời gian thực hiện của từng giai đoạn, theo quy mô công trình.",
+    "scheduleHint": "Cuộn để đi qua từng giai đoạn, hoặc chọn trực tiếp trên sơ đồ",
+    "scheduleHub": "Tiến độ thi công",
+    "schedule": [
+      {
+        "key": "rough",
+        "short": "Phần thô",
+        "title": "Thi công phần thô",
+        "text": "Phần thô là phần rất quan trọng trong mỗi công trình xây dựng. Là công đoạn tạo hình ngôi nhà từ những phần cột, dầm, sàn… để góp phần làm tăng sự vững chắc. Thi công phần thô (bao gồm cả nhân công và vật tư) theo đúng hồ sơ thiết kế, bao gồm:",
+        "items": [
+          "Thi công móng",
+          "Đà kiềng, dầm móng",
+          "Thi công cột",
+          "Thi công bê tông dầm sàn các tầng",
+          "Xây và tô trát tường toàn bộ ngôi nhà",
+          "Thi công phần mái"
+        ],
+        "groupsLabel": "Tiến độ thi công phần thô",
+        "groups": [
+          {
+            "title": "Công trình nhà phố 2 → 3 tầng",
+            "total": "1 → 2 tháng",
+            "rows": [
+              {
+                "task": "Móng, đá kiềng",
+                "duration": "10 → 15 ngày"
+              },
+              {
+                "task": "Cột → dầm sàn các tầng",
+                "duration": "7 → 10 ngày / 1 tầng"
+              },
+              {
+                "task": "Công tác xây tường",
+                "duration": "5 → 7 ngày / 1 tầng"
+              }
+            ]
+          },
+          {
+            "title": "Công trình biệt thự quy mô 150 → 200 m² / tầng",
+            "total": "trung bình 3 → 4 tháng",
+            "rows": [
+              {
+                "task": "Móng, dầm móng",
+                "duration": "15 → 20 ngày"
+              },
+              {
+                "task": "Cột → dầm sàn các tầng",
+                "duration": "12 → 14 ngày / 1 tầng"
+              },
+              {
+                "task": "Công tác xây tường",
+                "duration": "10 → 12 ngày / 1 tầng"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "finishing",
+        "short": "Hoàn thiện",
+        "title": "Thi công phần hoàn thiện",
+        "text": "Kết thúc phần thô thì công trình đã hoàn thành 70%. Tiếp theo là giai đoạn hoàn thiện, là công đoạn khoác lên cho ngôi nhà một chiếc áo xinh xắn theo nhu cầu và phong cách mà gia chủ mong muốn.",
+        "itemsLabel": "Hạng mục thi công hoàn thiện",
+        "items": [
+          "Chống thấm",
+          "Ốp lát gạch, đá",
+          "Trần thạch cao",
+          "Sơn nước",
+          "Lắp đặt cửa và lan can…"
+        ],
+        "groupsLabel": "Tiến độ thi công hoàn thiện",
+        "groups": [
+          {
+            "title": "Công trình nhà phố",
+            "total": "2 → 3 tháng",
+            "rows": []
+          },
+          {
+            "title": "Công trình biệt thự",
+            "total": "5 → 6 tháng",
+            "rows": []
+          }
+        ]
+      },
+      {
+        "key": "interior",
+        "short": "Nội thất",
+        "title": "Thi công nội thất",
+        "text": "Thời gian từ 20 → 30 ngày cho tất cả hạng mục.",
+        "items": [],
+        "groups": [
+          {
+            "title": "Cho tất cả hạng mục",
+            "total": "20 → 30 ngày",
+            "rows": []
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Trọn gói",
+      "callout": "Một hợp đồng, một đội ngũ, một ngôi nhà hạnh phúc",
+      "description": "Từ khảo sát và thiết kế đến thi công, nội thất và hoàn công - Chính Nam nhận trách nhiệm trên từng hạng mục để gia chủ chỉ còn việc dọn vào ở."
+    },
+    "nextLabel": "Tiếp theo",
+    "nextTitle": "Bảng giá",
+    "nextHint": "Tiếp tục cuộn xuống để mở"
+  },
+  "pricing": {
+    "heroLabel": "Bảng giá",
+    "heroTitle": "Chi phí rõ ràng ngay từ đầu",
+    "heroIntro": "Đơn giá thiết kế theo loại công trình và phong cách, cùng thành phần hồ sơ của từng gói. Mọi đơn giá đã bao gồm thuế GTGT và được xác nhận lại theo hiện trạng công trình.",
+    "prevLabel": "Quay lại",
+    "prevTitle": "Xây nhà trọn gói",
+    "prevHint": "Tiếp tục cuộn lên để quay lại",
+    "unit": "VND/m²",
+    "yes": "Có trong gói",
+    "no": "Không có trong gói",
+    "note": "✔ Quyền lợi được nhận · ✖ Quyền lợi không được nhận",
+    "baseLabel": "hạng mục nền tảng, có ở mọi gói",
+    "addsLabel": "bổ sung so với gói trước",
+    "sections": [
+      {
+        "key": "design",
+        "label": "Báo giá thiết kế kỹ thuật thi công",
+        "ratesLabel": "Đơn giá thiết kế",
+        "ratesIntro": "Đơn giá theo loại công trình và phong cách thiết kế, tính trên mỗi m² sàn xây dựng.",
+        "types": [
+          {
+            "name": "Nhà phố",
+            "note": "1 mặt tiền"
+          },
+          {
+            "name": "Nhà phố",
+            "note": "2 mặt tiền"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "2 mặt tiền"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "3 mặt tiền"
+          },
+          {
+            "name": "Dinh thự",
+            "note": "Luxury"
+          }
+        ],
+        "styles": [
+          "Hiện đại",
+          "Cổ điển"
+        ],
+        "rates": [
+          [
+            180000,
+            195000,
+            230000,
+            250000,
+            390000
+          ],
+          [
+            195000,
+            225000,
+            255000,
+            270000,
+            390000
+          ]
+        ],
+        "packagesLabel": "Thành phần hồ sơ",
+        "packagesIntro": "Ba gói hồ sơ, cùng một nền tảng bản vẽ kiến trúc - kết cấu - MEP, khác nhau ở phần mở rộng.",
+        "packages": [
+          "Gói tiêu chuẩn",
+          "Gói cao cấp",
+          "Gói luxury"
+        ],
+        "packageShorts": [
+          "Tiêu chuẩn",
+          "Cao cấp",
+          "Luxury"
+        ],
+        "groups": [
+          {
+            "title": "Phần bản vẽ kiến trúc",
+            "items": [
+              {
+                "name": "Phối cảnh 3D ngoại thất",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bản vẽ cấp phép xây dựng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bản vẽ thiết kế kỹ thuật thi công (các mặt bằng, mặt đứng, mặt cắt và các chi tiết phức tạp)",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bản vẽ 3D nội thất chi tiết các không gian",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bản vẽ triển khai chi tiết kỹ thuật thi công nội thất",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bản vẽ 3D cổng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bản vẽ 3D và triển khai sân vườn tiểu cảnh",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Bộ video trình chiếu phối cảnh thiết kế (gửi email)",
+                "in": [
+                  false,
+                  false,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Phần bản vẽ kết cấu",
+            "items": [
+              {
+                "name": "Mặt bằng móng, cột, đà kiềng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Mặt bằng dầm sàn các tầng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Chi tiết móng, cột",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Chi tiết cấu tạo khác",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Phần bản vẽ thiết kế kỹ thuật điện, nước (MEP) & điều hòa không khí",
+            "items": [
+              {
+                "name": "Hệ thống chiếu sáng các tầng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống điện, cấp điện các tầng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống điện nhẹ (Internet, truyền hình, camera…)",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống chống sét",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống cấp, thoát nước các tầng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống điều hòa không khí các tầng",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống điện thông minh",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống phòng cháy, chữa cháy, chiếu sáng sự cố",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Hệ thống chiếu sáng cảnh quan, sân vườn, sân thể thao, tượng đài…",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "interior",
+        "label": "Báo giá thiết kế nội thất",
+        "ratesLabel": "Báo giá thiết kế nội thất chi tiết",
+        "ratesIntro": "Đơn giá thiết kế nội thất theo loại công trình và phong cách, tính trên mỗi m² sàn.",
+        "types": [
+          {
+            "name": "Nhà phố",
+            "note": "Hiện đại"
+          },
+          {
+            "name": "Nhà phố",
+            "note": "Cổ điển"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "Hiện đại"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "Cổ điển"
+          }
+        ],
+        "styles": [
+          "Đơn giá"
+        ],
+        "rates": [
+          [
+            200000,
+            230000,
+            230000,
+            280000
+          ]
+        ],
+        "note": "Đơn giá trên áp dụng cho hạng mục nội thất công trình nhà ở. Với hạng mục thiết kế nội thất công trình công cộng (công trình văn hóa, công trình giáo dục, công trình y tế, công trình thương mại, dịch vụ, văn phòng, khách sạn, nhà hàng, café…) sẽ báo giá theo quy mô hoặc dựa vào hạn mức đầu tư, Quyết định 79/QĐ-BXD ngày 15/02/2017 của Bộ Xây dựng."
+      },
+      {
+        "key": "turnkey",
+        "label": "Báo giá thi công trọn gói",
+        "rangeLabel": "Bảng giá xây nhà trọn gói",
+        "rangeNote": "Phần thô & phần hoàn thiện",
+        "rangeFrom": 6350000,
+        "rangeTo": 7950000,
+        "text": "Bảng giá xây nhà trọn gói dành cho biệt thự, nhà phố… Tùy thuộc vào phong cách thiết kế và vật liệu thi công mà khách hàng lựa chọn, Chính Nam sẽ điều chỉnh phù hợp với thực tế. Vì vậy, hãy để lại thông tin nếu bạn cần tư vấn và khái toán chi phí xây nhà trọn gói."
+      },
+      {
+        "key": "roughMaterials",
+        "label": "Chi tiết vật tư sử dụng trong xây nhà trọn gói Chính Nam",
+        "materialsLabel": "Vật tư xây dựng phần thô",
+        "materialsIntro": "Ba gói vật tư phần thô, cùng một quy trình thi công, khác nhau ở chủng loại vật tư được sử dụng.",
+        "materialsHub": "Vật tư phần thô",
+        "materialsNote": "Đơn giá trên đã bao gồm nhân công và vật tư phần thô theo đúng hồ sơ thiết kế.",
+        "packages": [
+          "Gói tiêu chuẩn",
+          "Gói nâng cao",
+          "Gói cao cấp"
+        ],
+        "packageShorts": [
+          "Tiêu chuẩn",
+          "Nâng cao",
+          "Cao cấp"
+        ],
+        "packagePrices": [
+          3800000,
+          4150000,
+          4750000
+        ],
+        "materialGroups": [
+          {
+            "title": "Vật tư chính",
+            "items": [
+              {
+                "name": "Xi măng",
+                "specs": [
+                  "Xi măng Insee Lavilla",
+                  "Insee đa dụng vừa xây tô",
+                  "Insee đa dụng vừa xây tô"
+                ]
+              },
+              {
+                "name": "Thép",
+                "specs": [
+                  "Thép Việt Nhật CB3 hoặc POMINA SD290",
+                  "Thép Việt Nhật CB4 hoặc POMINA SD390",
+                  "Thép Việt Nhật CB4 hoặc POMINA SD390"
+                ]
+              },
+              {
+                "name": "Bê tông thương phẩm",
+                "specs": [
+                  "Bê tông thương phẩm đá xám",
+                  "Bê tông thương phẩm Sonadezi",
+                  "Bê tông thương phẩm Sonadezi"
+                ]
+              },
+              {
+                "name": "Gạch",
+                "specs": [
+                  "Thương hiệu Trung Nguyên hoặc Quốc Toàn hoặc Tám Huỳnh",
+                  "Thương hiệu Hữu Thuận",
+                  "Thương hiệu Hữu Thuận"
+                ]
+              },
+              {
+                "name": "Cát xây tô",
+                "specs": [
+                  "Cát vàng hạt mịn",
+                  "Cát vàng Đờ Mi",
+                  "Cát vàng hạt lớn"
+                ]
+              },
+              {
+                "name": "Cát vàng hạt lớn đổ bê tông",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Đá",
+                "specs": [
+                  "Đá Đồng Nai",
+                  "Đá Tân Cang",
+                  "Đá Tân Cang"
+                ]
+              },
+              {
+                "name": "Ngói hoặc tole",
+                "specs": [
+                  "Ngói Đồng Tâm hoặc Tole Hoa Sen",
+                  "Ngói Thái Lan hoặc Tole Hoa Sen",
+                  "Ngói Nhật hoặc Tole Hoa Sen"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Điện - nước",
+            "items": [
+              {
+                "name": "Ống thoát nước",
+                "specs": [
+                  "Ống nhựa PVC EuroPipe",
+                  "Ống nhựa uPVC EuroPipe",
+                  "Ống nhựa uPVC EuroPipe"
+                ]
+              },
+              {
+                "name": "Ống cấp nước lạnh",
+                "specs": [
+                  "PPR EuroPipe",
+                  "PPR EuroPipe",
+                  "PPR EuroPipe"
+                ]
+              },
+              {
+                "name": "Ống cấp nước nóng PPR EuroPipe",
+                "specs": [
+                  null,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Dây điện CADIVI 7 lõi",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Ống luồn dây điện âm trong sàn BTCT",
+                "specs": [
+                  "Ống cứng VEGA",
+                  "Ống cứng SINO",
+                  "Ống cứng SINO"
+                ]
+              },
+              {
+                "name": "Ống luồn dây điện âm tường",
+                "specs": [
+                  "Ống ruột gà SINO - MPE",
+                  "Ống cứng SINO",
+                  "Ống cứng SINO"
+                ]
+              },
+              {
+                "name": "Cáp điện thoại, truyền hình",
+                "specs": [
+                  "MPE",
+                  "SINO",
+                  "SINO"
+                ]
+              },
+              {
+                "name": "Dây internet",
+                "specs": [
+                  "CAT5E",
+                  "CAT6",
+                  "CAT6"
+                ]
+              },
+              {
+                "name": "Vật tư hệ thống cọc đồng, tiếp địa, dây TE",
+                "specs": [
+                  null,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Chống thấm & phụ trợ thi công",
+            "items": [
+              {
+                "name": "Chống thấm",
+                "specs": [
+                  "KOVA CT 11A - SIKA LATEX",
+                  "KOVA CT 11A - SIKA LATEX, MASTERSEAL 540 hoặc HYPER DESMO",
+                  "MASTERSEAL 540 hoặc HYPER DESMO"
+                ]
+              },
+              {
+                "name": "Phụ gia chống thấm B6 trong BTCT thương phẩm",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Cục kê bê tông đúc sẵn",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Ke cân bằng ốp - lát gạch",
+                "specs": [
+                  null,
+                  null,
+                  true
+                ]
+              },
+              {
+                "name": "Ván coffa phủ phim cao cấp",
+                "specs": [
+                  null,
+                  null,
+                  true
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "finishMaterials",
+        "label": "Vật liệu sử dụng trong phần hoàn thiện",
+        "materialsLabel": "Vật liệu hoàn thiện",
+        "materialsIntro": "Mẫu mã do Chủ đầu tư lựa chọn; mỗi gói ấn định chủng loại và mức đơn giá vật liệu được áp dụng.",
+        "materialsHub": "Vật liệu hoàn thiện",
+        "materialsNote": "Đơn giá vật liệu là mức tối đa được tính trong hợp đồng; phần chênh lệch (nếu Chủ đầu tư chọn mẫu cao hơn) sẽ được bù trừ theo thực tế.",
+        "packages": [
+          "Gói tiêu chuẩn",
+          "Gói nâng cao",
+          "Gói cao cấp"
+        ],
+        "packageShorts": [
+          "Tiêu chuẩn",
+          "Nâng cao",
+          "Cao cấp"
+        ],
+        "materialGroups": [
+          {
+            "title": "Gạch ốp - lát (mẫu do Chủ đầu tư chọn)",
+            "items": [
+              {
+                "name": "Gạch nền các tầng",
+                "note": "Len gạch KT 120x600 cắt từ gạch nền",
+                "specs": [
+                  "Gạch 600x600 mờ (Viglacera, Prime, Thanh Thanh, Tasa, Taicera, Casa…). Đơn giá ≤ 200.000/m²",
+                  "Gạch 600x600 bóng kính 2 da (Đồng Tâm, Bạch Mã, Viglacera). Đơn giá ≤ 300.000/m²",
+                  "Gạch 600x600 bóng kính toàn phần (Vietceramic, Đồng Tâm, Trường Thịnh…). Đơn giá ≤ 400.000/m²"
+                ]
+              },
+              {
+                "name": "Gạch nền sân thượng, sân trước - sau",
+                "specs": [
+                  "Gạch 400x400 mờ (Viglacera, Prime, Thanh Thanh, Tasa, Taicera, Casa…). Đơn giá ≤ 180.000/m²",
+                  "Gạch 600x600 mờ (Đồng Tâm, Bạch Mã, Viglacera…). Đơn giá ≤ 220.000/m²",
+                  "Gạch 600x600 nhám, mờ (Vietceramic, Đồng Tâm, Trường Thịnh…). Đơn giá ≤ 280.000/m²"
+                ]
+              },
+              {
+                "name": "Gạch nền WC",
+                "specs": [
+                  "Viglacera, Prime, Thanh Thanh, Tasa, Taicera, Casa… Gạch ốp theo mẫu. Đơn giá ≤ 180.000/m²",
+                  "Đồng Tâm, Bạch Mã, Viglacera… Gạch ốp theo mẫu. Đơn giá ≤ 220.000/m²",
+                  "Gạch nhám, mờ (Vietceramic, Đồng Tâm, Trường Thịnh…). Gạch ốp theo mẫu. Đơn giá ≤ 280.000/m²"
+                ]
+              },
+              {
+                "name": "Gạch ốp tường WC",
+                "note": "Ốp cao < 3,0m. Không bao gồm len",
+                "specs": [
+                  "Gạch ốp theo mẫu. Đơn giá ≤ 180.000/m²",
+                  "Gạch ốp theo mẫu. Đơn giá ≤ 220.000/m²",
+                  "Gạch ốp theo mẫu. Đơn giá ≤ 280.000/m²"
+                ]
+              },
+              {
+                "name": "Keo chà ron",
+                "specs": [
+                  "Keo chà ron Weber, Cá Sấu. Đơn giá ≤ 30.000/kg",
+                  "Keo chà ron Weber, Cá Sấu. Đơn giá ≤ 30.000/kg",
+                  "Keo chà ron Weber, Cá Sấu. Đơn giá ≤ 30.000/kg"
+                ]
+              },
+              {
+                "name": "Đá trang trí mặt tiền, sân vườn",
+                "note": "Khối lượng ≤ 10m²",
+                "specs": [
+                  "Chủ đầu tư chọn nhà cung cấp. Đơn giá ≤ 400.000/m²",
+                  "Chủ đầu tư chọn nhà cung cấp. Đơn giá ≤ 500.000/m²",
+                  "Chủ đầu tư chọn nhà cung cấp. Đơn giá ≤ 600.000/m²"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Sơn nước",
+            "items": [
+              {
+                "name": "Sơn nước ngoài trời",
+                "note": "02 lớp matic, 01 lớp sơn lót, 02 lớp sơn phủ. Phụ kiện: rulo, cọ, giấy nhám",
+                "specs": [
+                  "Sơn Donasa, bột trét Donasa ngoài trời. Đơn giá ≤ 60.000/m²",
+                  "Sơn Nippon, bột trét Nippon ngoài trời. Đơn giá ≤ 65.000/m²",
+                  "Sơn Dulux, Jotun; bột trét Dulux, Jotun. Đơn giá ≤ 105.000/m²"
+                ]
+              },
+              {
+                "name": "Sơn nước trong nhà",
+                "note": "02 lớp matic, 01 lớp sơn lót, 02 lớp sơn phủ. Phụ kiện: rulo, cọ, giấy nhám",
+                "specs": [
+                  "Sơn Donasa, bột trét Donasa trong nhà. Đơn giá ≤ 55.000/m²",
+                  "Sơn Nippon, bột trét Nippon. Đơn giá ≤ 60.000/m²",
+                  "Sơn Dulux, Jotun; bột trét Dulux, Jotun. Đơn giá ≤ 82.000/m²"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Cửa đi - cửa sổ (mẫu do Chủ đầu tư chọn)",
+            "items": [
+              {
+                "name": "Cửa đi các phòng",
+                "note": "Bao gồm nhân công lắp đặt cửa",
+                "specs": [
+                  "Cửa gỗ công nghiệp sơn màu. Đơn giá ≤ 3.200.000/m²",
+                  "Cửa gỗ sồi. Đơn giá ≤ 4.500.000/m²",
+                  "Cửa gỗ gõ. Đơn giá ≤ 6.000.000/m²"
+                ]
+              },
+              {
+                "name": "Cửa đi WC",
+                "note": "Bao gồm nhân công lắp đặt cửa",
+                "specs": [
+                  "Cửa nhôm Xingfa VN dày 1,2mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 1.900.000/m²",
+                  "Cửa nhôm Xingfa VN dày 1,4mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 2.000.000/m²",
+                  "Cửa nhôm Xingfa nhập khẩu dày 2mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 2.300.000/m²"
+                ]
+              },
+              {
+                "name": "Cửa mặt tiền chính (ban công, sân thượng, sân sau…)",
+                "note": "Bao gồm nhân công lắp đặt cửa",
+                "specs": [
+                  "Cửa nhôm Xingfa VN dày 1,2mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 1.900.000/m²",
+                  "Cửa nhôm Xingfa VN dày 1,4mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 2.000.000/m²",
+                  "Cửa nhôm Xingfa nhập khẩu dày 2mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 2.300.000/m²"
+                ]
+              },
+              {
+                "name": "Cửa sổ mặt tiền chính (mặt tiền, ban công, sân thượng, sân sau…)",
+                "note": "Bao gồm nhân công lắp đặt cửa",
+                "specs": [
+                  "Cửa nhôm Xingfa VN dày 1,2mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 1.900.000/m²",
+                  "Cửa nhôm Xingfa VN dày 1,4mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 2.000.000/m²",
+                  "Cửa nhôm Xingfa nhập khẩu dày 1,4mm màu xám ghi hoặc trắng, kính cường lực mờ 8mm, phụ kiện kim loại. Đơn giá ≤ 2.300.000/m²"
+                ]
+              },
+              {
+                "name": "Khung sắt bảo vệ ô cửa sổ (chỉ bao gồm hệ thống cửa mặt tiền)",
+                "note": "Đã bao gồm nhân công và sơn dầu (Expo); đơn giá khác nhau do độ sắc nét khác nhau",
+                "specs": [
+                  "Sắt hộp 13x26x1,2mm sơn dầu, mẫu đơn giản. Đơn giá ≤ 700.000/m²",
+                  "Sắt hộp 13x26x1,2mm mạ kẽm, sơn dầu, mẫu đơn giản. Đơn giá ≤ 800.000/m²",
+                  "Sắt hộp 13x26x1,2mm mạ kẽm, sơn dầu, mẫu đơn giản sắc nét. Đơn giá ≤ 900.000/m²"
+                ]
+              },
+              {
+                "name": "Khóa cửa phòng, cửa chính, cửa ban công, sân thượng",
+                "note": "Hệ cửa nhựa lõi thép + nhôm không cung cấp ổ khóa",
+                "specs": [
+                  "Khóa tay nắm gạt. Đơn giá ≤ 600.000/cái",
+                  "Khóa tay gạt. Đơn giá ≤ 1.000.000/cái",
+                  "Khóa tay gạt cao cấp. Đơn giá ≤ 1.600.000/cái"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Cầu thang",
+            "items": [
+              {
+                "name": "Lan can cầu thang",
+                "note": "Bao gồm nhân công và vật tư sơn dầu (Expo)",
+                "specs": [
+                  "Lan can sắt hộp 20x20x1,0mm, mẫu đơn giản. Đơn giá ≤ 950.000/md",
+                  "Lan can sắt hộp 25x25x1,0mm, mẫu đơn giản. Đơn giá ≤ 1.050.000/md",
+                  "Lan can kính cường lực 10mm, trụ inox 304. Đơn giá ≤ 1.100.000/md"
+                ]
+              },
+              {
+                "name": "Tay vịn cầu thang",
+                "note": "Bao gồm nhân công và vật tư sơn dầu (Expo)",
+                "specs": [
+                  "Tay vịn gỗ sồi D60 (60x60). Đơn giá ≤ 500.000/md",
+                  "Tay vịn gỗ sồi 60x80. Đơn giá ≤ 600.000/md",
+                  "Tay vịn gỗ gõ 60x80. Đơn giá ≤ 900.000/md"
+                ]
+              },
+              {
+                "name": "Trụ cầu thang",
+                "specs": [
+                  "Gỗ sồi. Đơn giá ≤ 2.500.000/trụ",
+                  "Gỗ sồi. Đơn giá ≤ 3.500.000/trụ",
+                  "Gỗ gõ. Đơn giá ≤ 4.500.000/trụ"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Đá granite (mẫu do Chủ đầu tư chọn)",
+            "items": [
+              {
+                "name": "Đá granite mặt cầu thang",
+                "specs": [
+                  "Đá trắng Suối Lau, Hồng Phan Rang, Tím Hoa Cà. Đơn giá ≤ 750.000/m²",
+                  "Đá đen Kim Sa. Đơn giá ≤ 1.300.000/m²",
+                  "Đá nâu Anh Quốc, đen Ấn Độ… Đơn giá ≤ 1.500.000/m²"
+                ]
+              },
+              {
+                "name": "Đá granite mặt tiền tầng trệt",
+                "specs": [
+                  "Đá trắng Suối Lau, Hồng Phan Rang, Tím Hoa Cà. Đơn giá ≤ 950.000/m²",
+                  "Đá đen Kim Sa. Đơn giá ≤ 1.500.000/m²",
+                  "Đá nâu Anh Quốc, đen Ấn Độ… Đơn giá ≤ 1.800.000/m²"
+                ]
+              },
+              {
+                "name": "Đá granite tam cấp (nếu có)",
+                "specs": [
+                  "Đá trắng Suối Lau, Hồng Phan Rang, Tím Hoa Cà. Đơn giá ≤ 750.000/m²",
+                  "Đá đen Kim Sa. Đơn giá ≤ 1.500.000/m²",
+                  "Đá nâu Anh Quốc, đen Ấn Độ… Đơn giá ≤ 1.800.000/m²"
+                ]
+              },
+              {
+                "name": "Đá granite len cầu thang, ngạch cửa 100",
+                "specs": [
+                  "Đá trắng Suối Lau, Hồng Phan Rang, Tím Hoa Cà. Đơn giá ≤ 250.000/md",
+                  "Đá đen Kim Sa. Đơn giá ≤ 280.000/md",
+                  "Đá nâu Anh Quốc, đen Ấn Độ… Đơn giá ≤ 280.000/m²"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Thiết bị điện (mẫu do Chủ đầu tư chọn)",
+            "items": [
+              {
+                "name": "Vỏ tủ điện tổng và tủ điện tầng (loại 4 đường), tủ hộp nhựa cao cấp",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "SINO",
+                  "SINO",
+                  "SINO"
+                ]
+              },
+              {
+                "name": "MCB, công tắc, ổ cắm",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "SINO. Mỗi phòng 4 công tắc, 4 ổ cắm",
+                  "Panasonic Wide màu trắng. Mỗi phòng 4 công tắc, 4 ổ cắm",
+                  "Panasonic Wide màu trắng. Mỗi phòng 4 công tắc, 4 ổ cắm"
+                ]
+              },
+              {
+                "name": "Ổ cắm điện thoại, internet, truyền hình cáp",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "SINO. Mỗi phòng 1 cái",
+                  "Panasonic Wide màu trắng. Mỗi phòng 1 cái",
+                  "Panasonic Wide màu trắng. Mỗi phòng 1 cái"
+                ]
+              },
+              {
+                "name": "Đèn thắp sáng trong phòng, ngoài sân",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "Đèn máng đôi 1,2m Philips 1 bóng, mỗi phòng 2 cái (hoặc tương đương 6 bóng đèn LED tròn). Đơn giá ≤ 250.000/cái hoặc 130.000/đèn LED",
+                  "Đèn máng đôi 1,2m Philips 1 bóng, mỗi phòng 4 cái (hoặc tương đương 8 bóng đèn LED tròn). Đơn giá ≤ 250.000/cái hoặc 150.000/đèn LED",
+                  "Đèn máng đôi 1,2m Philips 1 bóng, mỗi phòng 6 cái (hoặc tương đương 10 bóng đèn LED tròn). Đơn giá ≤ 250.000/cái hoặc 170.000/đèn LED"
+                ]
+              },
+              {
+                "name": "Quạt hút WC",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "Mỗi WC 1 cái. Đơn giá ≤ 350.000/cái",
+                  "Mỗi WC 1 cái. Đơn giá ≤ 350.000/cái",
+                  "Mỗi WC 1 cái. Đơn giá ≤ 800.000/cái"
+                ]
+              },
+              {
+                "name": "Đèn vệ sinh",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "Đèn mâm ốp trần, mỗi WC 1 cái. Đơn giá ≤ 200.000/cái",
+                  "Đèn mâm ốp trần, mỗi WC 1 cái. Đơn giá ≤ 300.000/cái",
+                  "Đèn mâm ốp trần, mỗi WC 1 cái. Đơn giá ≤ 400.000/cái"
+                ]
+              },
+              {
+                "name": "Đèn cầu thang",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "Mỗi tầng 1 cái. Đơn giá ≤ 300.000/cái",
+                  "Mỗi tầng 1 cái. Đơn giá ≤ 400.000/cái",
+                  "Mỗi tầng 1 cái. Đơn giá ≤ 800.000/cái"
+                ]
+              },
+              {
+                "name": "Đèn ban công",
+                "specs": [
+                  "Mỗi tầng 1 cái. Đơn giá ≤ 300.000/cái",
+                  "Mỗi tầng 1 cái. Đơn giá ≤ 400.000/cái",
+                  "Mỗi tầng 1 cái. Đơn giá ≤ 600.000/cái"
+                ]
+              },
+              {
+                "name": "Đèn trang trí trần thạch cao",
+                "note": "Bao gồm nhân công lắp đặt",
+                "specs": [
+                  "Mỗi phòng 4 bóng LED (hoặc 8m LED dây). Đơn giá ≤ 150.000/cái hoặc 80.000/dây LED",
+                  "Mỗi phòng 4 bóng LED (hoặc 10m LED dây). Đơn giá ≤ 200.000/cái hoặc 80.000/dây LED",
+                  "Mỗi phòng 6 bóng LED (hoặc 15m LED dây). Đơn giá ≤ 200.000/cái hoặc 80.000/dây LED"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Thiết bị vệ sinh - nước (mẫu do Chủ đầu tư chọn)",
+            "items": [
+              {
+                "name": "Bàn cầu",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Đơn giá ≤ 3.000.000/cái",
+                  "Viglacera, Caesar, Inax, American… Đơn giá ≤ 4.000.000/cái",
+                  "Inax, American, Toto, Standard… Đơn giá ≤ 6.000.000/cái"
+                ]
+              },
+              {
+                "name": "Lavabo + bộ xả",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Đơn giá ≤ 1.000.000/cái",
+                  "Viglacera, Caesar, Inax, American… Đơn giá ≤ 1.600.000/cái",
+                  "Inax, American, Toto, Standard… Đơn giá ≤ 3.000.000/cái"
+                ]
+              },
+              {
+                "name": "Vòi xả lavabo",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Vòi lạnh. Viglacera, Caesar, Inax… Đơn giá ≤ 700.000/cái",
+                  "Vòi nóng lạnh. Viglacera, Caesar, Inax, American… Đơn giá ≤ 1.400.000/cái",
+                  "Vòi nóng lạnh. Inax, American, Toto, Standard… Đơn giá ≤ 2.500.000/cái"
+                ]
+              },
+              {
+                "name": "Vòi xả sen WC (nóng lạnh)",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Đơn giá ≤ 1.100.000/cái",
+                  "Viglacera, Caesar, Inax, American… Đơn giá ≤ 2.100.000/cái",
+                  "Inax, American, Toto, Standard… Đơn giá ≤ 3.000.000/cái"
+                ]
+              },
+              {
+                "name": "Vòi xịt",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Đơn giá ≤ 200.000/cái",
+                  "Viglacera, Caesar, Inax, American… Đơn giá ≤ 250.000/cái",
+                  "Inax, American, Toto, Standard… Đơn giá ≤ 400.000/cái"
+                ]
+              },
+              {
+                "name": "Vòi sân thượng, ban công, sân",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Đơn giá ≤ 150.000/cái",
+                  "Viglacera, Caesar, Inax, American… Đơn giá ≤ 200.000/cái",
+                  "Inax, American, Toto, Standard… Đơn giá ≤ 350.000/cái"
+                ]
+              },
+              {
+                "name": "Các phụ kiện trong WC",
+                "note": "1 bộ / 1 WC",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Đơn giá ≤ 800.000/cái",
+                  "Viglacera, Caesar, Inax, American… Đơn giá ≤ 1.000.000/cái",
+                  "Inax, American, Toto, Standard… Đơn giá ≤ 1.500.000/cái"
+                ]
+              },
+              {
+                "name": "Phễu thu sàn",
+                "specs": [
+                  "Inox chống hôi. Đơn giá ≤ 150.000/cái",
+                  "Inox chống hôi. Đơn giá ≤ 200.000/cái",
+                  "Inox chống hôi. Đơn giá ≤ 350.000/cái"
+                ]
+              },
+              {
+                "name": "Cầu chắn rác",
+                "specs": [
+                  "Inox. Đơn giá ≤ 150.000/cái",
+                  "Inox. Đơn giá ≤ 200.000/cái",
+                  "Inox. Đơn giá ≤ 350.000/cái"
+                ]
+              },
+              {
+                "name": "Chậu rửa chén",
+                "specs": [
+                  "Đại Thành, Luxta, Sơn Hà. Đơn giá ≤ 1.500.000/cái",
+                  "Đại Thành, Luxta, Eurowin… Đơn giá ≤ 2.000.000/cái",
+                  "Tân Á Đại Thành, Luxta, Javic… Đơn giá ≤ 2.500.000/cái"
+                ]
+              },
+              {
+                "name": "Vòi rửa chén",
+                "specs": [
+                  "Đại Thành, Luxta, Sơn Hà. Đơn giá ≤ 500.000/cái",
+                  "Đại Thành, Luxta, Eurowin… Đơn giá ≤ 800.000/cái",
+                  "Tân Á Đại Thành, Luxta, Javic… Đơn giá ≤ 1.000.000/cái"
+                ]
+              },
+              {
+                "name": "Bồn nước inox",
+                "note": "Bao gồm phụ kiện",
+                "specs": [
+                  "Tân Á Đại Thành 1.000 lít. Đơn giá ≤ 6.000.000/cái",
+                  "Tân Á Đại Thành 1.500 lít. Đơn giá ≤ 8.500.000/cái",
+                  "Tân Á Đại Thành 2.000 lít. Đơn giá ≤ 10.000.000/cái"
+                ]
+              },
+              {
+                "name": "Chân sắt nâng bồn nước",
+                "specs": [
+                  "Sắt V5. Đơn giá ≤ 4.000.000/cái",
+                  "Sắt V5. Đơn giá ≤ 4.500.000/cái",
+                  "Sắt V5. Đơn giá ≤ 4.500.000/cái"
+                ]
+              },
+              {
+                "name": "Máy bơm nước",
+                "specs": [
+                  "Panasonic 200W. Đơn giá ≤ 2.000.000/cái",
+                  "Panasonic 200W. Đơn giá ≤ 2.500.000/cái",
+                  "Panasonic 250W. Đơn giá ≤ 3.000.000/cái"
+                ]
+              },
+              {
+                "name": "Hệ thống ống nước nóng",
+                "specs": [
+                  "Ống Bình Minh theo thiết kế, bao gồm WC",
+                  "Ống Bình Minh theo thiết kế, bao gồm WC + bếp",
+                  "Ống Bình Minh theo thiết kế, bao gồm WC + bếp"
+                ]
+              },
+              {
+                "name": "Máy nước nóng năng lượng mặt trời",
+                "specs": [
+                  "Tân Á Đại Thành 130L. Đơn giá ≤ 8.600.000/cái",
+                  "Tân Á Đại Thành 160L. Đơn giá ≤ 9.500.000/cái",
+                  "Tân Á Đại Thành 180L. Đơn giá ≤ 10.400.000/cái"
+                ]
+              },
+              {
+                "name": "Ống đồng máy lạnh",
+                "specs": [
+                  "Ống Thái Lan 7gem. Khối lượng ≤ 40m. Đơn giá ≤ 290.000/md",
+                  "Ống Thái Lan 7gem. Khối lượng ≤ 50m. Đơn giá ≤ 290.000/md",
+                  "Ống Thái Lan 7gem. Khối lượng ≤ 80m. Đơn giá ≤ 290.000/md"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Hạng mục khác",
+            "items": [
+              {
+                "name": "Thạch cao trang trí",
+                "note": "Nhân công và vật tư",
+                "specs": [
+                  "Khung M29 Vĩnh Tường, tấm StandardShield công nghệ Đức. Đơn giá ≤ 170.000/m²",
+                  "Khung TK4000 Vĩnh Tường, tấm StandardShield công nghệ Đức. Đơn giá ≤ 180.000/m²",
+                  "Khung Alpha 4000 Vĩnh Tường, tấm StandardShield công nghệ Đức. Đơn giá ≤ 190.000/m²"
+                ]
+              },
+              {
+                "name": "Đèn chùm nhà bếp",
+                "note": "Nhân công và vật tư",
+                "specs": [
+                  "Đèn trang trí. Đơn giá ≤ 1.500.000/cái",
+                  "Đèn trang trí. Đơn giá ≤ 2.500.000/cái",
+                  "Đèn trang trí. Đơn giá ≤ 5.000.000/cái"
+                ]
+              },
+              {
+                "name": "Lan can ban công",
+                "note": "Nhân công và vật tư",
+                "specs": [
+                  "Lan can sắt hộp, mẫu đơn giản. Đơn giá ≤ 1.200.000/md",
+                  "Lan can sắt hộp theo mẫu. Đơn giá ≤ 1.350.000/md",
+                  "Lan can kính cường lực 10ly, trụ inox 304. Đơn giá ≤ 1.450.000/md"
+                ]
+              },
+              {
+                "name": "Cửa cổng",
+                "note": "Nhân công và vật tư",
+                "specs": [
+                  "Cửa sắt hộp dày 1,0mm sơn dầu, mẫu đơn giản. Đơn giá ≤ 1.800.000/m²",
+                  "Cửa sắt dày 1,4mm sơn dầu, mẫu đơn giản. Đơn giá ≤ 2.000.000/m²",
+                  "Cửa sắt dày 1,4mm sơn dầu theo mẫu. Đơn giá ≤ 2.200.000/m²"
+                ]
+              },
+              {
+                "name": "Khung sắt mái lấy sáng cầu thang, lỗ thông tầng",
+                "note": "Nhân công và vật tư",
+                "specs": [
+                  "Sắt hộp 20x20x1,0mm sơn dầu. Đơn giá ≤ 800.000/m²",
+                  "Sắt hộp 25x25x1,2mm sơn dầu. Đơn giá ≤ 950.000/m²",
+                  "Sắt hộp 25x25x1,2mm sơn dầu. Đơn giá ≤ 950.000/m²"
+                ]
+              },
+              {
+                "name": "Tấm lợp mái lấy sáng",
+                "note": "Nhân công và vật tư",
+                "specs": [
+                  "Kính cường lực 8mm. Đơn giá ≤ 950.000/m²",
+                  "Kính cường lực 8mm. Đơn giá ≤ 1.050.000/m²",
+                  "Kính cường lực 10mm. Đơn giá ≤ 1.250.000/m²"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Báo giá",
+      "callout": "Một buổi trao đổi là có con số cho công trình của bạn",
+      "description": "Đơn giá trên áp dụng cho hồ sơ thiết kế kỹ thuật thi công. Gửi diện tích, số tầng và phong cách mong muốn, Chính Nam sẽ dự trù chi phí cụ thể cho công trình của Quý khách."
+    },
+    "typeLabel": "Loại",
+    "packagesHint": "Cuộn để đi qua từng gói, hoặc chọn trực tiếp trên sơ đồ",
+    "packagesHub": "Thành phần hồ sơ",
+    "contactCta": "Nhận khái toán"
+  },
+  "designConsult": {
+    "heroLabel": "Tư vấn thiết kế",
+    "heroTitle": "Thiết kế gói tiêu chuẩn & cao cấp",
+    "heroText": "Thiết kế là bước chuẩn bị quyết định cho ngôi nhà tương lai của Quý khách - về công năng, thẩm mỹ và cả chi phí.",
+    "introLabel": "Giới thiệu",
+    "introHeading": "Ngôi nhà là nơi nuôi dưỡng những kỷ niệm",
+    "intro": [
+      "Trong bối cảnh xã hội ngày càng phát triển, yêu cầu về không gian sống không chỉ là nơi trú ngụ sau một ngày làm việc căng thẳng mà còn là nơi tạo ra những kỷ niệm đáng nhớ cùng gia đình, người thân và là nơi tái tạo năng lượng sống mỗi ngày. Những kỷ niệm và trải nghiệm trong ngôi nhà giúp kết nối tình cảm từng thành viên trong gia đình, nuôi dưỡng tình yêu thương, hình thành nhân cách từng thành viên trong gia đình.",
+      "Thiết kế là một bước cực kỳ quan trọng trong quá trình chuẩn bị cho ngôi nhà của Quý khách trong tương lai, giúp cho Khách hàng có thể dự tính và quản lý tốt hơn các chi phí, vật liệu, thời gian và nhân công cần thiết trong quá trình xây dựng. Quá trình thiết kế bao gồm việc nghiên cứu, truyền cảm hứng, đưa ra các giải pháp sáng tạo về tính thẩm mỹ, phù hợp với công năng sử dụng cho ngôi nhà, đặc biệt thể hiện được phong cách, đẳng cấp và mang dấu ấn riêng của gia chủ."
+    ],
+    "statement": "Hơn một thập kỷ phát triển, Công ty CP Thiết kế Xây dựng Chính Nam đã trở thành thương hiệu uy tín toàn quốc với sứ mệnh “Xây Dựng Ngôi Nhà Hạnh Phúc”, kiến tạo không gian sống hài hòa phong thủy, thẩm mỹ và bền vững.",
+    "interiorLabel": "Thiết kế nội thất",
+    "interior": [
+      "Cùng với vẻ đẹp kiến trúc bên ngoài và mặt bằng bố trí công năng hợp lý của gói Thiết kế kiến trúc, Thiết kế nội thất sẽ giúp bạn hoàn thiện không gian sống hơn nữa, cả về khía cạnh công năng và thẩm mỹ.",
+      "Nội thất phù hợp mang đến vẻ tương xứng, hài hòa với kiến trúc ngôi nhà và góp phần tôn thêm vẻ đẹp của kiến trúc. Mỗi ngôi nhà có diện tích và nhu cầu sử dụng khác nhau, những chủ nhân khác nhau, những phong cách thiết kế nội thất khác nhau, sự linh hoạt của người thiết kế… tất cả sẽ cộng hưởng mang đến một ngôi nhà đặc biệt nhất dành cho bạn."
+    ],
+    "typeLabel": "Loại",
+    "unit": "VND/m²",
+    "rateSets": [
+      {
+        "ratesLabel": "Báo giá thiết kế kỹ thuật thi công",
+        "ratesIntro": "Đơn giá thiết kế kiến trúc theo loại công trình và phong cách, tính trên mỗi m² sàn xây dựng.",
+        "types": [
+          {
+            "name": "Nhà phố",
+            "note": "1 mặt tiền"
+          },
+          {
+            "name": "Nhà phố",
+            "note": "2 mặt tiền"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "2 mặt tiền"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "3 mặt tiền"
+          }
+        ],
+        "styles": [
+          "Hiện đại",
+          "Cổ điển"
+        ],
+        "rates": [
+          [
+            180000,
+            195000,
+            230000,
+            250000
+          ],
+          [
+            195000,
+            225000,
+            255000,
+            270000
+          ]
+        ]
+      },
+      {
+        "ratesLabel": "Báo giá thiết kế nội thất",
+        "ratesIntro": "Đơn giá thiết kế nội thất theo loại công trình và phong cách, tính trên mỗi m² sàn.",
+        "types": [
+          {
+            "name": "Nhà phố",
+            "note": "Hiện đại"
+          },
+          {
+            "name": "Nhà phố",
+            "note": "Cổ điển"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "Hiện đại"
+          },
+          {
+            "name": "Biệt thự",
+            "note": "Cổ điển"
+          }
+        ],
+        "styles": [
+          "Đơn giá"
+        ],
+        "rates": [
+          [
+            200000,
+            230000,
+            230000,
+            280000
+          ]
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Thiết kế",
+      "callout": "Bản vẽ tốt là ngôi nhà đã dựng xong một nửa",
+      "description": "Gửi diện tích khu đất, số tầng và phong cách Quý khách mong muốn - Chính Nam sẽ tư vấn phương án thiết kế và đơn giá cụ thể cho công trình."
+    },
+    "processLabel": "Quy trình tư vấn thiết kế",
+    "processIntro": "Năm giai đoạn, mỗi giai đoạn có đầu việc và thời gian thực hiện được ấn định từ ngày ký hợp đồng.",
+    "stageLabel": "Giai đoạn",
+    "stages": [
+      {
+        "title": "Khảo sát hiện trạng, nghiên cứu và thống nhất phương án thiết kế sơ bộ mặt bằng tổng thể",
+        "note": "Thời gian: 05 – 07 ngày làm việc, tính từ ngày ký hợp đồng",
+        "items": []
+      },
+      {
+        "title": "Thiết kế và thống nhất phương án mặt bằng kiến trúc 2D và phối cảnh 3D ngoại thất",
+        "note": "Thời gian: 05 – 15 ngày làm việc, tính từ thời điểm hoàn tất Giai đoạn 1",
+        "items": []
+      },
+      {
+        "title": "Thiết kế và thống nhất phương án nội thất chi tiết",
+        "note": "Thời gian: 05 – 15 ngày làm việc, tính từ thời điểm hoàn tất Giai đoạn 2 (hoặc Giai đoạn 1 nếu không có Giai đoạn 2)",
+        "items": []
+      },
+      {
+        "title": "Thiết kế chi tiết kỹ thuật thi công (kiến trúc, kết cấu, điện – nước)",
+        "note": "Thời gian: 05 – 15 ngày làm việc, tính từ thời điểm Chủ đầu tư duyệt toàn bộ phương án thiết kế",
+        "items": [
+          {
+            "text": "Thiết kế chi tiết kỹ thuật thi công nội thất (nếu có Giai đoạn 3)",
+            "note": "Thời gian: 05 – 15 ngày làm việc, tính từ thời điểm Chủ đầu tư duyệt toàn bộ phương án thiết kế"
+          }
+        ]
+      },
+      {
+        "title": "Hoàn tất hồ sơ thiết kế, lập dự toán xây dựng (nếu có)",
+        "note": "Thời gian: 03 – 10 ngày làm việc, tính từ khi hoàn tất Giai đoạn 4",
+        "items": []
+      }
+    ],
+    "nextLabel": "Tiếp theo",
+    "nextTitle": "Báo giá thiết kế",
+    "nextHint": "Tiếp tục cuộn xuống để mở",
+    "pricingPage": {
+      "heroLabel": "Báo giá thiết kế",
+      "heroTitle": "Đơn giá thiết kế kiến trúc và nội thất",
+      "heroIntro": "Đơn giá tính trên mỗi m² sàn, theo loại công trình và phong cách thiết kế. Mọi đơn giá đã bao gồm thuế GTGT và được xác nhận lại theo hiện trạng công trình.",
+      "prevLabel": "Quay lại",
+      "prevTitle": "Tư vấn thiết kế",
+      "prevHint": "Tiếp tục cuộn lên để quay lại",
+      "cta": {
+        "header": "Báo giá",
+        "callout": "Gửi bản vẽ hiện trạng, nhận đơn giá cụ thể",
+        "description": "Chỉ cần diện tích khu đất, số tầng và phong cách Quý khách mong muốn - Chính Nam sẽ tư vấn phương án thiết kế và đơn giá cho đúng công trình của Quý khách."
+      }
+    },
+    "yes": "Có trong gói",
+    "no": "Không có trong gói",
+    "baseLabel": "quyền lợi nền tảng, có ở cả hai gói",
+    "addsLabel": "bổ sung so với gói tiêu chuẩn",
+    "note": "✔ Quyền lợi được nhận · ✖ Quyền lợi không được nhận",
+    "benefits": {
+      "label": "Chính sách ưu đãi nhà ở riêng lẻ",
+      "tableLabel": "Quyền lợi",
+      "tableIntro": "Hai gói thiết kế, cùng một chính sách đồng hành; khác nhau ở phần mở rộng.",
+      "packages": [
+        "Gói tiêu chuẩn",
+        "Gói cao cấp"
+      ],
+      "packageShorts": [
+        "Tiêu chuẩn",
+        "Cao cấp"
+      ],
+      "groups": [
+        {
+          "title": "Quyền lợi dành cho Chủ đầu tư",
+          "items": [
+            {
+              "name": "Miễn phí bản vẽ cấp phép xây dựng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hỗ trợ công tác nộp giao nhận hồ sơ cấp phép",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Đội ngũ Chính Nam thiết kế đồng hành xuyên suốt trong quá trình thi công",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hỗ trợ tư vấn chọn vật tư, trang thiết bị",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Phim video trình chiếu công trình",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Giảm 50% chi phí thiết kế hồ sơ kỹ thuật khi ký hợp đồng gói thầu “Nhân công vật tư phần thô”",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Tư vấn phong thủy",
+              "in": [
+                true,
+                true
+              ]
+            }
+          ]
+        }
+      ],
+      "offersLabel": "Ưu đãi khi Chủ đầu tư ký hợp đồng thi công trọn gói với Chính Nam",
+      "offers": [
+        {
+          "name": "Thiết kế hồ sơ kỹ thuật",
+          "value": "Giảm 50%"
+        },
+        {
+          "name": "Thiết kế nội thất chi tiết",
+          "value": "Giảm 10% – 20%"
+        },
+        {
+          "name": "Hồ sơ dự toán kỹ thuật thi công",
+          "value": "Miễn phí"
+        },
+        {
+          "name": "Xin phép xây dựng",
+          "value": "Tặng trọn gói"
+        }
+      ]
+    },
+    "documents": {
+      "label": "Hồ sơ thiết kế",
+      "tableLabel": "Hồ sơ chi tiết kỹ thuật thi công",
+      "tableIntro": "Thành phần hồ sơ bàn giao của mỗi gói, theo từng bộ môn thiết kế.",
+      "packages": [
+        "Gói tiêu chuẩn",
+        "Gói cao cấp"
+      ],
+      "packageShorts": [
+        "Tiêu chuẩn",
+        "Cao cấp"
+      ],
+      "groups": [
+        {
+          "title": "Hồ sơ thiết kế chi tiết kiến trúc",
+          "items": [
+            {
+              "name": "Phối cảnh 3D ngoại thất",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Họa đồ vị trí",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng la bàn các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng vật dụng và kích thước các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng mái",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt đứng và mặt cắt, chi tiết mặt đứng, mặt cắt",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng ốp lát, trần đèn và vệ sinh các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng và chi tiết thang",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng định vị cửa các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng cổng, hàng rào",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Chi tiết kích thước quy cách vật liệu, cửa",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Chi tiết chỉ, cột…",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Video trình chiếu phối cảnh thiết kế (gửi email)",
+              "in": [
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hồ sơ thiết kế kết cấu",
+          "items": [
+            {
+              "name": "Mặt bằng móng, cột, đà kiềng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Mặt bằng dầm sàn các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Chi tiết móng, cột, dầm, sàn",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Chi tiết cấu tạo khác",
+              "in": [
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hồ sơ thiết kế kỹ thuật điện, nước (MEP) & điều hòa không khí",
+          "items": [
+            {
+              "name": "Hệ thống chiếu sáng các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống điện, cấp điện các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống điều hòa không khí các tầng",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống điện thông minh",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống phòng cháy, chữa cháy và chiếu sáng sự cố",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống chiếu sáng cảnh quan, sân vườn, sân thể thao, tượng đài…",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống Internet",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống Camera",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống chống sét (nếu có)",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Hệ thống cấp, thoát nước các tầng",
+              "in": [
+                true,
+                true
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "packageLabel": "Gói"
+  },
+  "legalSupport": {
+    "heroLabel": "Hỗ trợ pháp lý",
+    "heroTitle": "Hồ sơ đầy đủ, công trình hợp pháp",
+    "heroText": "Chính Nam đồng hành cùng Chủ đầu tư chuẩn bị hồ sơ pháp lý cho công trình: từ bước xin phép xây dựng, thông báo khởi công đến nghiệm thu đưa vào sử dụng.",
+    "overviewLabel": "Khái quát pháp lý dự án xây dựng nhà ở riêng lẻ",
+    "overviewHeading": "Pháp lý xây dựng nhà ở riêng lẻ là gì?",
+    "overview": [
+      "Pháp lý xây dựng nhà ở riêng lẻ được hiểu là toàn bộ hồ sơ, giấy tờ pháp lý mà một công trình nhà ở cần phải có trước, trong và sau quá trình xây dựng theo đúng quy định của pháp luật Việt Nam. Các hồ sơ này phải được cơ quan nhà nước có thẩm quyền xác nhận, phê duyệt hoặc cấp phép nhằm đảm bảo công trình đủ điều kiện triển khai xây dựng hợp pháp. Đối với nhà ở riêng lẻ, hồ sơ pháp lý thường bao gồm: giấy chứng nhận quyền sử dụng đất hợp pháp của chủ đầu tư (hoặc các giấy tờ có giá trị pháp lý tương đương), thông tin quy hoạch xây dựng, chỉ giới xây dựng, giấy phép xây dựng được cơ quan có thẩm quyền cấp, hồ sơ thiết kế xây dựng theo quy định và các hồ sơ liên quan đến quá trình thi công, hoàn công công trình.",
+      "Bên cạnh đó, các đơn vị tham gia thiết kế, thi công, giám sát công trình cũng cần đáp ứng điều kiện năng lực hoạt động xây dựng theo quy định hiện hành nhằm đảm bảo chất lượng, an toàn và tính pháp lý của công trình trong suốt quá trình thực hiện và sử dụng."
+    ],
+    "docsLabel": "Hồ sơ pháp lý dự án xây dựng gồm những gì?",
+    "docsIntro": "Một dự án xây dựng có tính pháp lý là dự án có đầy đủ hồ sơ thủ tục và được các cấp có thẩm quyền phê duyệt xây dựng, không vướng bất kỳ hành lang pháp lý nào liên quan.",
+    "groupLabel": "Nhóm",
+    "quantityLabel": "Số lượng",
+    "groups": [
+      {
+        "code": "A",
+        "title": "Hồ sơ đề nghị cấp phép xây dựng",
+        "stage": "Bước chuẩn bị xây dựng nhà ở riêng lẻ",
+        "items": [
+          {
+            "name": "Giấy chứng nhận quyền sử dụng đất",
+            "quantity": "1 bản",
+            "note": "Photo công chứng"
+          },
+          {
+            "name": "Hồ sơ kỹ thuật thửa đất",
+            "quantity": "1 bản",
+            "note": "Trích lục thửa đất - photo công chứng"
+          },
+          {
+            "name": "Bản vẽ xin phép xây dựng",
+            "quantity": "2 bộ",
+            "note": ""
+          },
+          {
+            "name": "Đơn đề nghị cấp phép",
+            "quantity": "1 tờ",
+            "note": ""
+          },
+          {
+            "name": "Đơn đề nghị cấp phép có thời hạn, có xác nhận từ địa phương",
+            "quantity": "1 tờ",
+            "note": "Nếu xin phép tạm trong đất quy hoạch"
+          },
+          {
+            "name": "Đơn cam kết liền kề",
+            "quantity": "1 tờ",
+            "note": ""
+          },
+          {
+            "name": "Đơn cam kết tháo dỡ",
+            "quantity": "1 tờ",
+            "note": "Nếu có nhà trên đất dự định xin phép xây dựng"
+          },
+          {
+            "name": "Đơn cam kết tháo dỡ không yêu cầu bồi thường, có chứng thực ở địa phương",
+            "quantity": "1 tờ",
+            "note": "Nếu xin phép tạm trong đất quy hoạch"
+          },
+          {
+            "name": "Giấy chấp thuận cho xây dựng của ngân hàng",
+            "quantity": "1 tờ",
+            "note": "Nếu đất thế chấp ngân hàng"
+          },
+          {
+            "name": "CCCD công chứng hoặc sao y điện tử",
+            "quantity": "",
+            "note": "Tùy từng địa phương"
+          }
+        ]
+      },
+      {
+        "code": "B",
+        "title": "Hồ sơ thông báo khởi công",
+        "stage": "Triển khai thi công công trình - nộp hồ sơ tại địa phương",
+        "items": [
+          {
+            "name": "Bản vẽ cấp phép đã được phê duyệt",
+            "quantity": "1 bản",
+            "note": "Photo công chứng"
+          },
+          {
+            "name": "Giấy phép xây dựng",
+            "quantity": "1 bản",
+            "note": "Photo"
+          },
+          {
+            "name": "Đơn thông báo khởi công",
+            "quantity": "1 tờ",
+            "note": ""
+          },
+          {
+            "name": "Giấy chứng nhận quyền sử dụng đất",
+            "quantity": "1 bản",
+            "note": "Photo công chứng"
+          }
+        ]
+      },
+      {
+        "code": "C",
+        "title": "Hồ sơ đề nghị nghiệm thu",
+        "stage": "Hoàn thiện công trình đưa vào sử dụng",
+        "items": [
+          {
+            "name": "Bản vẽ hiện trạng",
+            "quantity": "2 bản",
+            "note": "Có mộc công ty"
+          },
+          {
+            "name": "Giấy chứng nhận quyền sử dụng đất",
+            "quantity": "1 bản",
+            "note": "Photo công chứng"
+          },
+          {
+            "name": "Hồ sơ kỹ thuật thửa đất",
+            "quantity": "1 bản",
+            "note": "Trích lục thửa đất - photo công chứng"
+          },
+          {
+            "name": "Đơn đề nghị kiểm tra công trình theo giấy phép xây dựng",
+            "quantity": "1 tờ",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Pháp lý",
+      "callout": "Hồ sơ đúng ngay từ đầu, công trình không phải chờ",
+      "description": "Chính Nam hướng dẫn và hỗ trợ Chủ đầu tư chuẩn bị từng bộ hồ sơ, làm việc với cơ quan chức năng ở từng bước của công trình."
+    }
+  },
+  "construction": {
+    "heroLabel": "Thi công xây dựng",
+    "heroTitle": "Phần thô - xương sống của ngôi nhà",
+    "heroText": "Độ bền vững và hình dáng kiến trúc của toàn bộ công trình phụ thuộc vào chất lượng của giai đoạn này.",
+    "introLabel": "Giới thiệu thi công xây dựng phần thô",
+    "introHeading": "Nền móng đặt tiền đề cho mọi bước sau",
+    "intro": [
+      "Phần thô của ngôi nhà là nền móng quan trọng, đóng vai trò như xương sống, đặt tiền đề cho tất cả các bước xây dựng sau. Độ bền vững và hình dáng kiến trúc của toàn bộ công trình phụ thuộc vào chất lượng giai đoạn này.",
+      "Công ty Cổ phần Thiết kế Xây dựng Chính Nam với đội ngũ Kỹ sư, Cán bộ kỹ thuật cùng các đội thi công, công nhân chuyên nghiệp, giỏi chuyên môn, nhiệt huyết với nghề, trung thực và có trách nhiệm, Chính Nam cam kết mang đến sự hài lòng cho Quý khách hàng trong suốt quá trình thi công."
+    ],
+    "processLabel": "Quy trình thi công xây dựng phần thô",
+    "itemsLabel": "Những hạng mục xây nhà phần thô phải có",
+    "scheduleLabel": "Tiến độ thi công phần thô",
+    "scheduleIntro": "Thời gian thi công phần thô theo quy mô công trình, tính từ ngày khởi công.",
+    "scenarioLabel": "Quy mô",
+    "nextLabel": "Tiếp theo",
+    "nextTitle": "Báo giá thi công",
+    "nextHint": "Tiếp tục cuộn xuống để mở",
+    "cta": {
+      "header": "Phần thô",
+      "callout": "Khung nhà chắc chắn là ngôi nhà bền lâu",
+      "description": "Đội ngũ kỹ sư và công nhân của Chính Nam giám sát từng hạng mục phần thô, đúng hồ sơ thiết kế và đúng tiến độ đã cam kết."
+    },
+    "pricingPage": {
+      "heroLabel": "Báo giá thi công phần thô",
+      "heroTitle": "Ba gói vật tư, một chuẩn thi công",
+      "heroIntro": "Đơn giá thi công phần thô theo gói vật tư Quý khách lựa chọn, tính trên mỗi m² diện tích xây dựng.",
+      "prevLabel": "Quay lại",
+      "prevTitle": "Thi công xây dựng",
+      "prevHint": "Tiếp tục cuộn lên để quay lại",
+      "supportLabel": "Hỗ trợ xin phép xây dựng và hoàn công",
+      "support": [
+        "Tối ưu kinh phí",
+        "Đúng pháp luật",
+        "Nhanh chóng",
+        "Chính xác"
+      ],
+      "packagesLabel": "Đơn giá thi công phần thô",
+      "notes": [
+        "Đơn giá này là khái toán chi phí xây dựng, áp dụng cho công trình tiêu chuẩn có diện tích xây dựng > 350m².",
+        "Dự toán chi tiết sẽ được Chính Nam bóc tách khi có thiết kế chi tiết. Đơn giá xây dựng chưa bao gồm VAT."
+      ],
+      "cta": {
+        "header": "Báo giá",
+        "callout": "Có thiết kế, có ngay dự toán chi tiết",
+        "description": "Gửi hồ sơ thiết kế hoặc diện tích dự kiến - Chính Nam bóc tách khối lượng và báo giá thi công phần thô cho đúng công trình của Quý khách."
+      }
+    }
+  },
+  "howWeWork": {
+    "callout": "Lịch sử hình thành và phát triển",
+    "intro": "Công ty TNHH Thiết kế Xây dựng Chính Nam được thành lập vào ngày 22 tháng 11 năm 2012 với hoạt động chính là thiết kế công trình.",
+    "yearLabel": "Năm",
+    "imageAlt": "Chính Nam - hành trình phát triển",
+    "milestones": [
+      {
+        "year": "2012",
+        "text": "Công ty TNHH Thiết kế Xây dựng Chính Nam được thành lập vào ngày 22 tháng 11 năm 2012 với hoạt động chính là thiết kế công trình."
+      },
+      {
+        "year": "2015",
+        "text": "Sau hơn 3 năm thành lập Công ty Chính Nam đã cơ bản hoàn thành bộ máy hoạt động cả hai lĩnh vực thiết kế và thi công xây dựng."
+      },
+      {
+        "year": "2016",
+        "text": "Mang sứ mệnh phát triển các dự án xây dựng ở tỉnh Đồng Nai, đồng thời mở rộng thực hiện các dự án trên cả nước."
+      },
+      {
+        "year": "2017",
+        "text": "Công ty đã có Văn phòng làm việc ở 3 tỉnh thành: Đồng Nai, TPHCM và Tây Ninh."
+      },
+      {
+        "year": "2019",
+        "text": "Công ty được cấp chứng chỉ Thiết kế, Giám sát và Thi công xây dựng công trình dân dụng hạng II và công trình công nghiệp hạng III."
+      },
+      {
+        "year": "2020",
+        "text": "Chuyển đổi từ Công ty TNHH thành Công ty Cổ phần Thiết kế Xây dựng Chính Nam, chuẩn hóa hệ thống điều hành, tổ chức (ISO 9000, Quản lý Chất lượng toàn diện...)."
+      },
+      {
+        "year": "2023",
+        "text": "Đánh dấu 10 năm hình thành và phát triển của Công ty Cổ phần Thiết kế Xây dựng Chính Nam."
+      }
+    ]
+  },
+  "spotlight": {
+    "introLeft": "Kiến tạo",
+    "introRight": "Không gian",
+    "header": "Khám phá",
+    "items": [
+      "Sân trong tĩnh lặng",
+      "Chân trời xanh",
+      "Đá trầm mặc",
+      "Hốc tường hổ phách",
+      "Kệ đất nung",
+      "Sắc trắng phản chiếu",
+      "Rìa sa mạc",
+      "Lối đi dịu nhẹ",
+      "Cột nước",
+      "Chốn nghỉ vàng"
+    ]
+  },
+  "connect": {
+    "titleLine1": "CHÍNH NAM",
+    "titleLine2": "Xây Dựng Ngôi Nhà Hạnh Phúc",
+    "email": "Email",
+    "phone": "Liên hệ",
+    "headquarters": "Trụ sở chính",
+    "dongNaiOffice": "VPĐD TP. ĐỒNG NAI",
+    "hcmOffice": "VPĐD TP. HỒ CHÍ MINH",
+    "taxId": "Mã Số Thuế",
+    "social": "Mạng xã hội",
+    "imageAlt": "Văn phòng làm việc của Chính Nam",
+    "formCallout": "Gửi tin nhắn",
+    "formFloating": "Gửi tin nhắn",
+    "formTitleBefore": "Bạn đang ấp ủ một công trình? Để lại lời nhắn,",
+    "formTitleAfter": "sẽ liên hệ lại với bạn."
+  },
+  "blueprints": {
+    "srTitle": "Thư viện dự án Chính Nam",
+    "srText": "Hình ảnh các công trình kiến trúc, nội thất và cảnh quan do Chính Nam thiết kế và thi công. Kéo để khám phá, nhấn vào ảnh để xem chi tiết.",
+    "imageAlt": "Hình ảnh {n}",
+    "titles": [
+      "Lối vào mặt nước tĩnh",
+      "Ánh sáng sa mạc",
+      "Âm vang đất nung",
+      "Ngưỡng cửa đất sét",
+      "Ảo ảnh đá",
+      "Sân trong ngập nắng",
+      "Phòng tắm tĩnh lặng",
+      "Vòm cửa nở hoa",
+      "Bức tường lắng nghe",
+      "Hồ bóng râm",
+      "Hơi ấm của đất",
+      "Cánh cổng bình yên",
+      "Hốc tường phản chiếu",
+      "Nhịp điệu che chở",
+      "Lối đi vàng",
+      "Khoảng thở giữa những bức tường",
+      "Hình học của nắng",
+      "Không gian bám rễ",
+      "Mái vòm chân trời",
+      "Cát và tĩnh lặng"
+    ]
+  },
+  "listing": {
+    "spaces": {
+      "title": "Không gian vượt thời gian",
+      "filters": [
+        "Tất cả",
+        "Nhà ở",
+        "Thương mại",
+        "Khách sạn - Nghỉ dưỡng"
+      ]
+    },
+    "jobs": {
+      "kicker": "Chào đón",
+      "title": "Thành viên mới",
+      "filters": [
+        "Tất cả",
+        "Kỹ thuật công trình",
+        "Kiến trúc - Thiết kế",
+        "Kinh doanh",
+        "Kế toán - Tài chính",
+        "Hành chính - Nhân sự"
+      ]
+    },
+    "reviews": {
+      "kicker": "Đánh giá của",
+      "title": "Khách hàng"
+    },
+    "quantity": "Số lượng:"
+  },
+  "detail": {
+    "nextProject": "Dự án tiếp theo",
+    "nextJob": "Vị trí tiếp theo",
+    "nextReview": "Đánh giá tiếp theo",
+    "completed": "Năm hoàn thành",
+    "projectType": "Loại hình",
+    "client": "Khách hàng",
+    "quantity": "Số lượng:",
+    "posted": "Ngày đăng:",
+    "reviewLabel": "Đánh giá của khách hàng:",
+    "reviewClient": "Khách hàng",
+    "reviewProject": "Công trình"
+  },
+  "apply": {
+    "callout": "Ứng tuyển",
+    "titlePrefix": "Ứng tuyển vị trí",
+    "openCallout": "Ứng tuyển tự do",
+    "openTitle": "Chưa tìm thấy vị trí phù hợp? Nếu bạn muốn cùng đóng góp, hãy ứng tuyển qua biểu mẫu này.",
+    "floating": "Ứng tuyển",
+    "profile": "Đường dẫn hồ sơ (LinkedIn, trang cá nhân...)",
+    "jobTitle": "Vị trí ứng tuyển",
+    "jobTitlePlaceholder": "Vị trí bạn muốn đóng góp",
+    "cv": "CV (PDF, DOC, DOCX - tối đa 5 MB)",
+    "chooseFile": "Chọn file CV",
+    "submit": "Gửi hồ sơ"
+  },
+  "contactForm": {
+    "subject": "Chủ đề",
+    "subjectPlaceholder": "Thiết kế biệt thự, thi công nhà phố...",
+    "message": "Nội dung",
+    "messagePlaceholder": "Chia sẻ về công trình, nhu cầu hoặc câu hỏi của bạn",
+    "submit": "Gửi liên hệ"
+  },
+  "form": {
+    "name": "Họ và tên",
+    "namePlaceholder": "Nguyễn Văn A",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "requiredNote": "Thông tin bắt buộc",
+    "closeToast": "Đóng thông báo",
+    "checkDetails": "Vui lòng kiểm tra lại thông tin.",
+    "applySuccess": "Cảm ơn {name}! Hồ sơ ứng tuyển vị trí “{jobTitle}” đã được gửi thành công. Chính Nam sẽ liên hệ với bạn sớm.",
+    "contactSuccess": "Cảm ơn {name}! Tin nhắn của bạn đã được gửi. Chính Nam sẽ phản hồi qua email {email} sớm nhất.",
+    "errors": {
+      "nameRequired": "Vui lòng nhập họ và tên.",
+      "emailRequired": "Vui lòng nhập email.",
+      "emailInvalid": "Email không hợp lệ (ví dụ: ten@domain.com).",
+      "phoneInvalid": "Số điện thoại không hợp lệ (8–20 chữ số).",
+      "urlInvalid": "Đường dẫn phải bắt đầu bằng http:// hoặc https://",
+      "jobTitleRequired": "Vui lòng nhập vị trí ứng tuyển.",
+      "jobNotFound": "Vị trí ứng tuyển không tồn tại.",
+      "cvRequired": "Vui lòng đính kèm CV.",
+      "cvType": "CV phải là file PDF, DOC hoặc DOCX.",
+      "cvSize": "CV không được vượt quá 5 MB.",
+      "messageShort": "Vui lòng nhập nội dung (ít nhất 10 ký tự)."
+    }
+  },
+  "sectionNav": {
+    "title": "Mục trên trang",
+    "more": "Xem thêm"
+  },
+  "errors": {
+    "code404": "404",
+    "code500": "500",
+    "notFoundLabel": "Lỗi 404",
+    "notFoundTitle": "Không tìm thấy trang bạn cần",
+    "notFoundText": "Trang có thể đã được đổi tên, chuyển sang địa chỉ khác hoặc chưa từng tồn tại. Mời bạn quay về trang chủ, hoặc liên hệ để Chính Nam hỗ trợ trực tiếp.",
+    "errorLabel": "Lỗi hệ thống",
+    "errorTitle": "Đã có sự cố xảy ra",
+    "errorText": "Rất tiếc, trang không thể hiển thị lúc này. Bạn có thể thử lại, hoặc quay về trang chủ và tiếp tục khám phá.",
+    "home": "Về trang chủ",
+    "contact": "Liên hệ",
+    "retry": "Thử lại"
+  },
+  "contact": {
+    "phone": "Điện thoại",
+    "email": "Email",
+    "tax": "Mã số thuế",
+    "headquarters": "Trụ sở chính",
+    "dongNai": "VPĐD TP. ĐỒNG NAI",
+    "hcm": "VPĐD TP. HỒ CHÍ MINH",
+    "offices": "Văn phòng",
+    "mapTitle": "Bản đồ trụ sở Chính Nam"
+  }
+}

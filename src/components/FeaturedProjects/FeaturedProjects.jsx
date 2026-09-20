@@ -6,7 +6,7 @@ import FeaturedProjectsMotion from "./FeaturedProjectsMotion";
 const FeaturedProjects = () => {
   return (
     <>
-      <div className="featured-projects">
+      <div className="featured-projects" translate="yes">
         {featuredProjectsContent.map((project) => (
           <article key={project.id} className="featured-project-card">
             <div className="featured-project-card-inner">

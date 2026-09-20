@@ -6,7 +6,7 @@ import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import { resolveDelay, waitForFonts } from "@/lib/motion";
+import { resolveDelay, splitLines, waitForFonts } from "@/lib/motion";
 
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
@@ -19,7 +19,7 @@ function initCopy(splits) {
     const lines = [];
 
     elements.forEach((element) => {
-      const split = SplitText.create(element, {
+      const split = splitLines(element, {
         type: "lines",
         mask: "lines",
         linesClass: "line++",

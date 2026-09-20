@@ -1,0 +1,11 @@
+/* Only what is specific to the member cards; the wheel, the pinned layout and
+   the card frame come from Orbit.css. */
+
+.orbit .ecosystem-alt {
+  color: var(--base-250);
+}
+
+.orbit .ecosystem-tagline {
+  color: var(--base-100);
+  font-weight: 600;
+}

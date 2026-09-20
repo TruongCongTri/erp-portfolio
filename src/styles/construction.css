@@ -1,0 +1,323 @@
+/* /thi-cong-xay-dung and /bang-gia-thi-cong. The hero comes from studio.css
+   and the scenes from PinnedSteps.css / Orbit.css; these are the sections in
+   between. */
+
+.construction .studio-hero .studio-hero-col:nth-child(1) p {
+  width: 100%;
+  color: var(--base-350);
+}
+
+.construction .studio-hero .studio-hero-col:nth-child(1) h2 {
+  color: var(--base-100);
+  margin-top: 2rem;
+}
+
+.construction .studio-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.construction .studio-hero p.md {
+  color: var(--base-200);
+}
+
+/* Numbered section headers */
+
+.construction-section-intro {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+}
+
+.construction-intro + .construction-section-intro,
+.construction-packages + .construction-section-intro {
+  padding-top: 6rem;
+}
+
+.construction-section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.35);
+}
+
+.construction-section-index {
+  color: var(--base-250);
+}
+
+.construction-section-header h2 {
+  color: var(--base-100);
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+}
+
+/* Introduction */
+
+.construction-intro {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 4rem 0 2rem;
+}
+
+.construction-intro .container {
+  display: flex;
+  gap: 4rem;
+}
+
+.construction-intro .construction-intro-col:nth-child(1) {
+  flex: 2;
+}
+
+.construction-intro .construction-intro-col:nth-child(2) {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.construction-intro h3 {
+  color: var(--base-100);
+}
+
+.construction-intro p.md {
+  color: var(--base-200);
+}
+
+/* What the structural stage covers */
+
+.construction-items {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 4rem 0 2rem;
+}
+
+.construction-items .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.construction-items-label {
+  color: var(--base-250);
+}
+
+.construction-items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.construction-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.construction-item-index {
+  color: var(--base-250);
+}
+
+.construction-item p.md {
+  color: var(--base-100);
+}
+
+/* The rates page */
+
+.construction-pricing-hero {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 12rem 0 0;
+}
+
+.construction-pricing-hero .container {
+  display: flex;
+  gap: 4rem;
+}
+
+.construction-pricing-hero .construction-pricing-hero-col:nth-child(1) {
+  flex: 2;
+}
+
+.construction-pricing-hero .construction-pricing-hero-col:nth-child(2) {
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.construction-pricing-hero p.mono {
+  color: var(--base-350);
+}
+
+.construction-pricing-hero h2 {
+  color: var(--base-100);
+}
+
+.construction-pricing-hero p.md {
+  color: var(--base-200);
+  max-width: 45rem;
+}
+
+.construction-packages {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 4rem 0 0;
+}
+
+.construction-packages .container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.construction-packages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.construction-package {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.construction-package-index {
+  color: var(--base-250);
+}
+
+.construction-package h3 {
+  font-size: 1.75rem;
+  color: var(--base-100);
+}
+
+.construction-package-price {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+  color: var(--base-100);
+}
+
+.construction-package-unit {
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--base-250);
+}
+
+.construction-notes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 70rem;
+}
+
+.construction-notes p.md {
+  color: var(--base-300);
+}
+
+.construction-support {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.construction-support-label {
+  color: var(--base-250);
+}
+
+.construction-support-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.construction-support-item {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(123, 169, 244, 0.35);
+}
+
+.construction-support-item p.md {
+  color: var(--base-100);
+}
+
+/* The last scene runs straight into the CTA window. */
+.construction-pricing .orbit {
+  padding-bottom: 0;
+}
+
+@media (max-width: 1400px) {
+  .construction-items-grid,
+  .construction-packages-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .construction-support-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .construction .studio-hero .studio-hero-col:nth-child(1) h2 {
+    margin-top: 1rem;
+  }
+
+  .construction-section-header h2 {
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .construction-intro + .construction-section-intro,
+  .construction-packages + .construction-section-intro {
+    padding-top: 3rem;
+  }
+
+  .construction-intro,
+  .construction-items,
+  .construction-packages {
+    padding: 2rem 0 1rem;
+  }
+
+  .construction-intro .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .construction-items-grid,
+  .construction-packages-grid,
+  .construction-support-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .construction-item,
+  .construction-package {
+    padding: 1.5rem;
+  }
+
+  .construction-pricing-hero {
+    padding: 7rem 0 0;
+  }
+
+  .construction-pricing-hero .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

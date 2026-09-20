@@ -1,26 +1,16 @@
-// Job openings: drives /hiring (list), /hiring/[id] (detail) and the
+import { getDictionary, localizePath } from "@/i18n";
+import { formatDate } from "@/lib/format";
+
+// Job openings: drives /tuyen-dung (list), /tuyen-dung/[id] (detail) and the
 // application form. `detail` is optional; without it the detail page shows
 // the hero built from the list fields plus the application form.
-
-export const jobsListing = {
-  kicker: "Chào đón",
-  title: "Thành viên mới",
-  filters: [
-    "Tất cả",
-    "Kỹ thuật công trình",
-    "Kiến trúc - Thiết kế",
-    "Kinh doanh",
-    "Kế toán - Tài chính",
-    "Hành chính - Nhân sự",
-  ],
-};
 
 export const jobs = [
   {
     id: 1,
     categories: ["Kỹ Sư", "Xây Dựng"],
     image: "/spaces/space-1.jpg",
-    date: "June 10, 2026",
+    date: "2026-06-10",
     name: "Kỹ Sư Xây Dựng",
     location: "TP. Đồng Nai",
     quantity: "05",
@@ -116,84 +106,85 @@ export const jobs = [
       cta: {
         img: "/sample-space/next-project.jpg",
         header: "Kiến Trúc Sư",
-        callout: "Built for stillness and clarity",
+        callout: "Kiến tạo sự tĩnh tại và rõ ràng",
         description:
-          "A study in restraint and resonance, this space invites quietude. Materials, light, and layout come together.",
+          "Một nghiên cứu về sự tiết chế và cộng hưởng, nơi vật liệu, ánh sáng và bố cục hòa quyện để mời gọi sự tĩnh lặng.",
       },
     },
   },
   {
     id: 2,
-    categories: ["Home", "Cultural"],
+    categories: ["Nhà ở", "Văn hóa"],
     image: "/spaces/space-2.jpg",
-    date: "May 15, 2021",
-    name: "Sanctum Hall",
-    location: "Morocco, Marrakesh",
+    date: "2021-05-15",
+    name: "Hội trường Sanctum",
+    location: "Marrakesh, Ma-rốc",
     quantity: "05",
   },
   {
     id: 3,
-    categories: ["Home", "Gallery"],
+    categories: ["Nhà ở", "Phòng trưng bày"],
     image: "/spaces/space-3.jpg",
-    date: "April 22, 2021",
-    name: "Arcade Residence",
-    location: "Portugal, Lisbon",
+    date: "2021-04-22",
+    name: "Dinh thự Arcade",
+    location: "Lisbon, Bồ Đào Nha",
     quantity: "05",
   },
   {
     id: 4,
-    categories: ["Gallery", "Cultural"],
+    categories: ["Phòng trưng bày", "Văn hóa"],
     image: "/spaces/space-4.jpg",
-    date: "March 8, 2021",
-    name: "Atrium Gallery",
-    location: "Austria, Vienna",
+    date: "2021-03-08",
+    name: "Phòng trưng bày Atrium",
+    location: "Vienna, Áo",
     quantity: "05",
   },
   {
     id: 5,
-    categories: ["Home", "Retreat"],
+    categories: ["Nhà ở", "Nghỉ dưỡng"],
     image: "/spaces/space-5.jpg",
-    date: "February 14, 2021",
-    name: "Mountain Retreat",
-    location: "Switzerland, Zurich",
+    date: "2021-02-14",
+    name: "Khu nghỉ dưỡng trên núi",
+    location: "Zurich, Thụy Sĩ",
     quantity: "05",
   },
   {
     id: 6,
-    categories: ["Cultural", "Home"],
+    categories: ["Văn hóa", "Nhà ở"],
     image: "/spaces/space-6.jpg",
-    date: "January 30, 2021",
-    name: "Horizon Pavilion",
-    location: "Japan, Kyoto",
+    date: "2021-01-30",
+    name: "Đình Chân Trời",
+    location: "Kyoto, Nhật Bản",
     quantity: "05",
   },
   {
     id: 7,
-    categories: ["Wellness", "Retreat", "Gallery"],
+    categories: ["Chăm sóc sức khỏe", "Nghỉ dưỡng", "Phòng trưng bày"],
     image: "/spaces/space-7.jpg",
-    date: "December 12, 2020",
-    name: "Lumen Spa",
-    location: "UAE, Dubai",
+    date: "2020-12-12",
+    name: "Khu spa Lumen",
+    location: "Dubai, UAE",
     quantity: "05",
   },
 ];
 
-export const jobHref = (job) => `/hiring/${job.id}`;
+export const jobHref = (job, lang = "vi") => localizePath(lang, `/tuyen-dung/${job.id}`);
 
 export const getJobById = (id) =>
   jobs.find((job) => String(job.id) === String(id)) ?? null;
 
-export const toJobListItem = (job) => ({
+export const toJobListItem = (job, lang = "vi") => ({
   id: job.id,
-  href: jobHref(job),
+  href: jobHref(job, lang),
   image: job.image,
-  date: job.date,
+  date: formatDate(job.date),
   name: job.name,
   subtitle: job.location,
-  meta: { label: "Số lượng:", value: job.quantity },
+  meta: { label: getDictionary(lang).listing.quantity, value: job.quantity },
 });
 
-export const toJobDetail = (job) => {
+export const toJobDetail = (job, lang = "vi") => {
+  const t = getDictionary(lang).detail;
   const detail = job.detail ?? {};
   return {
     image: detail.heroImage ?? job.image,
@@ -202,10 +193,11 @@ export const toJobDetail = (job) => {
     location: detail.location ?? job.location,
     country: detail.country,
     intro: detail.intro,
+    // Fallback rows pair dictionary labels (fixed) with data values.
     meta: detail.meta ?? [
       [
-        { label: "Số lượng:", values: [job.quantity] },
-        { label: "Ngày đăng:", values: [job.date] },
+        { label: t.quantity, fixedLabel: true, values: [job.quantity] },
+        { label: t.posted, fixedLabel: true, values: [formatDate(job.date)] },
       ],
     ],
     sections: detail.sections ?? [],

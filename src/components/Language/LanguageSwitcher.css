@@ -1,0 +1,59 @@
+/* Same pill + dark circle as .btn (AnimatedButton.css) */
+.lang-switch {
+  position: relative;
+  display: inline-flex;
+  padding: 0.15rem;
+  margin: 1rem 0;
+  background: rgba(242, 237, 230, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 4rem;
+}
+
+.lang-switch-indicator {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4rem;
+  background: var(--base-450);
+  transform: translateX(0);
+}
+
+.lang-switch.ready .lang-switch-indicator {
+  transition: transform 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.lang-switch[data-lang="en"] .lang-switch-indicator {
+  transform: translateX(3rem);
+}
+
+.lang-switch button {
+  position: relative;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 4rem;
+  background: transparent;
+  color: var(--base-500);
+  font-family: "Manrope", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.lang-switch button[aria-pressed="true"] {
+  color: var(--base-100);
+  cursor: default;
+}
+
+.lang-switch button[aria-pressed="false"]:hover {
+  color: var(--base-400);
+}
+
+.lang-switch button:focus-visible {
+  outline: 2px solid var(--base-200);
+  outline-offset: 2px;
+}

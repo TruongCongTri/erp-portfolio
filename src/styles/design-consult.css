@@ -1,0 +1,314 @@
+/* /tu-van-thiet-ke. The hero comes from studio.css and the rate scenes from
+   PinnedSteps.css; these are the sections in between. */
+
+.design-consult .studio-hero .studio-hero-col:nth-child(1) p {
+  width: 100%;
+  color: var(--base-350);
+}
+
+.design-consult .studio-hero .studio-hero-col:nth-child(1) h2 {
+  color: var(--base-100);
+  margin-top: 2rem;
+}
+
+.design-consult .studio-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.design-consult .studio-hero p.md {
+  color: var(--base-200);
+}
+
+/* Numbered section headers */
+
+.design-section-intro {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+}
+
+.design-section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(123, 169, 244, 0.35);
+}
+
+.design-section-index {
+  color: var(--base-250);
+}
+
+.design-section-header h2 {
+  color: var(--base-100);
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+}
+
+/* A section of its own starts a clear distance below the one before it. */
+.design-interior + .design-section-intro {
+  padding-top: 6rem;
+}
+
+/* Introduction */
+
+.design-intro {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 4rem 0 6rem;
+}
+
+.design-intro .container {
+  display: flex;
+  gap: 4rem;
+}
+
+.design-intro .design-intro-col:nth-child(1) {
+  flex: 2;
+}
+
+.design-intro .design-intro-col:nth-child(2) {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.design-intro h3 {
+  color: var(--base-100);
+}
+
+.design-intro p.md {
+  color: var(--base-200);
+}
+
+/* The company statement, set large */
+
+.design-statement {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 2rem 0 6rem;
+}
+
+.design-statement h3 {
+  max-width: 70rem;
+  color: var(--base-100);
+}
+
+/* Interior design */
+
+.design-interior {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 0 0 2rem;
+}
+
+.design-interior .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.design-interior-header p.mono {
+  color: var(--base-350);
+}
+
+.design-interior-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.design-interior-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.design-interior-index {
+  color: var(--base-250);
+}
+
+.design-interior-card p.md {
+  color: var(--base-200);
+}
+
+@media (max-width: 1000px) {
+  .design-consult .studio-hero .studio-hero-col:nth-child(1) h2 {
+    margin-top: 1rem;
+  }
+
+  .design-section-header h2 {
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .design-interior + .design-section-intro {
+    padding-top: 3rem;
+  }
+
+  .design-intro {
+    padding: 2rem 0 3rem;
+  }
+
+  .design-intro .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .design-statement {
+    padding: 1rem 0 3rem;
+  }
+
+  .design-interior-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .design-interior-card {
+    padding: 2rem;
+  }
+}
+
+/* /bang-gia-thiet-ke - the rates, reached by scrolling on from the design
+   page. PageChain takes no space of its own, so the hero clears the top bar
+   itself, and the last scene runs straight into the CTA window. */
+
+.design-pricing-hero {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 12rem 0 0;
+}
+
+.design-pricing-hero .container {
+  display: flex;
+  gap: 4rem;
+}
+
+.design-pricing-hero .design-pricing-hero-col:nth-child(1) {
+  flex: 2;
+}
+
+.design-pricing-hero .design-pricing-hero-col:nth-child(2) {
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design-pricing-hero p.mono {
+  color: var(--base-350);
+}
+
+.design-pricing-hero h2 {
+  color: var(--base-100);
+}
+
+.design-pricing-hero p.md {
+  color: var(--base-200);
+  max-width: 45rem;
+}
+
+/* A rate set of its own starts clear of the one before it. */
+.design-rate-set + .design-rate-set .design-section-intro {
+  padding-top: 6rem;
+}
+
+@media (max-width: 1000px) {
+  .design-pricing-hero {
+    padding: 7rem 0 0;
+  }
+
+  .design-pricing-hero .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .design-rate-set + .design-rate-set .design-section-intro {
+    padding-top: 3rem;
+  }
+}
+
+/* The discounts that come with a turnkey construction contract */
+
+.design-offers {
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 4rem 0 0;
+}
+
+.design-offers .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.design-offers-label {
+  color: var(--base-250);
+  max-width: 60rem;
+}
+
+.design-offers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.design-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--base-450);
+}
+
+.design-offer p.md {
+  color: var(--base-200);
+}
+
+.design-offer-value {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  line-height: 1.1;
+  color: var(--base-100);
+}
+
+.design-offers-note {
+  color: var(--base-350);
+}
+
+@media (max-width: 1400px) {
+  .design-offers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .design-offers {
+    padding: 2rem 0 0;
+  }
+
+  .design-offers-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .design-offer {
+    padding: 1.5rem;
+  }
+
+  .design-offer-value {
+    font-size: 1.5rem;
+  }
+}

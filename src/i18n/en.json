@@ -1,0 +1,2430 @@
+{
+  "meta": {
+    "homeTitle": "Chính Nam - Building happy homes",
+    "homeDescription": "Chính Nam Design & Construction JSC: design and construction of villas, mansions, townhouses, resorts, restaurants, hotels and offices in Đồng Nai, Ho Chi Minh City and nationwide.",
+    "studioTitle": "About",
+    "studioDescription": "Chính Nam Design & Construction JSC was founded on 22 November 2012 in Đồng Nai. Our mission, vision, core values and history.",
+    "connectTitle": "Contact",
+    "connectDescription": "Contact Chính Nam: email info@chinhnambkd.vn, hotline 0944 454 199. Headquarters in Đồng Nai, with representative offices in Đồng Nai and Ho Chi Minh City.",
+    "blueprintsTitle": "Project gallery",
+    "blueprintsDescription": "A gallery of architecture, interior and landscape projects designed and built by Chính Nam.",
+    "spacesTitle": "Projects",
+    "spacesDescription": "Design and construction projects by Chính Nam: villas, townhouses, resorts, cultural and commercial buildings.",
+    "hiringTitle": "Careers",
+    "hiringDescription": "Careers at Chính Nam: construction engineering, architecture and design, sales, accounting and finance, administration and HR.",
+    "reviewsTitle": "Client reviews",
+    "reviewsDescription": "What our clients say about the homes and buildings Chính Nam has designed and built.",
+    "spaceDescription": "{name} - {location}. A project designed and built by Chính Nam.",
+    "jobTitle": "Careers: {name}",
+    "jobDescription": "Chính Nam is hiring {quantity} × {name} in {location}. Apply online today.",
+    "reviewTitle": "{title} - review by {name}",
+    "reviewDescription": "{name}'s review of the {title} project.",
+    "studioV2Title": "About",
+    "studioV2Description": "More than a decade of growth: the mission, vision, core values, strengths, leadership and ecosystem of Chính Nam.",
+    "allInOneTitle": "Turnkey home building",
+    "allInOneDescription": "Chính Nam turnkey home building: survey, design, construction, interiors and completion filings under one contract. A nine-step process with clear schedules.",
+    "pricingTitle": "Price list",
+    "pricingDescription": "Chính Nam turnkey price list: technical design rates for townhouses, villas and mansions, and what each design package includes.",
+    "designTitle": "Design consultation",
+    "designDescription": "Design consultation at Chính Nam: architectural and interior design in standard and premium packages, with rates for technical design and interior design by building type.",
+    "designPricingTitle": "Design rates",
+    "designPricingDescription": "Chính Nam design rates: technical design and interior design, by building type and style, per m² of floor area.",
+    "legalTitle": "Legal support",
+    "legalDescription": "Legal support for private homes with Chính Nam: the building permit file, the notice of commencement and the file for inspection and acceptance.",
+    "constructionTitle": "Construction",
+    "constructionDescription": "Structural construction with Chính Nam: what the structural stage covers, schedules for townhouses and villas, and a professional team of engineers and workers.",
+    "constructionPricingTitle": "Structural construction rates",
+    "constructionPricingDescription": "Chính Nam structural construction rates: three material packages from 3,800,000 to 4,750,000 VND/m², with the materials each package uses."
+  },
+  "common": {
+    "reserve": "Book",
+    "backToTop": "Back to top",
+    "language": "Language",
+    "menu": "Menu"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "reviews": "Reviews",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "careers": "Careers",
+    "services": "Services",
+    "turnkey": "Turnkey Home Building",
+    "design": "Design Consultation",
+    "construction": "Construction",
+    "legal": "Legal Support",
+    "contactLabel": "Contact",
+    "headquarters": "Headquarters",
+    "hqLine1": "55/56T Nguyễn Văn Tiên, ",
+    "hqLine2": "Quarter 11A, Tân Triều Ward, Đồng Nai.",
+    "social": "Social media"
+  },
+  "footer": {
+    "tagline": "Spaces made simple, thoughtful and lasting.",
+    "quote": "We believe design is not decoration, but the quiet structure that shapes how we live.",
+    "developedBy": "Developed by",
+    "cookies": "This website uses cookies.",
+    "rights": "All rights reserved",
+    "navLabel": "Footer links"
+  },
+  "home": {
+    "heroLine1": "BUILDING",
+    "heroLine2": "lasting",
+    "heroLine3": "TRUST",
+    "tagline": "Chính Nam - Building happy homes",
+    "discover": "Discover more",
+    "heroImageAlt": "Architecture designed and built by Chính Nam",
+    "stats": [
+      {
+        "count": "225+",
+        "label": "Completed design projects"
+      },
+      {
+        "count": "36",
+        "label": "Projects in progress"
+      },
+      {
+        "count": "12",
+        "label": "Cross-disciplinary partners"
+      },
+      {
+        "count": "98%",
+        "label": "Returning clients"
+      }
+    ],
+    "mission": "Chính Nam brings together people who share one belief: to live and work in happiness, with a mission to bring a “happy home” to every family - helping create a peaceful, happy and prosperous life for every homeowner.",
+    "servicesLabel": "What we do",
+    "servicesIntro": "Chính Nam partners with clients to deliver design and construction solutions for residential and civil buildings:",
+    "services": [
+      "Villas",
+      "Mansions",
+      "Townhouses",
+      "Resorts",
+      "Restaurants",
+      "Hotels",
+      "Offices",
+      "Residential areas",
+      "+"
+    ],
+    "featuredCallout": "Chính Nam projects",
+    "featuredTitle": "Recent projects designed and built by Chính Nam",
+    "reviewsCallout": "Client reviews",
+    "galleryImageAlt": "Chính Nam project photo",
+    "galleryCountLabel": "Project images",
+    "galleryText": "Take a closer look at the projects that define Chính Nam. From warm interiors to open landscapes, each image offers its own perspective and might inspire your future home.",
+    "galleryButton": "View gallery",
+    "cta": {
+      "header": "Chính Nam",
+      "callout": "Spaces in rhythm with time",
+      "description": "We design around rhythm, proportion and light, so every space grows more meaningful the longer it is lived in."
+    }
+  },
+  "studio": {
+    "introBefore": "Chính Nam - Building happy homes. Chính Nam Design & Construction JSC was founded on ",
+    "introHighlight": "22 November 2012",
+    "introAfter": ", with a mission to develop residential construction projects in Đồng Nai while expanding to projects across the country. Today, Chính Nam is ready to serve clients nationwide.",
+    "missionLabel": "Mission",
+    "mission": "To become an enduring design and construction organisation, where people live and work in happiness and spread care and happiness to every project and every place.",
+    "visionLabel": "Vision",
+    "visionTitle": "Building happy homes",
+    "vision": "Building happy homes – creating peaceful, happy, prosperous and honourable living spaces for every homeowner.",
+    "values": [
+      {
+        "title": "Integrity",
+        "text": "Keep your word as you would guard your own eyes"
+      },
+      {
+        "title": "Mastery",
+        "text": "Skilled people, refined work"
+      },
+      {
+        "title": "Heart",
+        "text": "Sincerity is the foundation of every action and decision"
+      },
+      {
+        "title": "Loyalty",
+        "text": "Honest and loyal to our organisation and our clients"
+      },
+      {
+        "title": "Progress",
+        "text": "Always improving and embracing advanced technology. Every member of Chính Nam grows every day to build a forward-looking organisation."
+      }
+    ],
+    "cta": {
+      "header": "The Archive",
+      "callout": "Design that speaks through form",
+      "description": "Each project tells a story of light, material and rhythm. Explore how ideas take shape and grow into lasting spaces."
+    },
+    "overviewLabel": "Mission & vision",
+    "valuesLabel": "Core values"
+  },
+  "studioV2": {
+    "introLabel": "About",
+    "introTitle": "More than a decade of growth",
+    "introHeading": "Chính Nam - Building A Home Of Happiness",
+    "introBefore": "Chính Nam Design & Construction JSC was founded on ",
+    "introHighlight": "22 November 2012",
+    "introAfter": ", with a mission to develop residential construction projects in Đồng Nai while expanding to projects across the country. Today, Chính Nam is ready to serve clients nationwide.",
+    "purposeLabel": "Mission - Vision",
+    "visionLabel": "Vision",
+    "vision": "To become an enduring design and construction organisation, where people live and work in happiness and spread care and happiness to every project and every place.",
+    "missionLabel": "Mission",
+    "missionTitle": "Building A Home Of Happiness",
+    "mission": "Building a home of happiness – creating peaceful, happy, prosperous and honourable living spaces for every homeowner.",
+    "valuesLabel": "Core values",
+    "valuesIntro": "We keep nurturing the lasting values at the heart of everything we do: INTEGRITY - MASTERY - HEART - LOYALTY - PROGRESS",
+    "values": [
+      {
+        "title": "Integrity",
+        "text": "Keep your word as you would guard your own eyes"
+      },
+      {
+        "title": "Mastery",
+        "text": "Skilled people, refined work"
+      },
+      {
+        "title": "Heart",
+        "text": "Sincerity is the foundation of every action and decision"
+      },
+      {
+        "title": "Loyalty",
+        "text": "Honest and loyal to our organisation and our clients"
+      },
+      {
+        "title": "Progress",
+        "text": "Always improving and embracing advanced technology. Every member of Chính Nam grows every day to build a forward-looking organisation."
+      }
+    ],
+    "strengthsLabel": "Our strengths",
+    "strengthsIntro": "A large team of architects and engineers with deep expertise and a genuine passion for design and construction.",
+    "strengths": [
+      {
+        "title": "People",
+        "items": [
+          "Our members work closely together and keep up with new technologies and new design trends.",
+          "Every member of Chính Nam is given every opportunity to grow.",
+          "Training runs continuously and never stops developing."
+        ]
+      },
+      {
+        "title": "Management system",
+        "items": [
+          "A central operating system with close supervision, periodic inspection and review.",
+          "A rigorous system of rules, regulations and processes.",
+          "Digital technology applied to our work, our management and our client care."
+        ]
+      },
+      {
+        "title": "Mission",
+        "items": [
+          "Building a home of happiness – creating peaceful, happy, prosperous and honourable living spaces for every homeowner."
+        ]
+      },
+      {
+        "title": "Vision",
+        "items": [
+          "To become an enduring design and construction organisation, where people live and work in happiness and spread care and happiness to every project and every place."
+        ]
+      },
+      {
+        "title": "Technology & solutions",
+        "items": [
+          "We never stop researching, learning and creating new design solutions. We bring advanced technology and modern equipment to our work and our sites, and we keep updating, improving and applying new construction materials from around the world to our projects."
+        ]
+      }
+    ],
+    "leadershipLabel": "Leadership",
+    "leadership": {
+      "label": "Message from",
+      "title": "the Chairman of the Board",
+      "paragraphs": [
+        "The mission of Chính Nam is to bring a home of happiness to every family — a place that helps create a peaceful, joyful and prosperous life for our clients. Each happy home is designed and built by engineers, architects and technical workers with deep expertise and dedication, who take “Integrity” as the guiding principle of everything they do.",
+        "Chính Nam walks alongside our clients, proposing the design and financial solutions that best create a happy, prosperous living space in each client's own style.",
+        "We wish our valued clients health, success and prosperity.",
+        "Sincerely."
+      ],
+      "name": "Trần Quang Huấn",
+      "role": "Chairman of the Board"
+    },
+    "ecosystemLabel": "Our ecosystem",
+    "ecosystemIntro": "Chính Nam has built a closed ecosystem: from the design idea, to standardised construction materials, to investment in modern equipment and machinery, to a process that brings several divisions together to deliver the best solution for our clients.",
+    "ecosystemHint": "Scroll through the members, or pick one on the wheel",
+    "ecosystemHub": "The Chính Nam ecosystem",
+    "ecosystem": [
+      {
+        "short": "Chính Nam",
+        "name": "Chinh Nam Design Construction Joint Stock Company",
+        "nameAlt": "Công ty CP Thiết kế Xây dựng Chính Nam",
+        "tagline": "Building A Home Of Happiness",
+        "description": "Creating living spaces that embody happiness and prosperity."
+      },
+      {
+        "short": "CN Vina",
+        "name": "CN Vina Industrial Transport Infrastructure Joint Stock Company",
+        "nameAlt": "Công ty Cổ phần Hạ tầng Giao thông Công nghiệp CN Vina",
+        "tagline": "Building Prosperous Works",
+        "description": "A professional design and construction company specializing in industrial projects, delivering sustainable, high-quality works that create long-term value and prosperity for investors."
+      },
+      {
+        "short": "Success Homes",
+        "name": "Success Homes Development Investment Joint Stock Company",
+        "nameAlt": "Công ty Cổ phần Đầu tư Phát triển Nhà Thành Công",
+        "tagline": "A Place of Happiness and Prosperity",
+        "description": "Creating prosperous real estate solutions for homeowners and contributing to national development."
+      },
+      {
+        "short": "Feng Shui Institute",
+        "name": "Chinh Nam Institute of Feng Shui Energy Application Co., Ltd",
+        "nameAlt": "Công ty TNHH Viện Ứng dụng Năng lượng Phong thủy Chính Nam",
+        "tagline": "Harmonious Energy, Prosperous Family",
+        "description": "Creating balanced and suitable Feng Shui energy to bring peaceful, happy and prosperous living spaces to homeowners."
+      },
+      {
+        "short": "Chinh Nam Academy",
+        "name": "Chinh Nam Academy Joint Stock Company",
+        "nameAlt": "Công ty Cổ phần Học viện Chính Nam",
+        "tagline": "Shaping Prosperous Leaders",
+        "description": "A training ground for developing leadership excellence."
+      },
+      {
+        "short": "FAQUA",
+        "name": "FAQUA Transportation Infrastructure Development Company Limited",
+        "nameAlt": "Công ty TNHH Phát triển Hạ tầng Giao thông FAQUA",
+        "tagline": "Shaping Sustainable Urban Development",
+        "description": "Building technical and transportation infrastructure in partnership with national growth and urbanization."
+      }
+    ],
+    "cta": {
+      "header": "The Archive",
+      "callout": "Design that speaks through form",
+      "description": "Each project tells a story of light, material and rhythm. Explore how ideas take shape and grow into lasting spaces."
+    }
+  },
+  "allInOne": {
+    "heroLabel": "Turnkey home building",
+    "heroTitle": "One partner, the whole house",
+    "heroHeading": "What turnkey home building means",
+    "heroBefore": "Turnkey home building means the client signs with a single construction partner that carries out ",
+    "heroHighlight": "the whole project, from A to Z",
+    "heroAfter": ". That partner handles every stage - survey, design, construction, installation of building equipment - and manages the work on site directly. When it is finished, the client simply takes over the completed home and moves in.",
+    "heroCompany": "Chính Nam Design & Construction JSC was founded in 2012. Today it is considered one of the leading design and construction firms in Đồng Nai. Over more than 13 years, with an experienced, highly skilled and dedicated team, Chính Nam keeps raising the quality of its design and construction work to deliver the best solutions for our clients - so that every client feels secure, satisfied and happy, from the first design idea through construction and into life in their happy home.",
+    "benefitsLabel": "Benefits of a turnkey build",
+    "benefitsTitle": "Why choose a turnkey solution?",
+    "benefits": [
+      {
+        "title": "Saves your time and effort",
+        "text": "With a turnkey solution the owner does not have to spend time and effort supervising and following the work on site. Everything to do with the build is managed by Chính Nam professionally and to a set process, so the owner can relax and save time."
+      },
+      {
+        "title": "Keeps the budget under control",
+        "text": "A turnkey solution lets you control the total construction cost effectively. You do not have to worry about unpredictable costs or sudden increases during construction."
+      },
+      {
+        "title": "A design that fits the family, sound in engineering and in aesthetics",
+        "text": "Your home is balanced in its spaces and complete in its functions, following your needs and taste, and expressing your standing."
+      },
+      {
+        "title": "One consistent build, from design through to finishing",
+        "text": "Every item and every detail is looked after and closely supervised, carried out to process and guaranteeing the quality and durability of the work."
+      },
+      {
+        "title": "A schedule you can count on",
+        "text": "Construction and handover follow the schedule agreed and committed to in the contract."
+      }
+    ],
+    "benefitsClosing": "Choosing a turnkey, key-in-hand solution saves you time, effort and money, while securing the quality and the schedule of your home in the best possible way.",
+    "processLabel": "The Chính Nam turnkey process",
+    "processIntro": "Nine steps, from the first consultation to the completion filings: each one with its own tasks and timeframe.",
+    "stepLabel": "Step",
+    "steps": [
+      {
+        "title": "First contact (online or in person), design consultation and design contract",
+        "items": [
+          "Recording and completing the client's information",
+          "A consultation in person (building density, indicative budget, first hand sketches setting the design direction around the client's needs and wishes)",
+          "Signing the contract + surveying the site"
+        ]
+      },
+      {
+        "title": "2D layout design",
+        "note": "Timeframe: 5 – 10 days",
+        "items": [
+          "Based on your needs and the condition of the site",
+          "Designing the floor plan and the layout of the functions",
+          "Presenting the 2D layout + a 3D massing model, explained at the Chính Nam office",
+          "Signing off the layout and moving on to the 3D exterior design"
+        ]
+      },
+      {
+        "title": "3D exterior design",
+        "note": "Timeframe: 5 – 15 days depending on the scale of the project",
+        "items": [
+          "Working from the approved plan, Chính Nam proposes a 3D exterior that suits both the functions and the budget",
+          "Presenting the 3D exterior",
+          "Signing off the 3D design and moving on to the basic design"
+        ]
+      },
+      {
+        "title": "Basic design & revisions to the design file",
+        "note": "Timeframe: 5 – 20 days depending on the scale of the project",
+        "items": [
+          "Once the 2D and 3D designs are agreed, Chính Nam produces the basic design for two purposes: the building permit, and the quotation for the “structural labour and materials” package",
+          "Presenting the design and agreeing the technical positions (septic tank, switches and sockets, structural system, etc.)",
+          "After that presentation, the owner reviews the whole basic design file and sends feedback to Chính Nam for updating"
+        ]
+      },
+      {
+        "title": "Interior design and adjustments",
+        "items": [
+          "Presenting and explaining the 2D layout: 5 - 10 working days",
+          "Designing, presenting and explaining the 3D scheme: 10 - 30 working days (depending on the scale of the project)",
+          "Producing the detailed drawings: 10 - 30 working days (depending on the scale of the project)"
+        ]
+      },
+      {
+        "title": "Completing and handing over the design file",
+        "items": [
+          "Handing over the technical construction drawings and the cost estimate",
+          "Signing the contract settlement at the Chính Nam office",
+          "The permit file is given to the owner once the authorities respond"
+        ]
+      },
+      {
+        "title": "Construction contract and start of works",
+        "items": [
+          "Structural works",
+          "Finishing works",
+          "Interior fit-out"
+        ]
+      },
+      {
+        "title": "Inspection and handover",
+        "items": [
+          "Checks and inspections run throughout construction and are carried out for each detailed task and each item of the works, as required by construction law and to the Vietnamese standards for each item inspected.",
+          "Handover, instructions for use and support afterwards: throughout your life in your “happy home”, Chính Nam stays alongside you.",
+          "Whenever you need support, please contact our client care team on 0944 454 199 - (0251) 7 301 139, and Chính Nam will advise the best solution - one that saves cost without damaging the original architecture."
+        ]
+      },
+      {
+        "title": "Completion filings",
+        "items": [
+          "It does not end at handover and warranty: the last stage of a turnkey build is the completion filing.",
+          "Chính Nam advises and helps the owner prepare the procedures and legal documents required by law, so the project is finished in full."
+        ]
+      }
+    ],
+    "scheduleLabel": "Construction schedule",
+    "scheduleIntro": "How long each stage takes, by the scale of the project.",
+    "scheduleHint": "Scroll through the stages, or pick one on the wheel",
+    "scheduleHub": "Construction schedule",
+    "schedule": [
+      {
+        "key": "rough",
+        "short": "Structure",
+        "title": "Structural works",
+        "text": "The structure is the most important part of any build. It is the stage that shapes the house - columns, beams, slabs - and gives it its strength. Structural work (labour and materials) follows the design file and covers:",
+        "items": [
+          "Foundations",
+          "Ground beams and foundation beams",
+          "Columns",
+          "Concrete beams and floor slabs on every storey",
+          "Building and rendering all the walls",
+          "The roof"
+        ],
+        "groupsLabel": "Structural schedule",
+        "groups": [
+          {
+            "title": "Townhouse of 2 → 3 storeys",
+            "total": "1 → 2 months",
+            "rows": [
+              {
+                "task": "Foundations, ground beams",
+                "duration": "10 → 15 days"
+              },
+              {
+                "task": "Columns → beams and slabs per storey",
+                "duration": "7 → 10 days / storey"
+              },
+              {
+                "task": "Wall building",
+                "duration": "5 → 7 days / storey"
+              }
+            ]
+          },
+          {
+            "title": "Villa of 150 → 200 m² / storey",
+            "total": "3 → 4 months on average",
+            "rows": [
+              {
+                "task": "Foundations, foundation beams",
+                "duration": "15 → 20 days"
+              },
+              {
+                "task": "Columns → beams and slabs per storey",
+                "duration": "12 → 14 days / storey"
+              },
+              {
+                "task": "Wall building",
+                "duration": "10 → 12 days / storey"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "finishing",
+        "short": "Finishing",
+        "title": "Finishing works",
+        "text": "With the structure done, the house is 70% complete. Next comes finishing - the stage that dresses the house in the style the family wants.",
+        "itemsLabel": "What finishing covers",
+        "items": [
+          "Waterproofing",
+          "Tiling and stonework",
+          "Plasterboard ceilings",
+          "Painting",
+          "Fitting doors and balustrades…"
+        ],
+        "groupsLabel": "Finishing schedule",
+        "groups": [
+          {
+            "title": "Townhouse",
+            "total": "2 → 3 months",
+            "rows": []
+          },
+          {
+            "title": "Villa",
+            "total": "5 → 6 months",
+            "rows": []
+          }
+        ]
+      },
+      {
+        "key": "interior",
+        "short": "Interiors",
+        "title": "Interior fit-out",
+        "text": "20 → 30 days for all items.",
+        "items": [],
+        "groups": [
+          {
+            "title": "All items",
+            "total": "20 → 30 days",
+            "rows": []
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Turnkey",
+      "callout": "One contract, one team, one happy home",
+      "description": "From survey and design through construction, interiors and the completion filings - Chính Nam takes responsibility for every item, so all you have to do is move in."
+    },
+    "nextLabel": "Next",
+    "nextTitle": "Price list",
+    "nextHint": "Keep scrolling down to open"
+  },
+  "pricing": {
+    "heroLabel": "Price list",
+    "heroTitle": "Clear costs from the start",
+    "heroIntro": "Design rates by building type and style, and what each package includes. All rates include VAT and are confirmed against the actual site.",
+    "prevLabel": "Back",
+    "prevTitle": "Turnkey home building",
+    "prevHint": "Keep scrolling up to go back",
+    "unit": "VND/m²",
+    "yes": "Included",
+    "no": "Not included",
+    "note": "✔ Included · ✖ Not included",
+    "baseLabel": "core items, in every package",
+    "addsLabel": "added over the previous package",
+    "sections": [
+      {
+        "key": "design",
+        "label": "Technical design rates",
+        "ratesLabel": "Design rates",
+        "ratesIntro": "Rates by building type and design style, per m² of floor area.",
+        "types": [
+          {
+            "name": "Townhouse",
+            "note": "1 frontage"
+          },
+          {
+            "name": "Townhouse",
+            "note": "2 frontages"
+          },
+          {
+            "name": "Villa",
+            "note": "2 frontages"
+          },
+          {
+            "name": "Villa",
+            "note": "3 frontages"
+          },
+          {
+            "name": "Mansion",
+            "note": "Luxury"
+          }
+        ],
+        "styles": [
+          "Modern",
+          "Classical"
+        ],
+        "rates": [
+          [
+            180000,
+            195000,
+            230000,
+            250000,
+            390000
+          ],
+          [
+            195000,
+            225000,
+            255000,
+            270000,
+            390000
+          ]
+        ],
+        "packagesLabel": "What the design file covers",
+        "packagesIntro": "Three packages over one shared base of architectural, structural and MEP drawings - what changes is what is added on top.",
+        "packages": [
+          "Standard package",
+          "Premium package",
+          "Luxury package"
+        ],
+        "packageShorts": [
+          "Standard",
+          "Premium",
+          "Luxury"
+        ],
+        "groups": [
+          {
+            "title": "Architectural drawings",
+            "items": [
+              {
+                "name": "3D exterior visualisation",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Building permit drawings",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Technical construction drawings (plans, elevations, sections and complex details)",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Detailed 3D interiors for every space",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Detailed interior fit-out drawings",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "3D gate design",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "3D and working drawings for the garden and landscape",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Presentation video of the design (sent by email)",
+                "in": [
+                  false,
+                  false,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Structural drawings",
+            "items": [
+              {
+                "name": "Foundation, column and ground beam plans",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Beam and slab plans for every storey",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Foundation and column details",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Other construction details",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "title": "MEP & air-conditioning drawings",
+            "items": [
+              {
+                "name": "Lighting on every storey",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Power supply on every storey",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Low-voltage systems (internet, TV, cameras…)",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Lightning protection",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Water supply and drainage on every storey",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Air conditioning on every storey",
+                "in": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Smart home system",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Fire protection and emergency lighting",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Landscape, garden, sports court and feature lighting…",
+                "in": [
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "interior",
+        "label": "Interior design rates",
+        "ratesLabel": "Interior design rates in detail",
+        "ratesIntro": "Interior design rates by building type and style, per m² of floor area.",
+        "types": [
+          {
+            "name": "Townhouse",
+            "note": "Modern"
+          },
+          {
+            "name": "Townhouse",
+            "note": "Classical"
+          },
+          {
+            "name": "Villa",
+            "note": "Modern"
+          },
+          {
+            "name": "Villa",
+            "note": "Classical"
+          }
+        ],
+        "styles": [
+          "Rate"
+        ],
+        "rates": [
+          [
+            200000,
+            230000,
+            230000,
+            280000
+          ]
+        ],
+        "note": "These rates apply to the interiors of homes. Interior design for public buildings (cultural, educational, healthcare, commercial and service buildings, offices, hotels, restaurants, cafés and so on) is quoted by the scale of the project or against its investment ceiling, under Decision 79/QĐ-BXD of 15 February 2017 issued by the Ministry of Construction."
+      },
+      {
+        "key": "turnkey",
+        "label": "Turnkey construction rates",
+        "rangeLabel": "Turnkey home building rates",
+        "rangeNote": "Structure & finishing",
+        "rangeFrom": 6350000,
+        "rangeTo": 7950000,
+        "text": "These turnkey rates cover villas, townhouses and similar homes. Depending on the design style and the materials you choose, Chính Nam adjusts them to match the real project - so leave us your details if you would like advice and an estimate for building your home turnkey."
+      },
+      {
+        "key": "roughMaterials",
+        "label": "Materials used in a Chính Nam turnkey build",
+        "materialsLabel": "Structural materials",
+        "materialsIntro": "Three material packages over the same build process - what changes is the make of every material used.",
+        "materialsHub": "Structural materials",
+        "materialsNote": "These rates include the labour and the structural materials, built to the design file.",
+        "packages": [
+          "Standard package",
+          "Enhanced package",
+          "Premium package"
+        ],
+        "packageShorts": [
+          "Standard",
+          "Enhanced",
+          "Premium"
+        ],
+        "packagePrices": [
+          3800000,
+          4150000,
+          4750000
+        ],
+        "materialGroups": [
+          {
+            "title": "Main materials",
+            "items": [
+              {
+                "name": "Cement",
+                "specs": [
+                  "Insee Lavilla cement",
+                  "Insee multi-purpose, laying and rendering",
+                  "Insee multi-purpose, laying and rendering"
+                ]
+              },
+              {
+                "name": "Reinforcing steel",
+                "specs": [
+                  "Việt Nhật CB3 or POMINA SD290",
+                  "Việt Nhật CB4 or POMINA SD390",
+                  "Việt Nhật CB4 or POMINA SD390"
+                ]
+              },
+              {
+                "name": "Ready-mixed concrete",
+                "specs": [
+                  "Ready-mixed, grey aggregate",
+                  "Ready-mixed, Sonadezi",
+                  "Ready-mixed, Sonadezi"
+                ]
+              },
+              {
+                "name": "Bricks",
+                "specs": [
+                  "Trung Nguyên, Quốc Toàn or Tám Huỳnh",
+                  "Hữu Thuận",
+                  "Hữu Thuận"
+                ]
+              },
+              {
+                "name": "Sand for laying and rendering",
+                "specs": [
+                  "Fine yellow sand",
+                  "Đờ Mi yellow sand",
+                  "Coarse yellow sand"
+                ]
+              },
+              {
+                "name": "Coarse yellow sand for concrete",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Aggregate",
+                "specs": [
+                  "Đồng Nai stone",
+                  "Tân Cang stone",
+                  "Tân Cang stone"
+                ]
+              },
+              {
+                "name": "Roof tiles or sheeting",
+                "specs": [
+                  "Đồng Tâm tiles or Hoa Sen sheeting",
+                  "Thai tiles or Hoa Sen sheeting",
+                  "Japanese tiles or Hoa Sen sheeting"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Electrical & plumbing",
+            "items": [
+              {
+                "name": "Drainage pipework",
+                "specs": [
+                  "EuroPipe PVC",
+                  "EuroPipe uPVC",
+                  "EuroPipe uPVC"
+                ]
+              },
+              {
+                "name": "Cold water pipework",
+                "specs": [
+                  "EuroPipe PPR",
+                  "EuroPipe PPR",
+                  "EuroPipe PPR"
+                ]
+              },
+              {
+                "name": "Hot water pipework, EuroPipe PPR",
+                "specs": [
+                  null,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "CADIVI 7-core electrical cable",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Conduit cast into the concrete slabs",
+                "specs": [
+                  "VEGA rigid",
+                  "SINO rigid",
+                  "SINO rigid"
+                ]
+              },
+              {
+                "name": "Conduit chased into the walls",
+                "specs": [
+                  "SINO - MPE flexible",
+                  "SINO rigid",
+                  "SINO rigid"
+                ]
+              },
+              {
+                "name": "Telephone and TV cable",
+                "specs": [
+                  "MPE",
+                  "SINO",
+                  "SINO"
+                ]
+              },
+              {
+                "name": "Internet cable",
+                "specs": [
+                  "CAT5E",
+                  "CAT6",
+                  "CAT6"
+                ]
+              },
+              {
+                "name": "Earthing system: copper rods, earth wire",
+                "specs": [
+                  null,
+                  true,
+                  true
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Waterproofing & site materials",
+            "items": [
+              {
+                "name": "Waterproofing",
+                "specs": [
+                  "KOVA CT 11A - SIKA LATEX",
+                  "KOVA CT 11A - SIKA LATEX, MASTERSEAL 540 or HYPER DESMO",
+                  "MASTERSEAL 540 or HYPER DESMO"
+                ]
+              },
+              {
+                "name": "B6 waterproofing admixture in the ready-mixed concrete",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Precast concrete spacers",
+                "specs": [
+                  true,
+                  true,
+                  true
+                ]
+              },
+              {
+                "name": "Tile levelling clips",
+                "specs": [
+                  null,
+                  null,
+                  true
+                ]
+              },
+              {
+                "name": "Film-faced formwork ply",
+                "specs": [
+                  null,
+                  null,
+                  true
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "finishMaterials",
+        "label": "Finishing materials",
+        "materialsLabel": "Finishing materials",
+        "materialsIntro": "You choose the finishes; each package sets the range of material and the price allowed for it.",
+        "materialsHub": "Finishing materials",
+        "materialsNote": "The unit prices are the ceilings carried in the contract; anything above them, if you choose a higher finish, is settled against the actual cost.",
+        "packages": [
+          "Standard package",
+          "Enhanced package",
+          "Premium package"
+        ],
+        "packageShorts": [
+          "Standard",
+          "Enhanced",
+          "Premium"
+        ],
+        "materialGroups": [
+          {
+            "title": "Wall and floor tiling (finishes chosen by the owner)",
+            "items": [
+              {
+                "name": "Floor tiles on every storey",
+                "note": "120x600 skirting cut from the floor tile",
+                "specs": [
+                  "600x600 matt tiles (Viglacera, Prime, Thanh Thanh, Tasa, Taicera, Casa…). Unit price ≤ 200,000/m²",
+                  "600x600 double-glazed polished tiles (Đồng Tâm, Bạch Mã, Viglacera). Unit price ≤ 300,000/m²",
+                  "600x600 fully polished tiles (Vietceramic, Đồng Tâm, Trường Thịnh…). Unit price ≤ 400,000/m²"
+                ]
+              },
+              {
+                "name": "Floor tiles for the roof terrace, front and rear yards",
+                "specs": [
+                  "400x400 matt tiles (Viglacera, Prime, Thanh Thanh, Tasa, Taicera, Casa…). Unit price ≤ 180,000/m²",
+                  "600x600 matt tiles (Đồng Tâm, Bạch Mã, Viglacera…). Unit price ≤ 220,000/m²",
+                  "600x600 textured matt tiles (Vietceramic, Đồng Tâm, Trường Thịnh…). Unit price ≤ 280,000/m²"
+                ]
+              },
+              {
+                "name": "Bathroom floor tiles",
+                "specs": [
+                  "Viglacera, Prime, Thanh Thanh, Tasa, Taicera, Casa… Tiles to the chosen pattern. Unit price ≤ 180,000/m²",
+                  "Đồng Tâm, Bạch Mã, Viglacera… Tiles to the chosen pattern. Unit price ≤ 220,000/m²",
+                  "Textured matt tiles (Vietceramic, Đồng Tâm, Trường Thịnh…). Tiles to the chosen pattern. Unit price ≤ 280,000/m²"
+                ]
+              },
+              {
+                "name": "Bathroom wall tiles",
+                "note": "Tiled to under 3.0m. Skirting not included",
+                "specs": [
+                  "Tiles to the chosen pattern. Unit price ≤ 180,000/m²",
+                  "Tiles to the chosen pattern. Unit price ≤ 220,000/m²",
+                  "Tiles to the chosen pattern. Unit price ≤ 280,000/m²"
+                ]
+              },
+              {
+                "name": "Tile grout",
+                "specs": [
+                  "Weber or Cá Sấu grout. Unit price ≤ 30,000/kg",
+                  "Weber or Cá Sấu grout. Unit price ≤ 30,000/kg",
+                  "Weber or Cá Sấu grout. Unit price ≤ 30,000/kg"
+                ]
+              },
+              {
+                "name": "Decorative stone to the façade and garden",
+                "note": "Up to 10m²",
+                "specs": [
+                  "Supplier chosen by the owner. Unit price ≤ 400,000/m²",
+                  "Supplier chosen by the owner. Unit price ≤ 500,000/m²",
+                  "Supplier chosen by the owner. Unit price ≤ 600,000/m²"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Painting",
+            "items": [
+              {
+                "name": "Exterior paint",
+                "note": "2 coats of filler, 1 primer, 2 top coats. Rollers, brushes and abrasive paper included",
+                "specs": [
+                  "Donasa paint, Donasa exterior filler. Unit price ≤ 60,000/m²",
+                  "Nippon paint, Nippon exterior filler. Unit price ≤ 65,000/m²",
+                  "Dulux or Jotun paint and filler. Unit price ≤ 105,000/m²"
+                ]
+              },
+              {
+                "name": "Interior paint",
+                "note": "2 coats of filler, 1 primer, 2 top coats. Rollers, brushes and abrasive paper included",
+                "specs": [
+                  "Donasa paint, Donasa interior filler. Unit price ≤ 55,000/m²",
+                  "Nippon paint and filler. Unit price ≤ 60,000/m²",
+                  "Dulux or Jotun paint and filler. Unit price ≤ 82,000/m²"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Doors and windows (finishes chosen by the owner)",
+            "items": [
+              {
+                "name": "Room doors",
+                "note": "Includes installation labour",
+                "specs": [
+                  "Painted engineered wood. Unit price ≤ 3,200,000/m²",
+                  "Oak. Unit price ≤ 4,500,000/m²",
+                  "Gõ hardwood. Unit price ≤ 6,000,000/m²"
+                ]
+              },
+              {
+                "name": "Bathroom doors",
+                "note": "Includes installation labour",
+                "specs": [
+                  "Xingfa VN aluminium, 1.2mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 1,900,000/m²",
+                  "Xingfa VN aluminium, 1.4mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 2,000,000/m²",
+                  "Imported Xingfa aluminium, 2mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 2,300,000/m²"
+                ]
+              },
+              {
+                "name": "Front doors (balcony, roof terrace, rear yard…)",
+                "note": "Includes installation labour",
+                "specs": [
+                  "Xingfa VN aluminium, 1.2mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 1,900,000/m²",
+                  "Xingfa VN aluminium, 1.4mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 2,000,000/m²",
+                  "Imported Xingfa aluminium, 2mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 2,300,000/m²"
+                ]
+              },
+              {
+                "name": "Front windows (façade, balcony, roof terrace, rear yard…)",
+                "note": "Includes installation labour",
+                "specs": [
+                  "Xingfa VN aluminium, 1.2mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 1,900,000/m²",
+                  "Xingfa VN aluminium, 1.4mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 2,000,000/m²",
+                  "Imported Xingfa aluminium, 1.4mm, grey or white, 8mm frosted toughened glass, metal fittings. Unit price ≤ 2,300,000/m²"
+                ]
+              },
+              {
+                "name": "Window security grilles (front elevation only)",
+                "note": "Labour and Expo enamel included; the prices differ with the sharpness of the work",
+                "specs": [
+                  "13x26x1.2mm box section, enamelled, simple pattern. Unit price ≤ 700,000/m²",
+                  "13x26x1.2mm galvanised box section, enamelled, simple pattern. Unit price ≤ 800,000/m²",
+                  "13x26x1.2mm galvanised box section, enamelled, sharply detailed pattern. Unit price ≤ 900,000/m²"
+                ]
+              },
+              {
+                "name": "Locks for room, front, balcony and terrace doors",
+                "note": "Steel-reinforced uPVC and aluminium doors come without a lock",
+                "specs": [
+                  "Lever handle lock. Unit price ≤ 600,000 each",
+                  "Lever lock. Unit price ≤ 1,000,000 each",
+                  "Premium lever lock. Unit price ≤ 1,600,000 each"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Staircase",
+            "items": [
+              {
+                "name": "Staircase balustrade",
+                "note": "Labour and Expo enamel included",
+                "specs": [
+                  "20x20x1.0mm steel box section, simple pattern. Unit price ≤ 950,000/lin.m",
+                  "25x25x1.0mm steel box section, simple pattern. Unit price ≤ 1,050,000/lin.m",
+                  "10mm toughened glass with 304 stainless posts. Unit price ≤ 1,100,000/lin.m"
+                ]
+              },
+              {
+                "name": "Staircase handrail",
+                "note": "Labour and Expo enamel included",
+                "specs": [
+                  "Oak handrail D60 (60x60). Unit price ≤ 500,000/lin.m",
+                  "Oak handrail 60x80. Unit price ≤ 600,000/lin.m",
+                  "Gõ hardwood handrail 60x80. Unit price ≤ 900,000/lin.m"
+                ]
+              },
+              {
+                "name": "Newel post",
+                "specs": [
+                  "Oak. Unit price ≤ 2,500,000 each",
+                  "Oak. Unit price ≤ 3,500,000 each",
+                  "Gõ hardwood. Unit price ≤ 4,500,000 each"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Granite (finishes chosen by the owner)",
+            "items": [
+              {
+                "name": "Granite stair treads",
+                "specs": [
+                  "Suối Lau white, Phan Rang pink, Hoa Cà violet. Unit price ≤ 750,000/m²",
+                  "Kim Sa black. Unit price ≤ 1,300,000/m²",
+                  "British brown, Indian black… Unit price ≤ 1,500,000/m²"
+                ]
+              },
+              {
+                "name": "Granite to the ground floor façade",
+                "specs": [
+                  "Suối Lau white, Phan Rang pink, Hoa Cà violet. Unit price ≤ 950,000/m²",
+                  "Kim Sa black. Unit price ≤ 1,500,000/m²",
+                  "British brown, Indian black… Unit price ≤ 1,800,000/m²"
+                ]
+              },
+              {
+                "name": "Granite entrance steps (where present)",
+                "specs": [
+                  "Suối Lau white, Phan Rang pink, Hoa Cà violet. Unit price ≤ 750,000/m²",
+                  "Kim Sa black. Unit price ≤ 1,500,000/m²",
+                  "British brown, Indian black… Unit price ≤ 1,800,000/m²"
+                ]
+              },
+              {
+                "name": "Granite stair skirting and 100mm thresholds",
+                "specs": [
+                  "Suối Lau white, Phan Rang pink, Hoa Cà violet. Unit price ≤ 250,000/lin.m",
+                  "Kim Sa black. Unit price ≤ 280,000/lin.m",
+                  "British brown, Indian black… Unit price ≤ 280,000/m²"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Electrical fittings (finishes chosen by the owner)",
+            "items": [
+              {
+                "name": "Main and floor consumer units (4-way), premium plastic enclosure",
+                "note": "Includes installation labour",
+                "specs": [
+                  "SINO",
+                  "SINO",
+                  "SINO"
+                ]
+              },
+              {
+                "name": "MCBs, switches and sockets",
+                "note": "Includes installation labour",
+                "specs": [
+                  "SINO. 4 switches and 4 sockets per room",
+                  "Panasonic Wide, white. 4 switches and 4 sockets per room",
+                  "Panasonic Wide, white. 4 switches and 4 sockets per room"
+                ]
+              },
+              {
+                "name": "Telephone, internet and cable TV outlets",
+                "note": "Includes installation labour",
+                "specs": [
+                  "SINO. 1 per room",
+                  "Panasonic Wide, white. 1 per room",
+                  "Panasonic Wide, white. 1 per room"
+                ]
+              },
+              {
+                "name": "Lighting indoors and in the yard",
+                "note": "Includes installation labour",
+                "specs": [
+                  "1.2m twin batten, Philips single tube, 2 per room (or 6 round LED equivalents). Unit price ≤ 250,000 each, or 130,000 per LED",
+                  "1.2m twin batten, Philips single tube, 4 per room (or 8 round LED equivalents). Unit price ≤ 250,000 each, or 150,000 per LED",
+                  "1.2m twin batten, Philips single tube, 6 per room (or 10 round LED equivalents). Unit price ≤ 250,000 each, or 170,000 per LED"
+                ]
+              },
+              {
+                "name": "Bathroom extractor fan",
+                "note": "Includes installation labour",
+                "specs": [
+                  "1 per bathroom. Unit price ≤ 350,000 each",
+                  "1 per bathroom. Unit price ≤ 350,000 each",
+                  "1 per bathroom. Unit price ≤ 800,000 each"
+                ]
+              },
+              {
+                "name": "Bathroom light",
+                "note": "Includes installation labour",
+                "specs": [
+                  "Ceiling-mounted, 1 per bathroom. Unit price ≤ 200,000 each",
+                  "Ceiling-mounted, 1 per bathroom. Unit price ≤ 300,000 each",
+                  "Ceiling-mounted, 1 per bathroom. Unit price ≤ 400,000 each"
+                ]
+              },
+              {
+                "name": "Staircase light",
+                "note": "Includes installation labour",
+                "specs": [
+                  "1 per storey. Unit price ≤ 300,000 each",
+                  "1 per storey. Unit price ≤ 400,000 each",
+                  "1 per storey. Unit price ≤ 800,000 each"
+                ]
+              },
+              {
+                "name": "Balcony light",
+                "specs": [
+                  "1 per storey. Unit price ≤ 300,000 each",
+                  "1 per storey. Unit price ≤ 400,000 each",
+                  "1 per storey. Unit price ≤ 600,000 each"
+                ]
+              },
+              {
+                "name": "Decorative lighting in the plasterboard ceiling",
+                "note": "Includes installation labour",
+                "specs": [
+                  "4 LED lamps per room (or 8m of LED strip). Unit price ≤ 150,000 each, or 80,000 per strip",
+                  "4 LED lamps per room (or 10m of LED strip). Unit price ≤ 200,000 each, or 80,000 per strip",
+                  "6 LED lamps per room (or 15m of LED strip). Unit price ≤ 200,000 each, or 80,000 per strip"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Sanitaryware and plumbing (finishes chosen by the owner)",
+            "items": [
+              {
+                "name": "WC pan",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Unit price ≤ 3,000,000 each",
+                  "Viglacera, Caesar, Inax, American… Unit price ≤ 4,000,000 each",
+                  "Inax, American, Toto, Standard… Unit price ≤ 6,000,000 each"
+                ]
+              },
+              {
+                "name": "Basin and waste",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Unit price ≤ 1,000,000 each",
+                  "Viglacera, Caesar, Inax, American… Unit price ≤ 1,600,000 each",
+                  "Inax, American, Toto, Standard… Unit price ≤ 3,000,000 each"
+                ]
+              },
+              {
+                "name": "Basin tap",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Cold only. Viglacera, Caesar, Inax… Unit price ≤ 700,000 each",
+                  "Mixer. Viglacera, Caesar, Inax, American… Unit price ≤ 1,400,000 each",
+                  "Mixer. Inax, American, Toto, Standard… Unit price ≤ 2,500,000 each"
+                ]
+              },
+              {
+                "name": "Shower mixer",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Unit price ≤ 1,100,000 each",
+                  "Viglacera, Caesar, Inax, American… Unit price ≤ 2,100,000 each",
+                  "Inax, American, Toto, Standard… Unit price ≤ 3,000,000 each"
+                ]
+              },
+              {
+                "name": "Bidet spray",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Unit price ≤ 200,000 each",
+                  "Viglacera, Caesar, Inax, American… Unit price ≤ 250,000 each",
+                  "Inax, American, Toto, Standard… Unit price ≤ 400,000 each"
+                ]
+              },
+              {
+                "name": "Taps for the roof terrace, balcony and yard",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Unit price ≤ 150,000 each",
+                  "Viglacera, Caesar, Inax, American… Unit price ≤ 200,000 each",
+                  "Inax, American, Toto, Standard… Unit price ≤ 350,000 each"
+                ]
+              },
+              {
+                "name": "Bathroom accessories",
+                "note": "1 set per bathroom",
+                "specs": [
+                  "Viglacera, Caesar, Inax… Unit price ≤ 800,000 each",
+                  "Viglacera, Caesar, Inax, American… Unit price ≤ 1,000,000 each",
+                  "Inax, American, Toto, Standard… Unit price ≤ 1,500,000 each"
+                ]
+              },
+              {
+                "name": "Floor gully",
+                "specs": [
+                  "Odour-trap stainless steel. Unit price ≤ 150,000 each",
+                  "Odour-trap stainless steel. Unit price ≤ 200,000 each",
+                  "Odour-trap stainless steel. Unit price ≤ 350,000 each"
+                ]
+              },
+              {
+                "name": "Waste strainer",
+                "specs": [
+                  "Stainless steel. Unit price ≤ 150,000 each",
+                  "Stainless steel. Unit price ≤ 200,000 each",
+                  "Stainless steel. Unit price ≤ 350,000 each"
+                ]
+              },
+              {
+                "name": "Kitchen sink",
+                "specs": [
+                  "Đại Thành, Luxta, Sơn Hà. Unit price ≤ 1,500,000 each",
+                  "Đại Thành, Luxta, Eurowin… Unit price ≤ 2,000,000 each",
+                  "Tân Á Đại Thành, Luxta, Javic… Unit price ≤ 2,500,000 each"
+                ]
+              },
+              {
+                "name": "Kitchen tap",
+                "specs": [
+                  "Đại Thành, Luxta, Sơn Hà. Unit price ≤ 500,000 each",
+                  "Đại Thành, Luxta, Eurowin… Unit price ≤ 800,000 each",
+                  "Tân Á Đại Thành, Luxta, Javic… Unit price ≤ 1,000,000 each"
+                ]
+              },
+              {
+                "name": "Stainless steel water tank",
+                "note": "Fittings included",
+                "specs": [
+                  "Tân Á Đại Thành 1,000 litres. Unit price ≤ 6,000,000 each",
+                  "Tân Á Đại Thành 1,500 litres. Unit price ≤ 8,500,000 each",
+                  "Tân Á Đại Thành 2,000 litres. Unit price ≤ 10,000,000 each"
+                ]
+              },
+              {
+                "name": "Steel stand for the water tank",
+                "specs": [
+                  "V5 steel. Unit price ≤ 4,000,000 each",
+                  "V5 steel. Unit price ≤ 4,500,000 each",
+                  "V5 steel. Unit price ≤ 4,500,000 each"
+                ]
+              },
+              {
+                "name": "Water pump",
+                "specs": [
+                  "Panasonic 200W. Unit price ≤ 2,000,000 each",
+                  "Panasonic 200W. Unit price ≤ 2,500,000 each",
+                  "Panasonic 250W. Unit price ≤ 3,000,000 each"
+                ]
+              },
+              {
+                "name": "Hot water pipework",
+                "specs": [
+                  "Bình Minh pipe to the design, bathrooms",
+                  "Bình Minh pipe to the design, bathrooms + kitchen",
+                  "Bình Minh pipe to the design, bathrooms + kitchen"
+                ]
+              },
+              {
+                "name": "Solar water heater",
+                "specs": [
+                  "Tân Á Đại Thành 130L. Unit price ≤ 8,600,000 each",
+                  "Tân Á Đại Thành 160L. Unit price ≤ 9,500,000 each",
+                  "Tân Á Đại Thành 180L. Unit price ≤ 10,400,000 each"
+                ]
+              },
+              {
+                "name": "Copper pipework for the air conditioning",
+                "specs": [
+                  "Thai 7gem pipe. Up to 40m. Unit price ≤ 290,000/lin.m",
+                  "Thai 7gem pipe. Up to 50m. Unit price ≤ 290,000/lin.m",
+                  "Thai 7gem pipe. Up to 80m. Unit price ≤ 290,000/lin.m"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Other items",
+            "items": [
+              {
+                "name": "Decorative plasterboard",
+                "note": "Labour and materials",
+                "specs": [
+                  "Vĩnh Tường M29 frame, StandardShield board, German technology. Unit price ≤ 170,000/m²",
+                  "Vĩnh Tường TK4000 frame, StandardShield board, German technology. Unit price ≤ 180,000/m²",
+                  "Vĩnh Tường Alpha 4000 frame, StandardShield board, German technology. Unit price ≤ 190,000/m²"
+                ]
+              },
+              {
+                "name": "Kitchen chandelier",
+                "note": "Labour and materials",
+                "specs": [
+                  "Decorative light. Unit price ≤ 1,500,000 each",
+                  "Decorative light. Unit price ≤ 2,500,000 each",
+                  "Decorative light. Unit price ≤ 5,000,000 each"
+                ]
+              },
+              {
+                "name": "Balcony balustrade",
+                "note": "Labour and materials",
+                "specs": [
+                  "Steel box section, simple pattern. Unit price ≤ 1,200,000/lin.m",
+                  "Steel box section to the chosen pattern. Unit price ≤ 1,350,000/lin.m",
+                  "10mm toughened glass with 304 stainless posts. Unit price ≤ 1,450,000/lin.m"
+                ]
+              },
+              {
+                "name": "Entrance gate",
+                "note": "Labour and materials",
+                "specs": [
+                  "1.0mm steel box section, enamelled, simple pattern. Unit price ≤ 1,800,000/m²",
+                  "1.4mm steel, enamelled, simple pattern. Unit price ≤ 2,000,000/m²",
+                  "1.4mm steel, enamelled, to the chosen pattern. Unit price ≤ 2,200,000/m²"
+                ]
+              },
+              {
+                "name": "Steel frame for the stairwell and light-well rooflight",
+                "note": "Labour and materials",
+                "specs": [
+                  "20x20x1.0mm box section, enamelled. Unit price ≤ 800,000/m²",
+                  "25x25x1.2mm box section, enamelled. Unit price ≤ 950,000/m²",
+                  "25x25x1.2mm box section, enamelled. Unit price ≤ 950,000/m²"
+                ]
+              },
+              {
+                "name": "Rooflight glazing",
+                "note": "Labour and materials",
+                "specs": [
+                  "8mm toughened glass. Unit price ≤ 950,000/m²",
+                  "8mm toughened glass. Unit price ≤ 1,050,000/m²",
+                  "10mm toughened glass. Unit price ≤ 1,250,000/m²"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Quotation",
+      "callout": "One conversation and you have a number for your project",
+      "description": "These rates cover the technical design file. Send us the floor area, the number of storeys and the style you have in mind, and Chính Nam will put together the cost for your project."
+    },
+    "typeLabel": "Type",
+    "packagesHint": "Scroll through the packages, or pick one on the wheel",
+    "packagesHub": "The design file",
+    "contactCta": "Get an estimate"
+  },
+  "designConsult": {
+    "heroLabel": "Design consultation",
+    "heroTitle": "Standard & premium design packages",
+    "heroText": "Design is the step that decides your future home - how it works, how it looks, and what it costs to build.",
+    "introLabel": "Introduction",
+    "introHeading": "A home is where memories are made",
+    "intro": [
+      "As society moves on, a home is asked to be more than shelter at the end of a hard day: it is where memories are made with the people closest to you, and where you recover your energy each day. Those memories and experiences connect the members of a family, nurture their affection for one another and shape who they become.",
+      "Design is a critical step in preparing the home you will live in. It lets you forecast and control the costs, the materials, the time and the labour the build will take. Designing means researching, drawing inspiration and finding creative answers - answers that are beautiful, that suit how the house will be used, and above all that carry the owner's own style and standing."
+    ],
+    "statement": "Over more than a decade, Chính Nam Design & Construction JSC has become a name trusted nationwide, with the mission of “Building A Home Of Happiness”: living spaces that are harmonious in feng shui, in beauty and in durability.",
+    "interiorLabel": "Interior design",
+    "interior": [
+      "Alongside the architecture outside and the well-planned layout that comes with the architectural design package, interior design takes the living space further still - in how it works and in how it looks.",
+      "The right interior sits in proportion with the architecture of the house and brings out its beauty. Every home has its own size and its own demands, its own owners, its own interior style, and its designer's own flexibility - together they make the one house that is truly yours."
+    ],
+    "typeLabel": "Type",
+    "unit": "VND/m²",
+    "rateSets": [
+      {
+        "ratesLabel": "Technical design rates",
+        "ratesIntro": "Architectural design rates by building type and style, per m² of floor area.",
+        "types": [
+          {
+            "name": "Townhouse",
+            "note": "1 frontage"
+          },
+          {
+            "name": "Townhouse",
+            "note": "2 frontages"
+          },
+          {
+            "name": "Villa",
+            "note": "2 frontages"
+          },
+          {
+            "name": "Villa",
+            "note": "3 frontages"
+          }
+        ],
+        "styles": [
+          "Modern",
+          "Classical"
+        ],
+        "rates": [
+          [
+            180000,
+            195000,
+            230000,
+            250000
+          ],
+          [
+            195000,
+            225000,
+            255000,
+            270000
+          ]
+        ]
+      },
+      {
+        "ratesLabel": "Interior design rates",
+        "ratesIntro": "Interior design rates by building type and style, per m² of floor area.",
+        "types": [
+          {
+            "name": "Townhouse",
+            "note": "Modern"
+          },
+          {
+            "name": "Townhouse",
+            "note": "Classical"
+          },
+          {
+            "name": "Villa",
+            "note": "Modern"
+          },
+          {
+            "name": "Villa",
+            "note": "Classical"
+          }
+        ],
+        "styles": [
+          "Rate"
+        ],
+        "rates": [
+          [
+            200000,
+            230000,
+            230000,
+            280000
+          ]
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Design",
+      "callout": "A good drawing is half the house already built",
+      "description": "Send us the plot size, the number of storeys and the style you have in mind - Chính Nam will advise on the design approach and the rate for your project."
+    },
+    "processLabel": "The design consultation process",
+    "processIntro": "Five stages, each with its own tasks and a timeframe set from the day the contract is signed.",
+    "stageLabel": "Stage",
+    "stages": [
+      {
+        "title": "Site survey, study and agreement on the preliminary overall layout",
+        "note": "Timeframe: 05 – 07 working days from the day the contract is signed",
+        "items": []
+      },
+      {
+        "title": "Design and agreement on the 2D architectural layout and the 3D exterior",
+        "note": "Timeframe: 05 – 15 working days from the completion of Stage 1",
+        "items": []
+      },
+      {
+        "title": "Design and agreement on the detailed interior scheme",
+        "note": "Timeframe: 05 – 15 working days from the completion of Stage 2 (or Stage 1 where there is no Stage 2)",
+        "items": []
+      },
+      {
+        "title": "Detailed technical construction design (architecture, structure, electrical and plumbing)",
+        "note": "Timeframe: 05 – 15 working days from the owner's approval of the whole design",
+        "items": [
+          {
+            "text": "Detailed technical construction design for the interiors (where Stage 3 applies)",
+            "note": "Timeframe: 05 – 15 working days from the owner's approval of the whole design"
+          }
+        ]
+      },
+      {
+        "title": "Completing the design file and the construction cost estimate (where applicable)",
+        "note": "Timeframe: 03 – 10 working days from the completion of Stage 4",
+        "items": []
+      }
+    ],
+    "nextLabel": "Next",
+    "nextTitle": "Design rates",
+    "nextHint": "Keep scrolling down to open",
+    "pricingPage": {
+      "heroLabel": "Design rates",
+      "heroTitle": "Rates for architectural and interior design",
+      "heroIntro": "Rates are per m² of floor area, by building type and design style. All rates include VAT and are confirmed against the actual project.",
+      "prevLabel": "Back",
+      "prevTitle": "Design consultation",
+      "prevHint": "Keep scrolling up to go back",
+      "cta": {
+        "header": "Quotation",
+        "callout": "Send us the site drawings and get the rate for your project",
+        "description": "The plot size, the number of storeys and the style you have in mind are enough - Chính Nam will advise on the design approach and the rate for your project."
+      }
+    },
+    "yes": "Included",
+    "no": "Not included",
+    "baseLabel": "core benefits, in both packages",
+    "addsLabel": "added over the standard package",
+    "note": "✔ Included · ✖ Not included",
+    "benefits": {
+      "label": "What comes with a private home design",
+      "tableLabel": "Benefits",
+      "tableIntro": "Two design packages under the same support policy; what changes is what is added on top.",
+      "packages": [
+        "Standard package",
+        "Premium package"
+      ],
+      "packageShorts": [
+        "Standard",
+        "Premium"
+      ],
+      "groups": [
+        {
+          "title": "What the owner receives",
+          "items": [
+            {
+              "name": "Building permit drawings at no charge",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Help filing and collecting the permit paperwork",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "The Chính Nam design team alongside you throughout construction",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Advice on choosing materials and equipment",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Presentation video of the project",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "50% off the technical design fee when you sign the “structural labour and materials” package",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Feng shui consultation",
+              "in": [
+                true,
+                true
+              ]
+            }
+          ]
+        }
+      ],
+      "offersLabel": "Discounts when the owner signs a turnkey construction contract with Chính Nam",
+      "offers": [
+        {
+          "name": "Technical design file",
+          "value": "50% off"
+        },
+        {
+          "name": "Detailed interior design",
+          "value": "10% – 20% off"
+        },
+        {
+          "name": "Construction cost estimate",
+          "value": "Free"
+        },
+        {
+          "name": "Building permit",
+          "value": "Handled in full"
+        }
+      ]
+    },
+    "documents": {
+      "label": "The design file",
+      "tableLabel": "Technical construction file",
+      "tableIntro": "What each package hands over, discipline by discipline.",
+      "packages": [
+        "Standard package",
+        "Premium package"
+      ],
+      "packageShorts": [
+        "Standard",
+        "Premium"
+      ],
+      "groups": [
+        {
+          "title": "Detailed architectural drawings",
+          "items": [
+            {
+              "name": "3D exterior visualisation",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Site location drawing",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Compass plan for every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Furniture and dimension plans for every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Roof plan",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Elevations and sections, with their details",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Tiling, ceiling, lighting and sanitary plans for every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Staircase plan and details",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Door setting-out plan for every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Gate and fence plan",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Material and door specification details",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Moulding and column details…",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Presentation video of the design (sent by email)",
+              "in": [
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Structural drawings",
+          "items": [
+            {
+              "name": "Foundation, column and ground beam plans",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Beam and slab plans for every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Foundation, column, beam and slab details",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Other construction details",
+              "in": [
+                true,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MEP & air-conditioning drawings",
+          "items": [
+            {
+              "name": "Lighting on every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Power supply on every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Air conditioning on every storey",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Smart home system",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Fire protection and emergency lighting",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Landscape, garden, sports court and feature lighting…",
+              "in": [
+                false,
+                true
+              ]
+            },
+            {
+              "name": "Internet",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Cameras",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Lightning protection (where present)",
+              "in": [
+                true,
+                true
+              ]
+            },
+            {
+              "name": "Water supply and drainage on every storey",
+              "in": [
+                true,
+                true
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "packageLabel": "Package"
+  },
+  "legalSupport": {
+    "heroLabel": "Legal support",
+    "heroTitle": "The right paperwork, a lawful build",
+    "heroText": "Chính Nam prepares the legal file for your project alongside you: the building permit, the notice of commencement, and the acceptance that puts the house into use.",
+    "overviewLabel": "Legal basics for building a private home",
+    "overviewHeading": "What does the legal file cover?",
+    "overview": [
+      "The legal side of building a private home is the whole set of documents a house needs before, during and after construction under Vietnamese law. Each has to be confirmed, approved or issued by the competent authority for the project to be built lawfully. For a private home the file usually includes: the owner's land use right certificate (or documents of equivalent legal standing), the planning information, the building line, the building permit issued by the competent authority, the design file as required, and the documents covering construction and completion.",
+      "The firms taking part in the design, the construction and the supervision must also meet the capability requirements in force, so that the quality, the safety and the legal standing of the house hold throughout the build and the years of use that follow."
+    ],
+    "docsLabel": "What the legal file contains",
+    "docsIntro": "A project stands on solid legal ground when its paperwork is complete and approved by the competent authorities, with nothing outstanding.",
+    "groupLabel": "Group",
+    "quantityLabel": "Quantity",
+    "groups": [
+      {
+        "code": "A",
+        "title": "Building permit application",
+        "stage": "Preparing to build a private home",
+        "items": [
+          {
+            "name": "Land use right certificate",
+            "quantity": "1 copy",
+            "note": "Notarised photocopy"
+          },
+          {
+            "name": "Technical file for the plot",
+            "quantity": "1 copy",
+            "note": "Plot extract - notarised photocopy"
+          },
+          {
+            "name": "Building permit drawings",
+            "quantity": "2 sets",
+            "note": ""
+          },
+          {
+            "name": "Permit application form",
+            "quantity": "1 sheet",
+            "note": ""
+          },
+          {
+            "name": "Application for a temporary permit, endorsed locally",
+            "quantity": "1 sheet",
+            "note": "Where a temporary permit is sought on planned land"
+          },
+          {
+            "name": "Undertaking to the adjoining owners",
+            "quantity": "1 sheet",
+            "note": ""
+          },
+          {
+            "name": "Undertaking to demolish",
+            "quantity": "1 sheet",
+            "note": "Where a house stands on the plot to be permitted"
+          },
+          {
+            "name": "Undertaking to demolish without compensation, locally certified",
+            "quantity": "1 sheet",
+            "note": "Where a temporary permit is sought on planned land"
+          },
+          {
+            "name": "Bank's consent to build",
+            "quantity": "1 sheet",
+            "note": "Where the land is mortgaged"
+          },
+          {
+            "name": "Notarised or digitally certified ID card",
+            "quantity": "",
+            "note": "Depending on the locality"
+          }
+        ]
+      },
+      {
+        "code": "B",
+        "title": "Notice of commencement",
+        "stage": "Starting construction - filed with the local authority",
+        "items": [
+          {
+            "name": "Approved permit drawings",
+            "quantity": "1 copy",
+            "note": "Notarised photocopy"
+          },
+          {
+            "name": "Building permit",
+            "quantity": "1 copy",
+            "note": "Photocopy"
+          },
+          {
+            "name": "Notice of commencement",
+            "quantity": "1 sheet",
+            "note": ""
+          },
+          {
+            "name": "Land use right certificate",
+            "quantity": "1 copy",
+            "note": "Notarised photocopy"
+          }
+        ]
+      },
+      {
+        "code": "C",
+        "title": "Application for inspection and acceptance",
+        "stage": "Completing the house and putting it into use",
+        "items": [
+          {
+            "name": "As-built drawings",
+            "quantity": "2 copies",
+            "note": "Bearing the company seal"
+          },
+          {
+            "name": "Land use right certificate",
+            "quantity": "1 copy",
+            "note": "Notarised photocopy"
+          },
+          {
+            "name": "Technical file for the plot",
+            "quantity": "1 copy",
+            "note": "Plot extract - notarised photocopy"
+          },
+          {
+            "name": "Request to inspect the works against the building permit",
+            "quantity": "1 sheet",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "header": "Legal",
+      "callout": "Get the file right first and the build never waits",
+      "description": "Chính Nam guides and supports owners through each set of documents, and deals with the authorities at every stage of the project."
+    }
+  },
+  "construction": {
+    "heroLabel": "Construction",
+    "heroTitle": "The structure - the backbone of the house",
+    "heroText": "How durable the house is, and the shape of its architecture, both rest on the quality of this stage.",
+    "introLabel": "About structural construction",
+    "introHeading": "The foundation every later stage stands on",
+    "intro": [
+      "The structure of a house is its foundation and its backbone: it sets the terms for every stage that follows. How durable the building is, and the shape of its architecture, rest on the quality of this stage.",
+      "With engineers, technical staff and site teams who are skilled, dedicated, honest and accountable, Chính Nam Design & Construction JSC commits to your satisfaction throughout the build."
+    ],
+    "processLabel": "The structural construction process",
+    "itemsLabel": "What the structural stage must cover",
+    "scheduleLabel": "Structural schedule",
+    "scheduleIntro": "How long the structure takes, by the scale of the project, counted from the start on site.",
+    "scenarioLabel": "Scale",
+    "nextLabel": "Next",
+    "nextTitle": "Construction rates",
+    "nextHint": "Keep scrolling down to open",
+    "cta": {
+      "header": "Structure",
+      "callout": "A sound frame is a house that lasts",
+      "description": "Chính Nam's engineers and site teams supervise every part of the structure, built to the design file and to the schedule agreed."
+    },
+    "pricingPage": {
+      "heroLabel": "Structural construction rates",
+      "heroTitle": "Three material packages, one build standard",
+      "heroIntro": "Rates for the structural stage by the material package you choose, per m² of floor area.",
+      "prevLabel": "Back",
+      "prevTitle": "Construction",
+      "prevHint": "Keep scrolling up to go back",
+      "supportLabel": "Help with the building permit and the completion filing",
+      "support": [
+        "Cost-efficient",
+        "Fully lawful",
+        "Quick",
+        "Accurate"
+      ],
+      "packagesLabel": "Structural construction rates",
+      "notes": [
+        "These rates are an indicative construction cost for a standard project with more than 350m² of floor area.",
+        "A detailed estimate is prepared by Chính Nam once the detailed design exists. The rates do not include VAT."
+      ],
+      "cta": {
+        "header": "Quotation",
+        "callout": "With the design in hand, the detailed estimate follows",
+        "description": "Send us the design file or the floor area you have in mind - Chính Nam will take off the quantities and quote the structural work for your project."
+      }
+    }
+  },
+  "howWeWork": {
+    "callout": "Our history",
+    "intro": "Chính Nam Design & Construction Co., Ltd. was founded on 22 November 2012, focusing on architectural design.",
+    "yearLabel": "Year",
+    "imageAlt": "Chính Nam - our journey",
+    "milestones": [
+      {
+        "year": "2012",
+        "text": "Chính Nam Design & Construction Co., Ltd. was founded on 22 November 2012, with architectural design as its main activity."
+      },
+      {
+        "year": "2015",
+        "text": "After three years, Chính Nam had essentially completed its organisation across both design and construction."
+      },
+      {
+        "year": "2016",
+        "text": "Carrying a mission to develop construction projects in Đồng Nai province while expanding to projects nationwide."
+      },
+      {
+        "year": "2017",
+        "text": "The company opened offices in 3 provinces and cities: Đồng Nai, Ho Chi Minh City and Tây Ninh."
+      },
+      {
+        "year": "2019",
+        "text": "The company was certified for the design, supervision and construction of Class II civil works and Class III industrial works."
+      },
+      {
+        "year": "2020",
+        "text": "Converted from a limited liability company into Chính Nam Design & Construction JSC, standardising its management and organisation systems (ISO 9000, Total Quality Management, etc.)."
+      },
+      {
+        "year": "2023",
+        "text": "Marking 10 years of growth for Chính Nam Design & Construction JSC."
+      }
+    ]
+  },
+  "spotlight": {
+    "introLeft": "Shaping",
+    "introRight": "Spaces",
+    "header": "Discover",
+    "items": [
+      "Courtyard Stillness",
+      "Blue Horizon",
+      "Quiet Stone",
+      "Amber Niche",
+      "Earthen Shelf",
+      "Reflective White",
+      "Desert Edge",
+      "Soft Passage",
+      "Water Column",
+      "Golden Retreat"
+    ]
+  },
+  "connect": {
+    "titleLine1": "CHÍNH NAM",
+    "titleLine2": "Building Happy Homes",
+    "email": "Email",
+    "phone": "Phone",
+    "headquarters": "Headquarters",
+    "dongNaiOffice": "ĐỒNG NAI REPRESENTATIVE OFFICE",
+    "hcmOffice": "HO CHI MINH CITY REPRESENTATIVE OFFICE",
+    "taxId": "Tax ID",
+    "social": "Social media",
+    "imageAlt": "Chính Nam's office",
+    "formCallout": "Send a message",
+    "formFloating": "Send a message",
+    "formTitleBefore": "Planning a project? Leave a message and",
+    "formTitleAfter": "will get back to you."
+  },
+  "blueprints": {
+    "srTitle": "Chính Nam project gallery",
+    "srText": "Images of architecture, interior and landscape projects designed and built by Chính Nam. Drag to explore and click an image for details.",
+    "imageAlt": "Image {n}",
+    "titles": [
+      "Stillwater Entry",
+      "Desert Light",
+      "Terracotta Echo",
+      "Threshold in Clay",
+      "Stone Mirage",
+      "Sol Courtyard",
+      "Bath of Silence",
+      "Arches in Bloom",
+      "The Listening Wall",
+      "Shadow Pool",
+      "Warmed by Earth",
+      "Portal of Quiet",
+      "The Reflecting Niche",
+      "Sheltered Rhythm",
+      "Golden Passage",
+      "Air Between Walls",
+      "Sun Geometry",
+      "Rooted Space",
+      "Horizon Vault",
+      "Sand & Silence"
+    ]
+  },
+  "listing": {
+    "spaces": {
+      "title": "Timeless Spaces",
+      "filters": [
+        "All",
+        "Residential",
+        "Commercial",
+        "Hospitality"
+      ]
+    },
+    "jobs": {
+      "kicker": "Join",
+      "title": "Our Team",
+      "filters": [
+        "All",
+        "Construction engineering",
+        "Architecture - Design",
+        "Sales",
+        "Accounting - Finance",
+        "Administration - HR"
+      ]
+    },
+    "reviews": {
+      "kicker": "What our",
+      "title": "Clients say"
+    },
+    "quantity": "Openings:"
+  },
+  "detail": {
+    "nextProject": "Next project",
+    "nextJob": "Next position",
+    "nextReview": "Next review",
+    "completed": "Completed",
+    "projectType": "Project type",
+    "client": "Client",
+    "quantity": "Openings:",
+    "posted": "Posted:",
+    "reviewLabel": "Client review:",
+    "reviewClient": "Client",
+    "reviewProject": "Project"
+  },
+  "apply": {
+    "callout": "Apply",
+    "titlePrefix": "Apply for",
+    "openCallout": "Open application",
+    "openTitle": "Haven't found the right role? If you'd like to contribute, apply using this form.",
+    "floating": "Apply",
+    "profile": "Profile link (LinkedIn, portfolio...)",
+    "jobTitle": "Position",
+    "jobTitlePlaceholder": "The role you'd like to take on",
+    "cv": "CV (PDF, DOC, DOCX - max 5 MB)",
+    "chooseFile": "Choose CV file",
+    "submit": "Send application"
+  },
+  "contactForm": {
+    "subject": "Subject",
+    "subjectPlaceholder": "Villa design, townhouse construction...",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project, needs or questions",
+    "submit": "Send message"
+  },
+  "form": {
+    "name": "Full name",
+    "namePlaceholder": "Jane Nguyen",
+    "email": "Email",
+    "phone": "Phone number",
+    "requiredNote": "Required",
+    "closeToast": "Close notification",
+    "checkDetails": "Please check your details.",
+    "applySuccess": "Thank you, {name}! Your application for “{jobTitle}” has been sent. Chính Nam will be in touch soon.",
+    "contactSuccess": "Thank you, {name}! Your message has been sent. Chính Nam will reply to {email} as soon as possible.",
+    "errors": {
+      "nameRequired": "Please enter your full name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Invalid email (e.g. name@domain.com).",
+      "phoneInvalid": "Invalid phone number (8–20 digits).",
+      "urlInvalid": "Links must start with http:// or https://",
+      "jobTitleRequired": "Please enter the position you're applying for.",
+      "jobNotFound": "This position no longer exists.",
+      "cvRequired": "Please attach your CV.",
+      "cvType": "Your CV must be a PDF, DOC or DOCX file.",
+      "cvSize": "Your CV must not exceed 5 MB.",
+      "messageShort": "Please enter a message (at least 10 characters)."
+    }
+  },
+  "sectionNav": {
+    "title": "On this page",
+    "more": "See also"
+  },
+  "errors": {
+    "code404": "404",
+    "code500": "500",
+    "notFoundLabel": "Error 404",
+    "notFoundTitle": "We couldn't find that page",
+    "notFoundText": "The page may have been renamed, moved to another address, or never existed. Head back to the home page, or get in touch and Chính Nam will help you directly.",
+    "errorLabel": "System error",
+    "errorTitle": "Something went wrong",
+    "errorText": "Sorry, this page can't be shown right now. You can try again, or go back to the home page and keep exploring.",
+    "home": "Back to home",
+    "contact": "Contact",
+    "retry": "Try again"
+  },
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "tax": "Tax ID",
+    "headquarters": "Headquarters",
+    "dongNai": "ĐỒNG NAI REPRESENTATIVE OFFICE",
+    "hcm": "HO CHI MINH CITY REPRESENTATIVE OFFICE",
+    "offices": "Offices",
+    "mapTitle": "Map of Chính Nam's head office"
+  }
+}

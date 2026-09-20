@@ -1,10 +1,7 @@
-// Client reviews: drives the home page ClientReviews slider, /reviews (list)
-// and /reviews/[id] (detail).
+import { getDictionary, localizePath } from "@/i18n";
 
-export const reviewsListing = {
-  kicker: "Đánh giá của",
-  title: "Khách hàng",
-};
+// Client reviews: drives the home page ClientReviews slider, /danh-gia
+// (list) and /danh-gia/[id] (detail).
 
 export const reviews = [
   {
@@ -14,47 +11,48 @@ export const reviews = [
     image: "/client-reviews/client-review-1(1).jpg",
     avatar: "/clients/client-1(1).jpg",
     review:
-      "The design feels deeply personal, as if it grew from the way we live. The flow of each room, the light at different hours, everything was thought through with remarkable care and clarity.",
+      "Thiết kế mang đậm dấu ấn riêng, như thể được sinh ra từ chính cách chúng tôi sống. Sự liên kết giữa các phòng, ánh sáng vào từng thời điểm trong ngày, mọi thứ đều được tính toán tỉ mỉ và rõ ràng.",
   },
   {
     id: 2,
     name: "Jonas Mercer",
-    title: "Retreat Host",
+    title: "Chủ khu nghỉ dưỡng",
     image: "/client-reviews/client-review-2.jpg",
     avatar: "/clients/client-2.jpg",
     review:
-      "We expected something beautiful, but what we received was a place that completely reshaped our sense of comfort. It feels open, serene, and in perfect conversation.",
+      "Chúng tôi mong đợi một điều đẹp đẽ, nhưng điều nhận được là một nơi đã thay đổi hoàn toàn cảm nhận của chúng tôi về sự thoải mái. Không gian rộng mở, thanh bình và hài hòa trọn vẹn.",
   },
   {
     id: 3,
     name: "Clara Voss",
-    title: "Townhouse Resident",
+    title: "Cư dân nhà phố",
     image: "/client-reviews/client-review-3.jpg",
     avatar: "/clients/client-3.jpg",
     review:
-      "Every material, every proportion, every finish feels intentional. The spaces carry a timeless quality that makes the home feel complete from the moment we stepped inside.",
+      "Mỗi vật liệu, mỗi tỷ lệ, mỗi chi tiết hoàn thiện đều có chủ đích. Không gian mang vẻ đẹp vượt thời gian khiến ngôi nhà trọn vẹn ngay từ khoảnh khắc chúng tôi bước vào.",
   },
   {
     id: 4,
     name: "Samuel Wright",
-    title: "Apartment Owner",
+    title: "Chủ căn hộ",
     image: "/client-reviews/client-review-4.jpg",
     avatar: "/clients/client-4.jpg",
     review:
-      "From first conversation to final delivery, the process was thoughtful and exact. Each stage revealed a design that was both surprising and completely aligned with how we wanted to live.",
+      "Từ buổi trao đổi đầu tiên đến ngày bàn giao, quy trình luôn chu đáo và chính xác. Mỗi giai đoạn đều mở ra một thiết kế vừa bất ngờ, vừa hoàn toàn phù hợp với cách chúng tôi muốn sống.",
   },
   {
     id: 5,
     name: "Isla Bennett",
-    title: "Estate Owner",
+    title: "Chủ dinh thự",
     image: "/client-reviews/client-review-5.jpg",
     avatar: "/clients/client-5.jpg",
     review:
-      "What we have now feels more than just a home. It carries a quiet elegance that has transformed our daily life. Every detail has purpose, and the whole space feels seamless and resolved.",
+      "Những gì chúng tôi có bây giờ không chỉ là một ngôi nhà. Nó mang vẻ thanh lịch trầm lắng đã thay đổi cuộc sống hằng ngày của chúng tôi. Mỗi chi tiết đều có mục đích, và toàn bộ không gian liền mạch, trọn vẹn.",
   },
 ];
 
-export const reviewHref = (review) => `/reviews/${review.id}`;
+export const reviewHref = (review, lang = "vi") =>
+  localizePath(lang, `/danh-gia/${review.id}`);
 
 export const getReviewById = (id) =>
   reviews.find((review) => String(review.id) === String(id)) ?? null;
@@ -62,9 +60,9 @@ export const getReviewById = (id) =>
 const excerpt = (text, max = 90) =>
   text.length <= max ? text : `${text.slice(0, max).replace(/\s+\S*$/, "")}…`;
 
-export const toReviewListItem = (review) => ({
+export const toReviewListItem = (review, lang = "vi") => ({
   id: review.id,
-  href: reviewHref(review),
+  href: reviewHref(review, lang),
   image: review.image,
   date: String(review.id).padStart(2, "0"),
   name: review.title,
@@ -72,17 +70,20 @@ export const toReviewListItem = (review) => ({
   meta: { image: review.avatar, value: review.name },
 });
 
-export const toReviewDetail = (review) => ({
-  image: review.image,
-  imageAlt: review.title,
-  title: review.title,
-  location: review.name,
-  intro: { label: "Đánh giá của khách hàng:", text: `“${review.review}”` },
-  meta: [
-    [
-      { label: "Khách hàng", values: [review.name] },
-      { label: "Công trình", values: [review.title] },
+export const toReviewDetail = (review, lang = "vi") => {
+  const t = getDictionary(lang).detail;
+  return {
+    image: review.image,
+    imageAlt: review.title,
+    title: review.title,
+    location: review.name,
+    intro: { label: t.reviewLabel, fixedLabel: true, text: `“${review.review}”` },
+    meta: [
+      [
+        { label: t.reviewClient, fixedLabel: true, values: [review.name] },
+        { label: t.reviewProject, fixedLabel: true, values: [review.title] },
+      ],
     ],
-  ],
-  sections: [],
-});
+    sections: [],
+  };
+};

@@ -1,0 +1,330 @@
+.form-section {
+  --form-error: rgb(255, 143, 143);
+
+  position: relative;
+  width: 100vw;
+  color: var(--base-100);
+  padding: 6rem 0 10rem 0;
+  scroll-margin-top: 2rem;
+}
+
+.form-section .container {
+  display: flex;
+  gap: 2rem;
+}
+
+.form-section .form-section-col:nth-child(1) {
+  flex: 2;
+}
+
+.form-section .form-section-col:nth-child(2) {
+  flex: 3;
+}
+
+.form-section .form-section-callout {
+  color: var(--base-350);
+}
+
+.form-section h3 {
+  width: 85%;
+  margin-bottom: 4rem;
+}
+
+.form-section h3 span {
+  color: var(--base-250);
+}
+
+/* Fields */
+.form-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 2rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-field.full,
+.form-submit.full {
+  grid-column: 1 / -1;
+}
+
+.form-field label {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--base-350);
+}
+
+.form-field input:not([type="file"]),
+.form-field textarea {
+  width: 100%;
+  padding: 0.75rem 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--base-400);
+  border-radius: 0;
+  outline: none;
+  color: var(--base-100);
+  font-family: "Manrope", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  user-select: text;
+  transition: border-color 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: var(--base-350);
+  opacity: 0.6;
+}
+
+.form-field input:not([type="file"]):focus,
+.form-field textarea:focus {
+  border-bottom-color: var(--base-200);
+}
+
+/* Fixed value shown in place of an input (e.g. the job on a job page) */
+.form-field .form-static {
+  display: block;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--base-400);
+  color: var(--base-250);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.form-field input[readonly] {
+  color: var(--base-250);
+  cursor: default;
+}
+
+.form-field.invalid input:not([type="file"]),
+.form-field.invalid textarea {
+  border-bottom-color: var(--form-error);
+}
+
+.form-field-error {
+  font-size: 0.875rem;
+  color: var(--form-error);
+}
+
+.form-field textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+
+/* Required marker after the label text */
+.form-required {
+  margin-left: 0.25rem;
+  color: var(--base-250);
+}
+
+.form-fields-note {
+  grid-column: 1 / -1;
+  margin-top: -1.5rem;
+  font-size: 0.875rem;
+  color: var(--base-350);
+}
+
+/* Browser autofill: keep the dark theme instead of the default white/yellow
+   fill. The long background-color transition stops Chrome repainting it. */
+.form-field input:-webkit-autofill,
+.form-field input:-webkit-autofill:hover,
+.form-field input:-webkit-autofill:focus,
+.form-field textarea:-webkit-autofill {
+  -webkit-text-fill-color: var(--base-100);
+  -webkit-box-shadow: 0 0 0 1000px var(--base-500) inset;
+  box-shadow: 0 0 0 1000px var(--base-500) inset;
+  caret-color: var(--base-100);
+  transition: background-color 9999s ease-out 0s;
+}
+
+.form-field input:-webkit-autofill::first-line {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.form-field input:autofill {
+  box-shadow: 0 0 0 1000px var(--base-500) inset;
+  -webkit-text-fill-color: var(--base-100);
+}
+
+/* CV upload: styled like the site's pill buttons */
+.form-file {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 24rem;
+  min-height: calc(3rem + 0.3rem);
+  /* left padding leaves room for the 3rem circle + 1rem gap */
+  padding: 0.15rem 1.5rem 0.15rem calc(0.15rem + 3rem + 1rem);
+  background: rgba(242, 237, 230, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.form-file input[type="file"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.form-file:focus-within {
+  outline: 2px solid var(--base-200);
+  outline-offset: 3px;
+}
+
+.form-field.invalid .form-file {
+  outline: 1px solid var(--form-error);
+  outline-offset: 3px;
+}
+
+.form-file-icon {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  /* keeps the paperclip centred in the original circle while it widens */
+  padding-left: calc(1.5rem - 0.5em);
+  border-radius: 4rem;
+  background: var(--base-450);
+  color: var(--base-100);
+  font-size: 1.35rem;
+  overflow: hidden;
+  transition: width 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.form-file-icon svg {
+  flex-shrink: 0;
+}
+
+/* Hover/focus: circle fills the pill, like .btn in AnimatedButton.css */
+.form-file:hover .form-file-icon,
+.form-file:focus-within .form-file-icon {
+  width: calc(100% - 0.3rem);
+}
+
+.form-file:hover .form-file-name,
+.form-file:focus-within .form-file-name {
+  color: var(--base-100);
+}
+
+.form-file-name {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: color 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+  color: var(--base-500);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.form-submit {
+  margin-top: 1rem;
+}
+
+/* Submission notification */
+.form-toast {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(2rem + 53px + 1rem);
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+  max-width: min(36rem, calc(100vw - 2rem));
+  margin: 0 auto;
+  padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+  background: rgba(242, 237, 230, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35);
+}
+
+.form-toast-icon {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4rem;
+  background: var(--base-450);
+  color: var(--base-100);
+  font-size: 1.5rem;
+}
+
+.form-toast.error .form-toast-icon {
+  background: rgb(176, 48, 48);
+}
+
+.form-toast p {
+  color: var(--base-500);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.form-toast-close {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 4rem;
+  background: transparent;
+  color: var(--base-450);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.form-toast-close:hover {
+  background: rgba(11, 63, 150, 0.1);
+}
+
+@media (max-width: 1000px) {
+  .form-section {
+    padding: 4rem 0 8rem 0;
+  }
+
+  .form-section .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .form-section h3 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .form-fields {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .form-field input:not([type="file"]),
+  .form-field textarea {
+    font-size: 1.1rem;
+  }
+}

@@ -42,6 +42,7 @@
 
 .how-we-work .how-we-work-step {
   position: relative;
+  gap: 0.4rem;
   padding: 1.25rem;
   width: 4rem;
   height: 4rem;
@@ -59,36 +60,33 @@
   font-weight: 550;
 }
 
+/* The label slides out of the pill; laid out with the year (not positioned
+   by hand) so any label width fits, e.g. "Năm" / "Year". */
 .how-we-work .how-we-work-step-label {
-  position: absolute;
-  left: 1.5rem;
+  max-width: 0;
+  flex-shrink: 0;
   opacity: 0;
-  transform: translateX(-20px);
+  overflow: hidden;
   transition: all 0.3s ease;
-  will-change: transform;
   white-space: nowrap;
 }
 
 .how-we-work .how-we-work-step-index {
   position: relative;
+  flex-shrink: 0;
   transition: all 0.3s ease;
-  will-change: transform;
 }
 
 .how-we-work .how-we-work-step.active {
-  width: 8rem;
+  width: 9rem;
   color: var(--base-500);
   background-color: var(--base-100);
   border-color: var(--base-100);
 }
 
-.how-we-work .how-we-work-step.active .how-we-work-step-index {
-  transform: translateX(24px);
-}
-
 .how-we-work .how-we-work-step.active .how-we-work-step-label {
+  max-width: 6rem;
   opacity: 1;
-  transform: translateX(0);
 }
 
 .how-we-work .how-we-work-cards {
