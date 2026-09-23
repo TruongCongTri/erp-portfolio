@@ -17,12 +17,15 @@ export default function ReserveButton() {
   const { t, href } = useI18n();
   const contactPath = href(CONTACT_PATH);
   // Static hosts may serve /lien-he, /lien-he/ or /lien-he.html.
-  const onContactPage =
-    pathname?.replace(/(\.html|\/)$/, "") === contactPath;
+  const onContactPage = pathname?.replace(/(\.html|\/)$/, "") === contactPath;
 
   if (!onContactPage) {
     return (
-      <AnimatedButton label={t.common.reserve} route={contactPath} animate={false} />
+      <AnimatedButton
+        label={t.common.reserve}
+        route={contactPath}
+        animate={false}
+      />
     );
   }
 
@@ -34,6 +37,12 @@ export default function ReserveButton() {
   };
 
   return (
-    <AnimatedButton label={t.common.reserve} animate={false} onClick={scrollToForm} />
+    <div className="reserve-btn">
+      <AnimatedButton
+        label={t.common.reserve}
+        animate={false}
+        onClick={scrollToForm}
+      />
+    </div>
   );
 }
